@@ -1,0 +1,118 @@
+===== Arguments =====
+cfg: config/eigentrajectory_my-sgcn-hotel.json | tag: exp | gpu_id: 0 | test: False
+===== Configs =====
+dataset_dir: ./datasets/ | checkpoint_dir: ./checkpoints_my/ | dataset: eth | traj_dim: 2 | 
+obs_len: 8 | obs_step: 10 | pred_len: 12 | pred_step: 10 | skip: 1 | k: 6 | static_dist: 0.353 | 
+num_samples: 20 | obs_svd: True | pred_svd: True | baseline: sgcn | batch_size: 128 | 
+num_epochs: 256 | lr: 0.001 | weight_decay: 0.0001 | clip_grad: 1000 | lr_schd: True | 
+lr_schd_step: 64 | lr_schd_gamma: 0.5
+Trainer initiating...
+Checkpoint dir: ./checkpoints_my//exp/eth/
+ET descriptor initialization...
+Anchor generation...
+Training started...
+ 
+Dataset: eth, Epoch: 0
+Train_loss: 0.01478078, Val_los: 0.36125581
+Min_val_epoch: 0, Min_val_loss: 0.36125581
+ 
+ 
+Dataset: eth, Epoch: 1
+Train_loss: 0.01454465, Val_los: 0.36000212
+Min_val_epoch: 1, Min_val_loss: 0.36000212
+ 
+ 
+Dataset: eth, Epoch: 2
+Train_loss: 0.01438011, Val_los: 0.35917699
+Min_val_epoch: 2, Min_val_loss: 0.35917699
+ 
+ 
+Dataset: eth, Epoch: 3
+Train_loss: 0.01426858, Val_los: 0.35937924
+Min_val_epoch: 2, Min_val_loss: 0.35917699
+ 
+ 
+Dataset: eth, Epoch: 4
+Train_loss: 0.01416306, Val_los: 0.35781553
+Min_val_epoch: 4, Min_val_loss: 0.35781553
+ 
+ 
+Dataset: eth, Epoch: 5
+Train_loss: 0.01408164, Val_los: 0.35720099
+Min_val_epoch: 5, Min_val_loss: 0.35720099
+ 
+ 
+Dataset: eth, Epoch: 6
+Train_loss: 0.01400232, Val_los: 0.35607707
+Min_val_epoch: 6, Min_val_loss: 0.35607707
+ 
+ 
+Dataset: eth, Epoch: 7
+Train_loss: 0.01396810, Val_los: 0.35479932
+Min_val_epoch: 7, Min_val_loss: 0.35479932
+ 
+ 
+Dataset: eth, Epoch: 8
+Train_loss: 0.01387731, Val_los: 0.35494693
+Min_val_epoch: 7, Min_val_loss: 0.35479932
+ 
+ 
+Dataset: eth, Epoch: 9
+Train_loss: 0.01383345, Val_los: 0.35373854
+Min_val_epoch: 9, Min_val_loss: 0.35373854
+ 
+ 
+Dataset: eth, Epoch: 10
+Train_loss: 0.01377917, Val_los: 0.35327068
+Min_val_epoch: 10, Min_val_loss: 0.35327068
+ 
+ 
+Dataset: eth, Epoch: 11
+Train_loss: 0.01373991, Val_los: 0.35302206
+Min_val_epoch: 11, Min_val_loss: 0.35302206
+ 
+ 
+Dataset: eth, Epoch: 12
+Train_loss: 0.01370194, Val_los: 0.35203059
+Min_val_epoch: 12, Min_val_loss: 0.35203059
+ 
+ 
+Dataset: eth, Epoch: 13
+Train_loss: 0.01367287, Val_los: 0.35215885
+Min_val_epoch: 12, Min_val_loss: 0.35203059
+ 
+ 
+Dataset: eth, Epoch: 14
+Train_loss: 0.01364482, Val_los: 0.35181504
+Min_val_epoch: 14, Min_val_loss: 0.35181504
+ 
+ 
+Dataset: eth, Epoch: 15
+Train_loss: 0.01361697, Val_los: 0.35156865
+Min_val_epoch: 15, Min_val_loss: 0.35156865
+ 
+ 
+Dataset: eth, Epoch: 16
+Train_loss: 0.01359701, Val_los: 0.35138744
+Min_val_epoch: 16, Min_val_loss: 0.35138744
+ 
+ 
+Dataset: eth, Epoch: 17
+Train_loss: 0.01357265, Val_los: 0.35072783
+Min_val_epoch: 17, Min_val_loss: 0.35072783
+ 
+ 
+Dataset: eth, Epoch: 18
+Train_loss: 0.01355117, Val_los: 0.35016202
+Min_val_epoch: 18, Min_val_loss: 0.35016202
+ 
+ 
+Dataset: eth, Epoch: 19
+Train_loss: 0.01352606, Val_los: 0.35025977
+Min_val_epoch: 18, Min_val_loss: 0.35016202
+ 
+ 
+Dataset: eth, Epoch: 20
+Train_loss: 0.01349613, Val_los: 0.35028434
+Min_val_epoch: 18, Min_val_loss: 0.35016202
+ 

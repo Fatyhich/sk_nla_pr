@@ -1,0 +1,2041 @@
+===== Arguments =====
+cfg: config/eigentrajectory_my-sgcn-eth.json | tag: EigenTrajectory-SGCN-Custom | gpu_id: 0 | 
+test: False | svd: sparse | test_svd: 100
+===== Configs =====
+dataset_dir: ./datasets/ | checkpoint_dir: ./checkpoints_custom/ | dataset: eth | traj_dim: 2 | 
+obs_len: 8 | obs_step: 10 | pred_len: 12 | pred_step: 10 | skip: 1 | k: 6 | static_dist: 0.353 | 
+num_samples: 20 | obs_svd: True | pred_svd: True | baseline: sgcn | batch_size: 128 | 
+num_epochs: 256 | lr: 0.001 | weight_decay: 0.0001 | clip_grad: 1000 | lr_schd: True | 
+lr_schd_step: 64 | lr_schd_gamma: 0.5
+Trainer initiating...
+Checkpoint dir: ./checkpoints_custom//EigenTrajectory-SGCN-Custom/eth/
+Chosed SVD method: sparse
+ET descriptor initialization for TIME TESTING...
+choosed solver: sparse
+Back to torch success
+Iterative SVD time (s) spent : 0.041476909071207047
+Original Matrix shape : torch.Size([16, 21512])
+Truncated SVD limit: 6
+choosed solver: sparse
+Back to torch success
+Iterative SVD time (s) spent : 0.03708018222823739
+Original Matrix shape : torch.Size([24, 21512])
+Truncated SVD limit: 6
+choosed solver: sparse
+Back to torch success
+Iterative SVD time (s) spent : 0.05696893995627761
+Original Matrix shape : torch.Size([16, 21512])
+Truncated SVD limit: 6
+choosed solver: sparse
+Back to torch success
+Iterative SVD time (s) spent : 0.0925104571506381
+Original Matrix shape : torch.Size([24, 21512])
+Truncated SVD limit: 6
+choosed solver: sparse
+Back to torch success
+Iterative SVD time (s) spent : 0.0464808139950037
+Original Matrix shape : torch.Size([16, 21512])
+Truncated SVD limit: 6
+choosed solver: sparse
+Back to torch success
+Iterative SVD time (s) spent : 0.06028431095182896
+Original Matrix shape : torch.Size([24, 21512])
+Truncated SVD limit: 6
+choosed solver: sparse
+Back to torch success
+Iterative SVD time (s) spent : 0.05838701082393527
+Original Matrix shape : torch.Size([16, 21512])
+Truncated SVD limit: 6
+choosed solver: sparse
+Back to torch success
+Iterative SVD time (s) spent : 0.05802407581359148
+Original Matrix shape : torch.Size([24, 21512])
+Truncated SVD limit: 6
+choosed solver: sparse
+Back to torch success
+Iterative SVD time (s) spent : 0.05245326412841678
+Original Matrix shape : torch.Size([16, 21512])
+Truncated SVD limit: 6
+choosed solver: sparse
+Back to torch success
+Iterative SVD time (s) spent : 0.07377049466595054
+Original Matrix shape : torch.Size([24, 21512])
+Truncated SVD limit: 6
+choosed solver: sparse
+Back to torch success
+Iterative SVD time (s) spent : 0.031352545134723186
+Original Matrix shape : torch.Size([16, 21512])
+Truncated SVD limit: 6
+choosed solver: sparse
+Back to torch success
+Iterative SVD time (s) spent : 0.06286424910649657
+Original Matrix shape : torch.Size([24, 21512])
+Truncated SVD limit: 6
+choosed solver: sparse
+Back to torch success
+Iterative SVD time (s) spent : 0.08146469620987773
+Original Matrix shape : torch.Size([16, 21512])
+Truncated SVD limit: 6
+choosed solver: sparse
+Back to torch success
+Iterative SVD time (s) spent : 0.07884396193549037
+Original Matrix shape : torch.Size([24, 21512])
+Truncated SVD limit: 6
+choosed solver: sparse
+Back to torch success
+Iterative SVD time (s) spent : 0.07677614409476519
+Original Matrix shape : torch.Size([16, 21512])
+Truncated SVD limit: 6
+choosed solver: sparse
+Back to torch success
+Iterative SVD time (s) spent : 0.05780203873291612
+Original Matrix shape : torch.Size([24, 21512])
+Truncated SVD limit: 6
+choosed solver: sparse
+Back to torch success
+Iterative SVD time (s) spent : 0.05106898117810488
+Original Matrix shape : torch.Size([16, 21512])
+Truncated SVD limit: 6
+choosed solver: sparse
+Back to torch success
+Iterative SVD time (s) spent : 0.07304586982354522
+Original Matrix shape : torch.Size([24, 21512])
+Truncated SVD limit: 6
+choosed solver: sparse
+Back to torch success
+Iterative SVD time (s) spent : 0.04530004784464836
+Original Matrix shape : torch.Size([16, 21512])
+Truncated SVD limit: 6
+choosed solver: sparse
+Back to torch success
+Iterative SVD time (s) spent : 0.06953115714713931
+Original Matrix shape : torch.Size([24, 21512])
+Truncated SVD limit: 6
+choosed solver: sparse
+Back to torch success
+Iterative SVD time (s) spent : 0.029368239920586348
+Original Matrix shape : torch.Size([16, 21512])
+Truncated SVD limit: 6
+choosed solver: sparse
+Back to torch success
+Iterative SVD time (s) spent : 0.08097503613680601
+Original Matrix shape : torch.Size([24, 21512])
+Truncated SVD limit: 6
+choosed solver: sparse
+Back to torch success
+Iterative SVD time (s) spent : 0.05692253494635224
+Original Matrix shape : torch.Size([16, 21512])
+Truncated SVD limit: 6
+choosed solver: sparse
+Back to torch success
+Iterative SVD time (s) spent : 0.06048330897465348
+Original Matrix shape : torch.Size([24, 21512])
+Truncated SVD limit: 6
+choosed solver: sparse
+Back to torch success
+Iterative SVD time (s) spent : 0.030102519784122705
+Original Matrix shape : torch.Size([16, 21512])
+Truncated SVD limit: 6
+choosed solver: sparse
+Back to torch success
+Iterative SVD time (s) spent : 0.08836651826277375
+Original Matrix shape : torch.Size([24, 21512])
+Truncated SVD limit: 6
+choosed solver: sparse
+Back to torch success
+Iterative SVD time (s) spent : 0.05810864316299558
+Original Matrix shape : torch.Size([16, 21512])
+Truncated SVD limit: 6
+choosed solver: sparse
+Back to torch success
+Iterative SVD time (s) spent : 0.05875977408140898
+Original Matrix shape : torch.Size([24, 21512])
+Truncated SVD limit: 6
+choosed solver: sparse
+Back to torch success
+Iterative SVD time (s) spent : 0.06990288244560361
+Original Matrix shape : torch.Size([16, 21512])
+Truncated SVD limit: 6
+choosed solver: sparse
+Back to torch success
+Iterative SVD time (s) spent : 0.06159385805949569
+Original Matrix shape : torch.Size([24, 21512])
+Truncated SVD limit: 6
+choosed solver: sparse
+Back to torch success
+Iterative SVD time (s) spent : 0.024732517078518867
+Original Matrix shape : torch.Size([16, 21512])
+Truncated SVD limit: 6
+choosed solver: sparse
+Back to torch success
+Iterative SVD time (s) spent : 0.05553594930097461
+Original Matrix shape : torch.Size([24, 21512])
+Truncated SVD limit: 6
+choosed solver: sparse
+Back to torch success
+Iterative SVD time (s) spent : 0.06397149618715048
+Original Matrix shape : torch.Size([16, 21512])
+Truncated SVD limit: 6
+choosed solver: sparse
+Back to torch success
+Iterative SVD time (s) spent : 0.04342998098582029
+Original Matrix shape : torch.Size([24, 21512])
+Truncated SVD limit: 6
+choosed solver: sparse
+Back to torch success
+Iterative SVD time (s) spent : 0.03190017817541957
+Original Matrix shape : torch.Size([16, 21512])
+Truncated SVD limit: 6
+choosed solver: sparse
+Back to torch success
+Iterative SVD time (s) spent : 0.09889319306239486
+Original Matrix shape : torch.Size([24, 21512])
+Truncated SVD limit: 6
+choosed solver: sparse
+Back to torch success
+Iterative SVD time (s) spent : 0.04933555470779538
+Original Matrix shape : torch.Size([16, 21512])
+Truncated SVD limit: 6
+choosed solver: sparse
+Back to torch success
+Iterative SVD time (s) spent : 0.04532257467508316
+Original Matrix shape : torch.Size([24, 21512])
+Truncated SVD limit: 6
+choosed solver: sparse
+Back to torch success
+Iterative SVD time (s) spent : 0.05591742694377899
+Original Matrix shape : torch.Size([16, 21512])
+Truncated SVD limit: 6
+choosed solver: sparse
+Back to torch success
+Iterative SVD time (s) spent : 0.04096893593668938
+Original Matrix shape : torch.Size([24, 21512])
+Truncated SVD limit: 6
+choosed solver: sparse
+Back to torch success
+Iterative SVD time (s) spent : 0.025074834004044533
+Original Matrix shape : torch.Size([16, 21512])
+Truncated SVD limit: 6
+choosed solver: sparse
+Back to torch success
+Iterative SVD time (s) spent : 0.06165006523951888
+Original Matrix shape : torch.Size([24, 21512])
+Truncated SVD limit: 6
+choosed solver: sparse
+Back to torch success
+Iterative SVD time (s) spent : 0.02895169286057353
+Original Matrix shape : torch.Size([16, 21512])
+Truncated SVD limit: 6
+choosed solver: sparse
+Back to torch success
+Iterative SVD time (s) spent : 0.06182513711974025
+Original Matrix shape : torch.Size([24, 21512])
+Truncated SVD limit: 6
+choosed solver: sparse
+Back to torch success
+Iterative SVD time (s) spent : 0.045466715935617685
+Original Matrix shape : torch.Size([16, 21512])
+Truncated SVD limit: 6
+choosed solver: sparse
+Back to torch success
+Iterative SVD time (s) spent : 0.03910669405013323
+Original Matrix shape : torch.Size([24, 21512])
+Truncated SVD limit: 6
+choosed solver: sparse
+Back to torch success
+Iterative SVD time (s) spent : 0.06927473889663815
+Original Matrix shape : torch.Size([16, 21512])
+Truncated SVD limit: 6
+choosed solver: sparse
+Back to torch success
+Iterative SVD time (s) spent : 0.06687631690874696
+Original Matrix shape : torch.Size([24, 21512])
+Truncated SVD limit: 6
+choosed solver: sparse
+Back to torch success
+Iterative SVD time (s) spent : 0.058936980087310076
+Original Matrix shape : torch.Size([16, 21512])
+Truncated SVD limit: 6
+choosed solver: sparse
+Back to torch success
+Iterative SVD time (s) spent : 0.03472302295267582
+Original Matrix shape : torch.Size([24, 21512])
+Truncated SVD limit: 6
+choosed solver: sparse
+Back to torch success
+Iterative SVD time (s) spent : 0.07254281919449568
+Original Matrix shape : torch.Size([16, 21512])
+Truncated SVD limit: 6
+choosed solver: sparse
+Back to torch success
+Iterative SVD time (s) spent : 0.06084863981232047
+Original Matrix shape : torch.Size([24, 21512])
+Truncated SVD limit: 6
+choosed solver: sparse
+Back to torch success
+Iterative SVD time (s) spent : 0.029547368176281452
+Original Matrix shape : torch.Size([16, 21512])
+Truncated SVD limit: 6
+choosed solver: sparse
+Back to torch success
+Iterative SVD time (s) spent : 0.03613919299095869
+Original Matrix shape : torch.Size([24, 21512])
+Truncated SVD limit: 6
+choosed solver: sparse
+Back to torch success
+Iterative SVD time (s) spent : 0.03794676577672362
+Original Matrix shape : torch.Size([16, 21512])
+Truncated SVD limit: 6
+choosed solver: sparse
+Back to torch success
+Iterative SVD time (s) spent : 0.03159305592998862
+Original Matrix shape : torch.Size([24, 21512])
+Truncated SVD limit: 6
+choosed solver: sparse
+Back to torch success
+Iterative SVD time (s) spent : 0.025876922998577356
+Original Matrix shape : torch.Size([16, 21512])
+Truncated SVD limit: 6
+choosed solver: sparse
+Back to torch success
+Iterative SVD time (s) spent : 0.038294926751405
+Original Matrix shape : torch.Size([24, 21512])
+Truncated SVD limit: 6
+choosed solver: sparse
+Back to torch success
+Iterative SVD time (s) spent : 0.02864722115918994
+Original Matrix shape : torch.Size([16, 21512])
+Truncated SVD limit: 6
+choosed solver: sparse
+Back to torch success
+Iterative SVD time (s) spent : 0.041588648688048124
+Original Matrix shape : torch.Size([24, 21512])
+Truncated SVD limit: 6
+choosed solver: sparse
+Back to torch success
+Iterative SVD time (s) spent : 0.0326906586997211
+Original Matrix shape : torch.Size([16, 21512])
+Truncated SVD limit: 6
+choosed solver: sparse
+Back to torch success
+Iterative SVD time (s) spent : 0.024106290191411972
+Original Matrix shape : torch.Size([24, 21512])
+Truncated SVD limit: 6
+choosed solver: sparse
+Back to torch success
+Iterative SVD time (s) spent : 0.03696811804547906
+Original Matrix shape : torch.Size([16, 21512])
+Truncated SVD limit: 6
+choosed solver: sparse
+Back to torch success
+Iterative SVD time (s) spent : 0.04547414695844054
+Original Matrix shape : torch.Size([24, 21512])
+Truncated SVD limit: 6
+choosed solver: sparse
+Back to torch success
+Iterative SVD time (s) spent : 0.03254031902179122
+Original Matrix shape : torch.Size([16, 21512])
+Truncated SVD limit: 6
+choosed solver: sparse
+Back to torch success
+Iterative SVD time (s) spent : 0.03104428993538022
+Original Matrix shape : torch.Size([24, 21512])
+Truncated SVD limit: 6
+choosed solver: sparse
+Back to torch success
+Iterative SVD time (s) spent : 0.022451267577707767
+Original Matrix shape : torch.Size([16, 21512])
+Truncated SVD limit: 6
+choosed solver: sparse
+Back to torch success
+Iterative SVD time (s) spent : 0.031867172103375196
+Original Matrix shape : torch.Size([24, 21512])
+Truncated SVD limit: 6
+choosed solver: sparse
+Back to torch success
+Iterative SVD time (s) spent : 0.03348483704030514
+Original Matrix shape : torch.Size([16, 21512])
+Truncated SVD limit: 6
+choosed solver: sparse
+Back to torch success
+Iterative SVD time (s) spent : 0.04504023026674986
+Original Matrix shape : torch.Size([24, 21512])
+Truncated SVD limit: 6
+choosed solver: sparse
+Back to torch success
+Iterative SVD time (s) spent : 0.016497203148901463
+Original Matrix shape : torch.Size([16, 21512])
+Truncated SVD limit: 6
+choosed solver: sparse
+Back to torch success
+Iterative SVD time (s) spent : 0.04304096009582281
+Original Matrix shape : torch.Size([24, 21512])
+Truncated SVD limit: 6
+choosed solver: sparse
+Back to torch success
+Iterative SVD time (s) spent : 0.02761681331321597
+Original Matrix shape : torch.Size([16, 21512])
+Truncated SVD limit: 6
+choosed solver: sparse
+Back to torch success
+Iterative SVD time (s) spent : 0.023419112898409367
+Original Matrix shape : torch.Size([24, 21512])
+Truncated SVD limit: 6
+choosed solver: sparse
+Back to torch success
+Iterative SVD time (s) spent : 0.02986718015745282
+Original Matrix shape : torch.Size([16, 21512])
+Truncated SVD limit: 6
+choosed solver: sparse
+Back to torch success
+Iterative SVD time (s) spent : 0.027145772706717253
+Original Matrix shape : torch.Size([24, 21512])
+Truncated SVD limit: 6
+choosed solver: sparse
+Back to torch success
+Iterative SVD time (s) spent : 0.023256660904735327
+Original Matrix shape : torch.Size([16, 21512])
+Truncated SVD limit: 6
+choosed solver: sparse
+Back to torch success
+Iterative SVD time (s) spent : 0.023264764808118343
+Original Matrix shape : torch.Size([24, 21512])
+Truncated SVD limit: 6
+choosed solver: sparse
+Back to torch success
+Iterative SVD time (s) spent : 0.025447570718824863
+Original Matrix shape : torch.Size([16, 21512])
+Truncated SVD limit: 6
+choosed solver: sparse
+Back to torch success
+Iterative SVD time (s) spent : 0.02365178382024169
+Original Matrix shape : torch.Size([24, 21512])
+Truncated SVD limit: 6
+choosed solver: sparse
+Back to torch success
+Iterative SVD time (s) spent : 0.024953239131718874
+Original Matrix shape : torch.Size([16, 21512])
+Truncated SVD limit: 6
+choosed solver: sparse
+Back to torch success
+Iterative SVD time (s) spent : 0.02454832987859845
+Original Matrix shape : torch.Size([24, 21512])
+Truncated SVD limit: 6
+choosed solver: sparse
+Back to torch success
+Iterative SVD time (s) spent : 0.04200371168553829
+Original Matrix shape : torch.Size([16, 21512])
+Truncated SVD limit: 6
+choosed solver: sparse
+Back to torch success
+Iterative SVD time (s) spent : 0.03242826880887151
+Original Matrix shape : torch.Size([24, 21512])
+Truncated SVD limit: 6
+choosed solver: sparse
+Back to torch success
+Iterative SVD time (s) spent : 0.01918390765786171
+Original Matrix shape : torch.Size([16, 21512])
+Truncated SVD limit: 6
+choosed solver: sparse
+Back to torch success
+Iterative SVD time (s) spent : 0.0369162131100893
+Original Matrix shape : torch.Size([24, 21512])
+Truncated SVD limit: 6
+choosed solver: sparse
+Back to torch success
+Iterative SVD time (s) spent : 0.03889468498528004
+Original Matrix shape : torch.Size([16, 21512])
+Truncated SVD limit: 6
+choosed solver: sparse
+Back to torch success
+Iterative SVD time (s) spent : 0.03192555904388428
+Original Matrix shape : torch.Size([24, 21512])
+Truncated SVD limit: 6
+choosed solver: sparse
+Back to torch success
+Iterative SVD time (s) spent : 0.03207961888983846
+Original Matrix shape : torch.Size([16, 21512])
+Truncated SVD limit: 6
+choosed solver: sparse
+Back to torch success
+Iterative SVD time (s) spent : 0.02128568897023797
+Original Matrix shape : torch.Size([24, 21512])
+Truncated SVD limit: 6
+choosed solver: sparse
+Back to torch success
+Iterative SVD time (s) spent : 0.018281145952641964
+Original Matrix shape : torch.Size([16, 21512])
+Truncated SVD limit: 6
+choosed solver: sparse
+Back to torch success
+Iterative SVD time (s) spent : 0.05790902394801378
+Original Matrix shape : torch.Size([24, 21512])
+Truncated SVD limit: 6
+choosed solver: sparse
+Back to torch success
+Iterative SVD time (s) spent : 0.019255376886576414
+Original Matrix shape : torch.Size([16, 21512])
+Truncated SVD limit: 6
+choosed solver: sparse
+Back to torch success
+Iterative SVD time (s) spent : 0.03338043810799718
+Original Matrix shape : torch.Size([24, 21512])
+Truncated SVD limit: 6
+choosed solver: sparse
+Back to torch success
+Iterative SVD time (s) spent : 0.025495704263448715
+Original Matrix shape : torch.Size([16, 21512])
+Truncated SVD limit: 6
+choosed solver: sparse
+Back to torch success
+Iterative SVD time (s) spent : 0.033737918827682734
+Original Matrix shape : torch.Size([24, 21512])
+Truncated SVD limit: 6
+choosed solver: sparse
+Back to torch success
+Iterative SVD time (s) spent : 0.023983882274478674
+Original Matrix shape : torch.Size([16, 21512])
+Truncated SVD limit: 6
+choosed solver: sparse
+Back to torch success
+Iterative SVD time (s) spent : 0.027859457302838564
+Original Matrix shape : torch.Size([24, 21512])
+Truncated SVD limit: 6
+choosed solver: sparse
+Back to torch success
+Iterative SVD time (s) spent : 0.04680193495005369
+Original Matrix shape : torch.Size([16, 21512])
+Truncated SVD limit: 6
+choosed solver: sparse
+Back to torch success
+Iterative SVD time (s) spent : 0.02125663822516799
+Original Matrix shape : torch.Size([24, 21512])
+Truncated SVD limit: 6
+choosed solver: sparse
+Back to torch success
+Iterative SVD time (s) spent : 0.0387256839312613
+Original Matrix shape : torch.Size([16, 21512])
+Truncated SVD limit: 6
+choosed solver: sparse
+Back to torch success
+Iterative SVD time (s) spent : 0.031816025730222464
+Original Matrix shape : torch.Size([24, 21512])
+Truncated SVD limit: 6
+choosed solver: sparse
+Back to torch success
+Iterative SVD time (s) spent : 0.02075338503345847
+Original Matrix shape : torch.Size([16, 21512])
+Truncated SVD limit: 6
+choosed solver: sparse
+Back to torch success
+Iterative SVD time (s) spent : 0.039951305370777845
+Original Matrix shape : torch.Size([24, 21512])
+Truncated SVD limit: 6
+choosed solver: sparse
+Back to torch success
+Iterative SVD time (s) spent : 0.024113601073622704
+Original Matrix shape : torch.Size([16, 21512])
+Truncated SVD limit: 6
+choosed solver: sparse
+Back to torch success
+Iterative SVD time (s) spent : 0.03754817275330424
+Original Matrix shape : torch.Size([24, 21512])
+Truncated SVD limit: 6
+choosed solver: sparse
+Back to torch success
+Iterative SVD time (s) spent : 0.034528345335274935
+Original Matrix shape : torch.Size([16, 21512])
+Truncated SVD limit: 6
+choosed solver: sparse
+Back to torch success
+Iterative SVD time (s) spent : 0.05893637798726559
+Original Matrix shape : torch.Size([24, 21512])
+Truncated SVD limit: 6
+choosed solver: sparse
+Back to torch success
+Iterative SVD time (s) spent : 0.038307671900838614
+Original Matrix shape : torch.Size([16, 21512])
+Truncated SVD limit: 6
+choosed solver: sparse
+Back to torch success
+Iterative SVD time (s) spent : 0.046242441050708294
+Original Matrix shape : torch.Size([24, 21512])
+Truncated SVD limit: 6
+choosed solver: sparse
+Back to torch success
+Iterative SVD time (s) spent : 0.05108961882069707
+Original Matrix shape : torch.Size([16, 21512])
+Truncated SVD limit: 6
+choosed solver: sparse
+Back to torch success
+Iterative SVD time (s) spent : 0.04102111794054508
+Original Matrix shape : torch.Size([24, 21512])
+Truncated SVD limit: 6
+choosed solver: sparse
+Back to torch success
+Iterative SVD time (s) spent : 0.03851493401452899
+Original Matrix shape : torch.Size([16, 21512])
+Truncated SVD limit: 6
+choosed solver: sparse
+Back to torch success
+Iterative SVD time (s) spent : 0.034180899150669575
+Original Matrix shape : torch.Size([24, 21512])
+Truncated SVD limit: 6
+choosed solver: sparse
+Back to torch success
+Iterative SVD time (s) spent : 0.04166060080751777
+Original Matrix shape : torch.Size([16, 21512])
+Truncated SVD limit: 6
+choosed solver: sparse
+Back to torch success
+Iterative SVD time (s) spent : 0.04053090792149305
+Original Matrix shape : torch.Size([24, 21512])
+Truncated SVD limit: 6
+choosed solver: sparse
+Back to torch success
+Iterative SVD time (s) spent : 0.05205026501789689
+Original Matrix shape : torch.Size([16, 21512])
+Truncated SVD limit: 6
+choosed solver: sparse
+Back to torch success
+Iterative SVD time (s) spent : 0.021319542080163956
+Original Matrix shape : torch.Size([24, 21512])
+Truncated SVD limit: 6
+choosed solver: sparse
+Back to torch success
+Iterative SVD time (s) spent : 0.03678308706730604
+Original Matrix shape : torch.Size([16, 21512])
+Truncated SVD limit: 6
+choosed solver: sparse
+Back to torch success
+Iterative SVD time (s) spent : 0.030676092952489853
+Original Matrix shape : torch.Size([24, 21512])
+Truncated SVD limit: 6
+choosed solver: sparse
+Back to torch success
+Iterative SVD time (s) spent : 0.038524470292031765
+Original Matrix shape : torch.Size([16, 21512])
+Truncated SVD limit: 6
+choosed solver: sparse
+Back to torch success
+Iterative SVD time (s) spent : 0.02970533026382327
+Original Matrix shape : torch.Size([24, 21512])
+Truncated SVD limit: 6
+choosed solver: sparse
+Back to torch success
+Iterative SVD time (s) spent : 0.04701992776244879
+Original Matrix shape : torch.Size([16, 21512])
+Truncated SVD limit: 6
+choosed solver: sparse
+Back to torch success
+Iterative SVD time (s) spent : 0.040199580136686563
+Original Matrix shape : torch.Size([24, 21512])
+Truncated SVD limit: 6
+choosed solver: sparse
+Back to torch success
+Iterative SVD time (s) spent : 0.033958662766963243
+Original Matrix shape : torch.Size([16, 21512])
+Truncated SVD limit: 6
+choosed solver: sparse
+Back to torch success
+Iterative SVD time (s) spent : 0.04677866492420435
+Original Matrix shape : torch.Size([24, 21512])
+Truncated SVD limit: 6
+choosed solver: sparse
+Back to torch success
+Iterative SVD time (s) spent : 0.025433823000639677
+Original Matrix shape : torch.Size([16, 21512])
+Truncated SVD limit: 6
+choosed solver: sparse
+Back to torch success
+Iterative SVD time (s) spent : 0.04980676528066397
+Original Matrix shape : torch.Size([24, 21512])
+Truncated SVD limit: 6
+choosed solver: sparse
+Back to torch success
+Iterative SVD time (s) spent : 0.04549782304093242
+Original Matrix shape : torch.Size([16, 21512])
+Truncated SVD limit: 6
+choosed solver: sparse
+Back to torch success
+Iterative SVD time (s) spent : 0.04111769329756498
+Original Matrix shape : torch.Size([24, 21512])
+Truncated SVD limit: 6
+choosed solver: sparse
+Back to torch success
+Iterative SVD time (s) spent : 0.04522344982251525
+Original Matrix shape : torch.Size([16, 21512])
+Truncated SVD limit: 6
+choosed solver: sparse
+Back to torch success
+Iterative SVD time (s) spent : 0.03430818114429712
+Original Matrix shape : torch.Size([24, 21512])
+Truncated SVD limit: 6
+choosed solver: sparse
+Back to torch success
+Iterative SVD time (s) spent : 0.04186777910217643
+Original Matrix shape : torch.Size([16, 21512])
+Truncated SVD limit: 6
+choosed solver: sparse
+Back to torch success
+Iterative SVD time (s) spent : 0.020737613085657358
+Original Matrix shape : torch.Size([24, 21512])
+Truncated SVD limit: 6
+choosed solver: sparse
+Back to torch success
+Iterative SVD time (s) spent : 0.037298189010471106
+Original Matrix shape : torch.Size([16, 21512])
+Truncated SVD limit: 6
+choosed solver: sparse
+Back to torch success
+Iterative SVD time (s) spent : 0.03905720170587301
+Original Matrix shape : torch.Size([24, 21512])
+Truncated SVD limit: 6
+choosed solver: sparse
+Back to torch success
+Iterative SVD time (s) spent : 0.018356540240347385
+Original Matrix shape : torch.Size([16, 21512])
+Truncated SVD limit: 6
+choosed solver: sparse
+Back to torch success
+Iterative SVD time (s) spent : 0.039965721778571606
+Original Matrix shape : torch.Size([24, 21512])
+Truncated SVD limit: 6
+choosed solver: sparse
+Back to torch success
+Iterative SVD time (s) spent : 0.029279896058142185
+Original Matrix shape : torch.Size([16, 21512])
+Truncated SVD limit: 6
+choosed solver: sparse
+Back to torch success
+Iterative SVD time (s) spent : 0.04873387701809406
+Original Matrix shape : torch.Size([24, 21512])
+Truncated SVD limit: 6
+choosed solver: sparse
+Back to torch success
+Iterative SVD time (s) spent : 0.03110002400353551
+Original Matrix shape : torch.Size([16, 21512])
+Truncated SVD limit: 6
+choosed solver: sparse
+Back to torch success
+Iterative SVD time (s) spent : 0.024885891936719418
+Original Matrix shape : torch.Size([24, 21512])
+Truncated SVD limit: 6
+choosed solver: sparse
+Back to torch success
+Iterative SVD time (s) spent : 0.025696888100355864
+Original Matrix shape : torch.Size([16, 21512])
+Truncated SVD limit: 6
+choosed solver: sparse
+Back to torch success
+Iterative SVD time (s) spent : 0.0344688231125474
+Original Matrix shape : torch.Size([24, 21512])
+Truncated SVD limit: 6
+choosed solver: sparse
+Back to torch success
+Iterative SVD time (s) spent : 0.03794333292171359
+Original Matrix shape : torch.Size([16, 21512])
+Truncated SVD limit: 6
+choosed solver: sparse
+Back to torch success
+Iterative SVD time (s) spent : 0.020471202209591866
+Original Matrix shape : torch.Size([24, 21512])
+Truncated SVD limit: 6
+choosed solver: sparse
+Back to torch success
+Iterative SVD time (s) spent : 0.0367781869135797
+Original Matrix shape : torch.Size([16, 21512])
+Truncated SVD limit: 6
+choosed solver: sparse
+Back to torch success
+Iterative SVD time (s) spent : 0.03918381128460169
+Original Matrix shape : torch.Size([24, 21512])
+Truncated SVD limit: 6
+choosed solver: sparse
+Back to torch success
+Iterative SVD time (s) spent : 0.03111664578318596
+Original Matrix shape : torch.Size([16, 21512])
+Truncated SVD limit: 6
+choosed solver: sparse
+Back to torch success
+Iterative SVD time (s) spent : 0.019686979241669178
+Original Matrix shape : torch.Size([24, 21512])
+Truncated SVD limit: 6
+choosed solver: sparse
+Back to torch success
+Iterative SVD time (s) spent : 0.03766027884557843
+Original Matrix shape : torch.Size([16, 21512])
+Truncated SVD limit: 6
+choosed solver: sparse
+Back to torch success
+Iterative SVD time (s) spent : 0.031064312905073166
+Original Matrix shape : torch.Size([24, 21512])
+Truncated SVD limit: 6
+choosed solver: sparse
+Back to torch success
+Iterative SVD time (s) spent : 0.03689293982461095
+Original Matrix shape : torch.Size([16, 21512])
+Truncated SVD limit: 6
+choosed solver: sparse
+Back to torch success
+Iterative SVD time (s) spent : 0.03883121395483613
+Original Matrix shape : torch.Size([24, 21512])
+Truncated SVD limit: 6
+choosed solver: sparse
+Back to torch success
+Iterative SVD time (s) spent : 0.038872324861586094
+Original Matrix shape : torch.Size([16, 21512])
+Truncated SVD limit: 6
+choosed solver: sparse
+Back to torch success
+Iterative SVD time (s) spent : 0.04325529420748353
+Original Matrix shape : torch.Size([24, 21512])
+Truncated SVD limit: 6
+choosed solver: sparse
+Back to torch success
+Iterative SVD time (s) spent : 0.05561736784875393
+Original Matrix shape : torch.Size([16, 21512])
+Truncated SVD limit: 6
+choosed solver: sparse
+Back to torch success
+Iterative SVD time (s) spent : 0.04380860039964318
+Original Matrix shape : torch.Size([24, 21512])
+Truncated SVD limit: 6
+choosed solver: sparse
+Back to torch success
+Iterative SVD time (s) spent : 0.04256756417453289
+Original Matrix shape : torch.Size([16, 21512])
+Truncated SVD limit: 6
+choosed solver: sparse
+Back to torch success
+Iterative SVD time (s) spent : 0.04435190511867404
+Original Matrix shape : torch.Size([24, 21512])
+Truncated SVD limit: 6
+choosed solver: sparse
+Back to torch success
+Iterative SVD time (s) spent : 0.024214808829128742
+Original Matrix shape : torch.Size([16, 21512])
+Truncated SVD limit: 6
+choosed solver: sparse
+Back to torch success
+Iterative SVD time (s) spent : 0.0444520371966064
+Original Matrix shape : torch.Size([24, 21512])
+Truncated SVD limit: 6
+choosed solver: sparse
+Back to torch success
+Iterative SVD time (s) spent : 0.03823905484750867
+Original Matrix shape : torch.Size([16, 21512])
+Truncated SVD limit: 6
+choosed solver: sparse
+Back to torch success
+Iterative SVD time (s) spent : 0.03591757686808705
+Original Matrix shape : torch.Size([24, 21512])
+Truncated SVD limit: 6
+choosed solver: sparse
+Back to torch success
+Iterative SVD time (s) spent : 0.04909638129174709
+Original Matrix shape : torch.Size([16, 21512])
+Truncated SVD limit: 6
+choosed solver: sparse
+Back to torch success
+Iterative SVD time (s) spent : 0.027613172307610512
+Original Matrix shape : torch.Size([24, 21512])
+Truncated SVD limit: 6
+choosed solver: sparse
+Back to torch success
+Iterative SVD time (s) spent : 0.04235897399485111
+Original Matrix shape : torch.Size([16, 21512])
+Truncated SVD limit: 6
+choosed solver: sparse
+Back to torch success
+Iterative SVD time (s) spent : 0.05741468304768205
+Original Matrix shape : torch.Size([24, 21512])
+Truncated SVD limit: 6
+choosed solver: sparse
+Back to torch success
+Iterative SVD time (s) spent : 0.017523210030049086
+Original Matrix shape : torch.Size([16, 21512])
+Truncated SVD limit: 6
+choosed solver: sparse
+Back to torch success
+Iterative SVD time (s) spent : 0.03190026665106416
+Original Matrix shape : torch.Size([24, 21512])
+Truncated SVD limit: 6
+choosed solver: sparse
+Back to torch success
+Iterative SVD time (s) spent : 0.01416148105636239
+Original Matrix shape : torch.Size([16, 21512])
+Truncated SVD limit: 6
+choosed solver: sparse
+Back to torch success
+Iterative SVD time (s) spent : 0.02784396382048726
+Original Matrix shape : torch.Size([24, 21512])
+Truncated SVD limit: 6
+choosed solver: sparse
+Back to torch success
+Iterative SVD time (s) spent : 0.019317687954753637
+Original Matrix shape : torch.Size([16, 21512])
+Truncated SVD limit: 6
+choosed solver: sparse
+Back to torch success
+Iterative SVD time (s) spent : 0.026166924741119146
+Original Matrix shape : torch.Size([24, 21512])
+Truncated SVD limit: 6
+choosed solver: sparse
+Back to torch success
+Iterative SVD time (s) spent : 0.025626090820878744
+Original Matrix shape : torch.Size([16, 21512])
+Truncated SVD limit: 6
+choosed solver: sparse
+Back to torch success
+Iterative SVD time (s) spent : 0.02151591284200549
+Original Matrix shape : torch.Size([24, 21512])
+Truncated SVD limit: 6
+choosed solver: sparse
+Back to torch success
+Iterative SVD time (s) spent : 0.02469018893316388
+Original Matrix shape : torch.Size([16, 21512])
+Truncated SVD limit: 6
+choosed solver: sparse
+Back to torch success
+Iterative SVD time (s) spent : 0.027868579141795635
+Original Matrix shape : torch.Size([24, 21512])
+Truncated SVD limit: 6
+choosed solver: sparse
+Back to torch success
+Iterative SVD time (s) spent : 0.02473415294662118
+Original Matrix shape : torch.Size([16, 21512])
+Truncated SVD limit: 6
+choosed solver: sparse
+Back to torch success
+Iterative SVD time (s) spent : 0.03449959401041269
+Original Matrix shape : torch.Size([24, 21512])
+Truncated SVD limit: 6
+choosed solver: sparse
+Back to torch success
+Iterative SVD time (s) spent : 0.049050991889089346
+Original Matrix shape : torch.Size([16, 21512])
+Truncated SVD limit: 6
+choosed solver: sparse
+Back to torch success
+Iterative SVD time (s) spent : 0.021634269040077925
+Original Matrix shape : torch.Size([24, 21512])
+Truncated SVD limit: 6
+choosed solver: sparse
+Back to torch success
+Iterative SVD time (s) spent : 0.03172597894445062
+Original Matrix shape : torch.Size([16, 21512])
+Truncated SVD limit: 6
+choosed solver: sparse
+Back to torch success
+Iterative SVD time (s) spent : 0.03713049693033099
+Original Matrix shape : torch.Size([24, 21512])
+Truncated SVD limit: 6
+choosed solver: sparse
+Back to torch success
+Iterative SVD time (s) spent : 0.06340799573808908
+Original Matrix shape : torch.Size([16, 21512])
+Truncated SVD limit: 6
+choosed solver: sparse
+Back to torch success
+Iterative SVD time (s) spent : 0.03333179373294115
+Original Matrix shape : torch.Size([24, 21512])
+Truncated SVD limit: 6
+choosed solver: sparse
+Back to torch success
+Iterative SVD time (s) spent : 0.03912185924127698
+Original Matrix shape : torch.Size([16, 21512])
+Truncated SVD limit: 6
+choosed solver: sparse
+Back to torch success
+Iterative SVD time (s) spent : 0.025313161313533783
+Original Matrix shape : torch.Size([24, 21512])
+Truncated SVD limit: 6
+choosed solver: sparse
+Back to torch success
+Iterative SVD time (s) spent : 0.04208860918879509
+Original Matrix shape : torch.Size([16, 21512])
+Truncated SVD limit: 6
+choosed solver: sparse
+Back to torch success
+Iterative SVD time (s) spent : 0.04769085207954049
+Original Matrix shape : torch.Size([24, 21512])
+Truncated SVD limit: 6
+choosed solver: sparse
+Back to torch success
+Iterative SVD time (s) spent : 0.033927920274436474
+Original Matrix shape : torch.Size([16, 21512])
+Truncated SVD limit: 6
+choosed solver: sparse
+Back to torch success
+Iterative SVD time (s) spent : 0.03288206132128835
+Original Matrix shape : torch.Size([24, 21512])
+Truncated SVD limit: 6
+choosed solver: sparse
+Back to torch success
+Iterative SVD time (s) spent : 0.02271436294540763
+Original Matrix shape : torch.Size([16, 21512])
+Truncated SVD limit: 6
+choosed solver: sparse
+Back to torch success
+Iterative SVD time (s) spent : 0.021689258981496096
+Original Matrix shape : torch.Size([24, 21512])
+Truncated SVD limit: 6
+choosed solver: sparse
+Back to torch success
+Iterative SVD time (s) spent : 0.03306313185021281
+Original Matrix shape : torch.Size([16, 21512])
+Truncated SVD limit: 6
+choosed solver: sparse
+Back to torch success
+Iterative SVD time (s) spent : 0.03816200699657202
+Original Matrix shape : torch.Size([24, 21512])
+Truncated SVD limit: 6
+choosed solver: sparse
+Back to torch success
+Iterative SVD time (s) spent : 0.027452250011265278
+Original Matrix shape : torch.Size([16, 21512])
+Truncated SVD limit: 6
+choosed solver: sparse
+Back to torch success
+Iterative SVD time (s) spent : 0.021267748903483152
+Original Matrix shape : torch.Size([24, 21512])
+Truncated SVD limit: 6
+choosed solver: sparse
+Back to torch success
+Iterative SVD time (s) spent : 0.04337974637746811
+Original Matrix shape : torch.Size([16, 21512])
+Truncated SVD limit: 6
+choosed solver: sparse
+Back to torch success
+Iterative SVD time (s) spent : 0.04889229219406843
+Original Matrix shape : torch.Size([24, 21512])
+Truncated SVD limit: 6
+Average Time for 100 iterations with sparse method is 0.039855006551370024
+choosed solver: sparse
+Back to torch success
+Iterative SVD time (s) spent : 0.059511927887797356
+Original Matrix shape : torch.Size([16, 48804])
+Truncated SVD limit: 6
+choosed solver: sparse
+Back to torch success
+Iterative SVD time (s) spent : 0.09516487922519445
+Original Matrix shape : torch.Size([24, 48804])
+Truncated SVD limit: 6
+choosed solver: sparse
+Back to torch success
+Iterative SVD time (s) spent : 0.03582809725776315
+Original Matrix shape : torch.Size([16, 48804])
+Truncated SVD limit: 6
+choosed solver: sparse
+Back to torch success
+Iterative SVD time (s) spent : 0.06349162897095084
+Original Matrix shape : torch.Size([24, 48804])
+Truncated SVD limit: 6
+choosed solver: sparse
+Back to torch success
+Iterative SVD time (s) spent : 0.038003146182745695
+Original Matrix shape : torch.Size([16, 48804])
+Truncated SVD limit: 6
+choosed solver: sparse
+Back to torch success
+Iterative SVD time (s) spent : 0.05254254303872585
+Original Matrix shape : torch.Size([24, 48804])
+Truncated SVD limit: 6
+choosed solver: sparse
+Back to torch success
+Iterative SVD time (s) spent : 0.038140763994306326
+Original Matrix shape : torch.Size([16, 48804])
+Truncated SVD limit: 6
+choosed solver: sparse
+Back to torch success
+Iterative SVD time (s) spent : 0.03292012168094516
+Original Matrix shape : torch.Size([24, 48804])
+Truncated SVD limit: 6
+choosed solver: sparse
+Back to torch success
+Iterative SVD time (s) spent : 0.05389045178890228
+Original Matrix shape : torch.Size([16, 48804])
+Truncated SVD limit: 6
+choosed solver: sparse
+Back to torch success
+Iterative SVD time (s) spent : 0.040780948009341955
+Original Matrix shape : torch.Size([24, 48804])
+Truncated SVD limit: 6
+choosed solver: sparse
+Back to torch success
+Iterative SVD time (s) spent : 0.045407094061374664
+Original Matrix shape : torch.Size([16, 48804])
+Truncated SVD limit: 6
+choosed solver: sparse
+Back to torch success
+Iterative SVD time (s) spent : 0.06402016803622246
+Original Matrix shape : torch.Size([24, 48804])
+Truncated SVD limit: 6
+choosed solver: sparse
+Back to torch success
+Iterative SVD time (s) spent : 0.042074908036738634
+Original Matrix shape : torch.Size([16, 48804])
+Truncated SVD limit: 6
+choosed solver: sparse
+Back to torch success
+Iterative SVD time (s) spent : 0.03580963471904397
+Original Matrix shape : torch.Size([24, 48804])
+Truncated SVD limit: 6
+choosed solver: sparse
+Back to torch success
+Iterative SVD time (s) spent : 0.0245995600707829
+Original Matrix shape : torch.Size([16, 48804])
+Truncated SVD limit: 6
+choosed solver: sparse
+Back to torch success
+Iterative SVD time (s) spent : 0.04932802403345704
+Original Matrix shape : torch.Size([24, 48804])
+Truncated SVD limit: 6
+choosed solver: sparse
+Back to torch success
+Iterative SVD time (s) spent : 0.033099548891186714
+Original Matrix shape : torch.Size([16, 48804])
+Truncated SVD limit: 6
+choosed solver: sparse
+Back to torch success
+Iterative SVD time (s) spent : 0.04681512014940381
+Original Matrix shape : torch.Size([24, 48804])
+Truncated SVD limit: 6
+choosed solver: sparse
+Back to torch success
+Iterative SVD time (s) spent : 0.027532518841326237
+Original Matrix shape : torch.Size([16, 48804])
+Truncated SVD limit: 6
+choosed solver: sparse
+Back to torch success
+Iterative SVD time (s) spent : 0.041175692807883024
+Original Matrix shape : torch.Size([24, 48804])
+Truncated SVD limit: 6
+choosed solver: sparse
+Back to torch success
+Iterative SVD time (s) spent : 0.05224700411781669
+Original Matrix shape : torch.Size([16, 48804])
+Truncated SVD limit: 6
+choosed solver: sparse
+Back to torch success
+Iterative SVD time (s) spent : 0.060028256848454475
+Original Matrix shape : torch.Size([24, 48804])
+Truncated SVD limit: 6
+choosed solver: sparse
+Back to torch success
+Iterative SVD time (s) spent : 0.05174861382693052
+Original Matrix shape : torch.Size([16, 48804])
+Truncated SVD limit: 6
+choosed solver: sparse
+Back to torch success
+Iterative SVD time (s) spent : 0.08103488571941853
+Original Matrix shape : torch.Size([24, 48804])
+Truncated SVD limit: 6
+choosed solver: sparse
+Back to torch success
+Iterative SVD time (s) spent : 0.06260555982589722
+Original Matrix shape : torch.Size([16, 48804])
+Truncated SVD limit: 6
+choosed solver: sparse
+Back to torch success
+Iterative SVD time (s) spent : 0.04326834389939904
+Original Matrix shape : torch.Size([24, 48804])
+Truncated SVD limit: 6
+choosed solver: sparse
+Back to torch success
+Iterative SVD time (s) spent : 0.03264474915340543
+Original Matrix shape : torch.Size([16, 48804])
+Truncated SVD limit: 6
+choosed solver: sparse
+Back to torch success
+Iterative SVD time (s) spent : 0.0458949850872159
+Original Matrix shape : torch.Size([24, 48804])
+Truncated SVD limit: 6
+choosed solver: sparse
+Back to torch success
+Iterative SVD time (s) spent : 0.06022219965234399
+Original Matrix shape : torch.Size([16, 48804])
+Truncated SVD limit: 6
+choosed solver: sparse
+Back to torch success
+Iterative SVD time (s) spent : 0.0714927539229393
+Original Matrix shape : torch.Size([24, 48804])
+Truncated SVD limit: 6
+choosed solver: sparse
+Back to torch success
+Iterative SVD time (s) spent : 0.036205552984029055
+Original Matrix shape : torch.Size([16, 48804])
+Truncated SVD limit: 6
+choosed solver: sparse
+Back to torch success
+Iterative SVD time (s) spent : 0.054467609617859125
+Original Matrix shape : torch.Size([24, 48804])
+Truncated SVD limit: 6
+choosed solver: sparse
+Back to torch success
+Iterative SVD time (s) spent : 0.046712304931133986
+Original Matrix shape : torch.Size([16, 48804])
+Truncated SVD limit: 6
+choosed solver: sparse
+Back to torch success
+Iterative SVD time (s) spent : 0.05279148183763027
+Original Matrix shape : torch.Size([24, 48804])
+Truncated SVD limit: 6
+choosed solver: sparse
+Back to torch success
+Iterative SVD time (s) spent : 0.052017105277627707
+Original Matrix shape : torch.Size([16, 48804])
+Truncated SVD limit: 6
+choosed solver: sparse
+Back to torch success
+Iterative SVD time (s) spent : 0.0592639222741127
+Original Matrix shape : torch.Size([24, 48804])
+Truncated SVD limit: 6
+choosed solver: sparse
+Back to torch success
+Iterative SVD time (s) spent : 0.044483721256256104
+Original Matrix shape : torch.Size([16, 48804])
+Truncated SVD limit: 6
+choosed solver: sparse
+Back to torch success
+Iterative SVD time (s) spent : 0.036962760146707296
+Original Matrix shape : torch.Size([24, 48804])
+Truncated SVD limit: 6
+choosed solver: sparse
+Back to torch success
+Iterative SVD time (s) spent : 0.04301427397876978
+Original Matrix shape : torch.Size([16, 48804])
+Truncated SVD limit: 6
+choosed solver: sparse
+Back to torch success
+Iterative SVD time (s) spent : 0.06287126522511244
+Original Matrix shape : torch.Size([24, 48804])
+Truncated SVD limit: 6
+choosed solver: sparse
+Back to torch success
+Iterative SVD time (s) spent : 0.028854859061539173
+Original Matrix shape : torch.Size([16, 48804])
+Truncated SVD limit: 6
+choosed solver: sparse
+Back to torch success
+Iterative SVD time (s) spent : 0.06525765312835574
+Original Matrix shape : torch.Size([24, 48804])
+Truncated SVD limit: 6
+choosed solver: sparse
+Back to torch success
+Iterative SVD time (s) spent : 0.04841276537626982
+Original Matrix shape : torch.Size([16, 48804])
+Truncated SVD limit: 6
+choosed solver: sparse
+Back to torch success
+Iterative SVD time (s) spent : 0.03865757770836353
+Original Matrix shape : torch.Size([24, 48804])
+Truncated SVD limit: 6
+choosed solver: sparse
+Back to torch success
+Iterative SVD time (s) spent : 0.037158170249313116
+Original Matrix shape : torch.Size([16, 48804])
+Truncated SVD limit: 6
+choosed solver: sparse
+Back to torch success
+Iterative SVD time (s) spent : 0.08577621076256037
+Original Matrix shape : torch.Size([24, 48804])
+Truncated SVD limit: 6
+choosed solver: sparse
+Back to torch success
+Iterative SVD time (s) spent : 0.05868016090244055
+Original Matrix shape : torch.Size([16, 48804])
+Truncated SVD limit: 6
+choosed solver: sparse
+Back to torch success
+Iterative SVD time (s) spent : 0.06998423021286726
+Original Matrix shape : torch.Size([24, 48804])
+Truncated SVD limit: 6
+choosed solver: sparse
+Back to torch success
+Iterative SVD time (s) spent : 0.03485159715637565
+Original Matrix shape : torch.Size([16, 48804])
+Truncated SVD limit: 6
+choosed solver: sparse
+Back to torch success
+Iterative SVD time (s) spent : 0.052111638244241476
+Original Matrix shape : torch.Size([24, 48804])
+Truncated SVD limit: 6
+choosed solver: sparse
+Back to torch success
+Iterative SVD time (s) spent : 0.026452157646417618
+Original Matrix shape : torch.Size([16, 48804])
+Truncated SVD limit: 6
+choosed solver: sparse
+Back to torch success
+Iterative SVD time (s) spent : 0.034768644254654646
+Original Matrix shape : torch.Size([24, 48804])
+Truncated SVD limit: 6
+choosed solver: sparse
+Back to torch success
+Iterative SVD time (s) spent : 0.059543716721236706
+Original Matrix shape : torch.Size([16, 48804])
+Truncated SVD limit: 6
+choosed solver: sparse
+Back to torch success
+Iterative SVD time (s) spent : 0.03157875081524253
+Original Matrix shape : torch.Size([24, 48804])
+Truncated SVD limit: 6
+choosed solver: sparse
+Back to torch success
+Iterative SVD time (s) spent : 0.02857928304001689
+Original Matrix shape : torch.Size([16, 48804])
+Truncated SVD limit: 6
+choosed solver: sparse
+Back to torch success
+Iterative SVD time (s) spent : 0.045398917980492115
+Original Matrix shape : torch.Size([24, 48804])
+Truncated SVD limit: 6
+choosed solver: sparse
+Back to torch success
+Iterative SVD time (s) spent : 0.05532699590548873
+Original Matrix shape : torch.Size([16, 48804])
+Truncated SVD limit: 6
+choosed solver: sparse
+Back to torch success
+Iterative SVD time (s) spent : 0.0390271102078259
+Original Matrix shape : torch.Size([24, 48804])
+Truncated SVD limit: 6
+choosed solver: sparse
+Back to torch success
+Iterative SVD time (s) spent : 0.032769032754004
+Original Matrix shape : torch.Size([16, 48804])
+Truncated SVD limit: 6
+choosed solver: sparse
+Back to torch success
+Iterative SVD time (s) spent : 0.04326471872627735
+Original Matrix shape : torch.Size([24, 48804])
+Truncated SVD limit: 6
+choosed solver: sparse
+Back to torch success
+Iterative SVD time (s) spent : 0.030748405028134584
+Original Matrix shape : torch.Size([16, 48804])
+Truncated SVD limit: 6
+choosed solver: sparse
+Back to torch success
+Iterative SVD time (s) spent : 0.049703564029186964
+Original Matrix shape : torch.Size([24, 48804])
+Truncated SVD limit: 6
+choosed solver: sparse
+Back to torch success
+Iterative SVD time (s) spent : 0.042476360220462084
+Original Matrix shape : torch.Size([16, 48804])
+Truncated SVD limit: 6
+choosed solver: sparse
+Back to torch success
+Iterative SVD time (s) spent : 0.05056604137644172
+Original Matrix shape : torch.Size([24, 48804])
+Truncated SVD limit: 6
+choosed solver: sparse
+Back to torch success
+Iterative SVD time (s) spent : 0.04049418214708567
+Original Matrix shape : torch.Size([16, 48804])
+Truncated SVD limit: 6
+choosed solver: sparse
+Back to torch success
+Iterative SVD time (s) spent : 0.054407852701842785
+Original Matrix shape : torch.Size([24, 48804])
+Truncated SVD limit: 6
+choosed solver: sparse
+Back to torch success
+Iterative SVD time (s) spent : 0.053275037091225386
+Original Matrix shape : torch.Size([16, 48804])
+Truncated SVD limit: 6
+choosed solver: sparse
+Back to torch success
+Iterative SVD time (s) spent : 0.053630490321666
+Original Matrix shape : torch.Size([24, 48804])
+Truncated SVD limit: 6
+choosed solver: sparse
+Back to torch success
+Iterative SVD time (s) spent : 0.02761931996792555
+Original Matrix shape : torch.Size([16, 48804])
+Truncated SVD limit: 6
+choosed solver: sparse
+Back to torch success
+Iterative SVD time (s) spent : 0.052466433960944414
+Original Matrix shape : torch.Size([24, 48804])
+Truncated SVD limit: 6
+choosed solver: sparse
+Back to torch success
+Iterative SVD time (s) spent : 0.04784354194998741
+Original Matrix shape : torch.Size([16, 48804])
+Truncated SVD limit: 6
+choosed solver: sparse
+Back to torch success
+Iterative SVD time (s) spent : 0.052169359754770994
+Original Matrix shape : torch.Size([24, 48804])
+Truncated SVD limit: 6
+choosed solver: sparse
+Back to torch success
+Iterative SVD time (s) spent : 0.06119169667363167
+Original Matrix shape : torch.Size([16, 48804])
+Truncated SVD limit: 6
+choosed solver: sparse
+Back to torch success
+Iterative SVD time (s) spent : 0.050990115851163864
+Original Matrix shape : torch.Size([24, 48804])
+Truncated SVD limit: 6
+choosed solver: sparse
+Back to torch success
+Iterative SVD time (s) spent : 0.05026687169447541
+Original Matrix shape : torch.Size([16, 48804])
+Truncated SVD limit: 6
+choosed solver: sparse
+Back to torch success
+Iterative SVD time (s) spent : 0.03609913866966963
+Original Matrix shape : torch.Size([24, 48804])
+Truncated SVD limit: 6
+choosed solver: sparse
+Back to torch success
+Iterative SVD time (s) spent : 0.04998963186517358
+Original Matrix shape : torch.Size([16, 48804])
+Truncated SVD limit: 6
+choosed solver: sparse
+Back to torch success
+Iterative SVD time (s) spent : 0.04029435617849231
+Original Matrix shape : torch.Size([24, 48804])
+Truncated SVD limit: 6
+choosed solver: sparse
+Back to torch success
+Iterative SVD time (s) spent : 0.050856353249400854
+Original Matrix shape : torch.Size([16, 48804])
+Truncated SVD limit: 6
+choosed solver: sparse
+Back to torch success
+Iterative SVD time (s) spent : 0.05934341112151742
+Original Matrix shape : torch.Size([24, 48804])
+Truncated SVD limit: 6
+choosed solver: sparse
+Back to torch success
+Iterative SVD time (s) spent : 0.035435804165899754
+Original Matrix shape : torch.Size([16, 48804])
+Truncated SVD limit: 6
+choosed solver: sparse
+Back to torch success
+Iterative SVD time (s) spent : 0.0405272813513875
+Original Matrix shape : torch.Size([24, 48804])
+Truncated SVD limit: 6
+choosed solver: sparse
+Back to torch success
+Iterative SVD time (s) spent : 0.05025852611288428
+Original Matrix shape : torch.Size([16, 48804])
+Truncated SVD limit: 6
+choosed solver: sparse
+Back to torch success
+Iterative SVD time (s) spent : 0.047302741557359695
+Original Matrix shape : torch.Size([24, 48804])
+Truncated SVD limit: 6
+choosed solver: sparse
+Back to torch success
+Iterative SVD time (s) spent : 0.05075482279062271
+Original Matrix shape : torch.Size([16, 48804])
+Truncated SVD limit: 6
+choosed solver: sparse
+Back to torch success
+Iterative SVD time (s) spent : 0.047370071057230234
+Original Matrix shape : torch.Size([24, 48804])
+Truncated SVD limit: 6
+choosed solver: sparse
+Back to torch success
+Iterative SVD time (s) spent : 0.05679550301283598
+Original Matrix shape : torch.Size([16, 48804])
+Truncated SVD limit: 6
+choosed solver: sparse
+Back to torch success
+Iterative SVD time (s) spent : 0.04988254699856043
+Original Matrix shape : torch.Size([24, 48804])
+Truncated SVD limit: 6
+choosed solver: sparse
+Back to torch success
+Iterative SVD time (s) spent : 0.03873209794983268
+Original Matrix shape : torch.Size([16, 48804])
+Truncated SVD limit: 6
+choosed solver: sparse
+Back to torch success
+Iterative SVD time (s) spent : 0.05954150157049298
+Original Matrix shape : torch.Size([24, 48804])
+Truncated SVD limit: 6
+choosed solver: sparse
+Back to torch success
+Iterative SVD time (s) spent : 0.031315522734075785
+Original Matrix shape : torch.Size([16, 48804])
+Truncated SVD limit: 6
+choosed solver: sparse
+Back to torch success
+Iterative SVD time (s) spent : 0.0492361830547452
+Original Matrix shape : torch.Size([24, 48804])
+Truncated SVD limit: 6
+choosed solver: sparse
+Back to torch success
+Iterative SVD time (s) spent : 0.04761651298031211
+Original Matrix shape : torch.Size([16, 48804])
+Truncated SVD limit: 6
+choosed solver: sparse
+Back to torch success
+Iterative SVD time (s) spent : 0.07845944492146373
+Original Matrix shape : torch.Size([24, 48804])
+Truncated SVD limit: 6
+choosed solver: sparse
+Back to torch success
+Iterative SVD time (s) spent : 0.04442837368696928
+Original Matrix shape : torch.Size([16, 48804])
+Truncated SVD limit: 6
+choosed solver: sparse
+Back to torch success
+Iterative SVD time (s) spent : 0.0776251470670104
+Original Matrix shape : torch.Size([24, 48804])
+Truncated SVD limit: 6
+choosed solver: sparse
+Back to torch success
+Iterative SVD time (s) spent : 0.04118853574618697
+Original Matrix shape : torch.Size([16, 48804])
+Truncated SVD limit: 6
+choosed solver: sparse
+Back to torch success
+Iterative SVD time (s) spent : 0.07533200876787305
+Original Matrix shape : torch.Size([24, 48804])
+Truncated SVD limit: 6
+choosed solver: sparse
+Back to torch success
+Iterative SVD time (s) spent : 0.043580691795796156
+Original Matrix shape : torch.Size([16, 48804])
+Truncated SVD limit: 6
+choosed solver: sparse
+Back to torch success
+Iterative SVD time (s) spent : 0.04128099884837866
+Original Matrix shape : torch.Size([24, 48804])
+Truncated SVD limit: 6
+choosed solver: sparse
+Back to torch success
+Iterative SVD time (s) spent : 0.02127483021467924
+Original Matrix shape : torch.Size([16, 48804])
+Truncated SVD limit: 6
+choosed solver: sparse
+Back to torch success
+Iterative SVD time (s) spent : 0.04308707965537906
+Original Matrix shape : torch.Size([24, 48804])
+Truncated SVD limit: 6
+choosed solver: sparse
+Back to torch success
+Iterative SVD time (s) spent : 0.057515814900398254
+Original Matrix shape : torch.Size([16, 48804])
+Truncated SVD limit: 6
+choosed solver: sparse
+Back to torch success
+Iterative SVD time (s) spent : 0.05989683698862791
+Original Matrix shape : torch.Size([24, 48804])
+Truncated SVD limit: 6
+choosed solver: sparse
+Back to torch success
+Iterative SVD time (s) spent : 0.04676813492551446
+Original Matrix shape : torch.Size([16, 48804])
+Truncated SVD limit: 6
+choosed solver: sparse
+Back to torch success
+Iterative SVD time (s) spent : 0.05462055467069149
+Original Matrix shape : torch.Size([24, 48804])
+Truncated SVD limit: 6
+choosed solver: sparse
+Back to torch success
+Iterative SVD time (s) spent : 0.02871430804952979
+Original Matrix shape : torch.Size([16, 48804])
+Truncated SVD limit: 6
+choosed solver: sparse
+Back to torch success
+Iterative SVD time (s) spent : 0.0751301720738411
+Original Matrix shape : torch.Size([24, 48804])
+Truncated SVD limit: 6
+choosed solver: sparse
+Back to torch success
+Iterative SVD time (s) spent : 0.07051463890820742
+Original Matrix shape : torch.Size([16, 48804])
+Truncated SVD limit: 6
+choosed solver: sparse
+Back to torch success
+Iterative SVD time (s) spent : 0.04269878473132849
+Original Matrix shape : torch.Size([24, 48804])
+Truncated SVD limit: 6
+choosed solver: sparse
+Back to torch success
+Iterative SVD time (s) spent : 0.08559662522748113
+Original Matrix shape : torch.Size([16, 48804])
+Truncated SVD limit: 6
+choosed solver: sparse
+Back to torch success
+Iterative SVD time (s) spent : 0.0637937500141561
+Original Matrix shape : torch.Size([24, 48804])
+Truncated SVD limit: 6
+choosed solver: sparse
+Back to torch success
+Iterative SVD time (s) spent : 0.05983431404456496
+Original Matrix shape : torch.Size([16, 48804])
+Truncated SVD limit: 6
+choosed solver: sparse
+Back to torch success
+Iterative SVD time (s) spent : 0.07662923727184534
+Original Matrix shape : torch.Size([24, 48804])
+Truncated SVD limit: 6
+choosed solver: sparse
+Back to torch success
+Iterative SVD time (s) spent : 0.07841285597532988
+Original Matrix shape : torch.Size([16, 48804])
+Truncated SVD limit: 6
+choosed solver: sparse
+Back to torch success
+Iterative SVD time (s) spent : 0.07059800392016768
+Original Matrix shape : torch.Size([24, 48804])
+Truncated SVD limit: 6
+choosed solver: sparse
+Back to torch success
+Iterative SVD time (s) spent : 0.06788510689511895
+Original Matrix shape : torch.Size([16, 48804])
+Truncated SVD limit: 6
+choosed solver: sparse
+Back to torch success
+Iterative SVD time (s) spent : 0.06146372435614467
+Original Matrix shape : torch.Size([24, 48804])
+Truncated SVD limit: 6
+choosed solver: sparse
+Back to torch success
+Iterative SVD time (s) spent : 0.09017319977283478
+Original Matrix shape : torch.Size([16, 48804])
+Truncated SVD limit: 6
+choosed solver: sparse
+Back to torch success
+Iterative SVD time (s) spent : 0.08239238988608122
+Original Matrix shape : torch.Size([24, 48804])
+Truncated SVD limit: 6
+choosed solver: sparse
+Back to torch success
+Iterative SVD time (s) spent : 0.030704020988196135
+Original Matrix shape : torch.Size([16, 48804])
+Truncated SVD limit: 6
+choosed solver: sparse
+Back to torch success
+Iterative SVD time (s) spent : 0.07380171399563551
+Original Matrix shape : torch.Size([24, 48804])
+Truncated SVD limit: 6
+choosed solver: sparse
+Back to torch success
+Iterative SVD time (s) spent : 0.08077973918989301
+Original Matrix shape : torch.Size([16, 48804])
+Truncated SVD limit: 6
+choosed solver: sparse
+Back to torch success
+Iterative SVD time (s) spent : 0.08363238302990794
+Original Matrix shape : torch.Size([24, 48804])
+Truncated SVD limit: 6
+choosed solver: sparse
+Back to torch success
+Iterative SVD time (s) spent : 0.0728181186132133
+Original Matrix shape : torch.Size([16, 48804])
+Truncated SVD limit: 6
+choosed solver: sparse
+Back to torch success
+Iterative SVD time (s) spent : 0.043231057934463024
+Original Matrix shape : torch.Size([24, 48804])
+Truncated SVD limit: 6
+choosed solver: sparse
+Back to torch success
+Iterative SVD time (s) spent : 0.08225338067859411
+Original Matrix shape : torch.Size([16, 48804])
+Truncated SVD limit: 6
+choosed solver: sparse
+Back to torch success
+Iterative SVD time (s) spent : 0.07971451571211219
+Original Matrix shape : torch.Size([24, 48804])
+Truncated SVD limit: 6
+choosed solver: sparse
+Back to torch success
+Iterative SVD time (s) spent : 0.06442492175847292
+Original Matrix shape : torch.Size([16, 48804])
+Truncated SVD limit: 6
+choosed solver: sparse
+Back to torch success
+Iterative SVD time (s) spent : 0.0782600799575448
+Original Matrix shape : torch.Size([24, 48804])
+Truncated SVD limit: 6
+choosed solver: sparse
+Back to torch success
+Iterative SVD time (s) spent : 0.06822661310434341
+Original Matrix shape : torch.Size([16, 48804])
+Truncated SVD limit: 6
+choosed solver: sparse
+Back to torch success
+Iterative SVD time (s) spent : 0.040264124982059
+Original Matrix shape : torch.Size([24, 48804])
+Truncated SVD limit: 6
+choosed solver: sparse
+Back to torch success
+Iterative SVD time (s) spent : 0.09148068260401487
+Original Matrix shape : torch.Size([16, 48804])
+Truncated SVD limit: 6
+choosed solver: sparse
+Back to torch success
+Iterative SVD time (s) spent : 0.0684400126338005
+Original Matrix shape : torch.Size([24, 48804])
+Truncated SVD limit: 6
+choosed solver: sparse
+Back to torch success
+Iterative SVD time (s) spent : 0.0428245454095304
+Original Matrix shape : torch.Size([16, 48804])
+Truncated SVD limit: 6
+choosed solver: sparse
+Back to torch success
+Iterative SVD time (s) spent : 0.06291838735342026
+Original Matrix shape : torch.Size([24, 48804])
+Truncated SVD limit: 6
+choosed solver: sparse
+Back to torch success
+Iterative SVD time (s) spent : 0.053415519185364246
+Original Matrix shape : torch.Size([16, 48804])
+Truncated SVD limit: 6
+choosed solver: sparse
+Back to torch success
+Iterative SVD time (s) spent : 0.04612144501879811
+Original Matrix shape : torch.Size([24, 48804])
+Truncated SVD limit: 6
+choosed solver: sparse
+Back to torch success
+Iterative SVD time (s) spent : 0.030405945610255003
+Original Matrix shape : torch.Size([16, 48804])
+Truncated SVD limit: 6
+choosed solver: sparse
+Back to torch success
+Iterative SVD time (s) spent : 0.07863108720630407
+Original Matrix shape : torch.Size([24, 48804])
+Truncated SVD limit: 6
+choosed solver: sparse
+Back to torch success
+Iterative SVD time (s) spent : 0.055608310271054506
+Original Matrix shape : torch.Size([16, 48804])
+Truncated SVD limit: 6
+choosed solver: sparse
+Back to torch success
+Iterative SVD time (s) spent : 0.039349603932350874
+Original Matrix shape : torch.Size([24, 48804])
+Truncated SVD limit: 6
+choosed solver: sparse
+Back to torch success
+Iterative SVD time (s) spent : 0.05111308442428708
+Original Matrix shape : torch.Size([16, 48804])
+Truncated SVD limit: 6
+choosed solver: sparse
+Back to torch success
+Iterative SVD time (s) spent : 0.04560759803280234
+Original Matrix shape : torch.Size([24, 48804])
+Truncated SVD limit: 6
+choosed solver: sparse
+Back to torch success
+Iterative SVD time (s) spent : 0.04305773600935936
+Original Matrix shape : torch.Size([16, 48804])
+Truncated SVD limit: 6
+choosed solver: sparse
+Back to torch success
+Iterative SVD time (s) spent : 0.038756750989705324
+Original Matrix shape : torch.Size([24, 48804])
+Truncated SVD limit: 6
+choosed solver: sparse
+Back to torch success
+Iterative SVD time (s) spent : 0.044866661075502634
+Original Matrix shape : torch.Size([16, 48804])
+Truncated SVD limit: 6
+choosed solver: sparse
+Back to torch success
+Iterative SVD time (s) spent : 0.05314675020053983
+Original Matrix shape : torch.Size([24, 48804])
+Truncated SVD limit: 6
+choosed solver: sparse
+Back to torch success
+Iterative SVD time (s) spent : 0.04509807983413339
+Original Matrix shape : torch.Size([16, 48804])
+Truncated SVD limit: 6
+choosed solver: sparse
+Back to torch success
+Iterative SVD time (s) spent : 0.05390775669366121
+Original Matrix shape : torch.Size([24, 48804])
+Truncated SVD limit: 6
+choosed solver: sparse
+Back to torch success
+Iterative SVD time (s) spent : 0.049824660643935204
+Original Matrix shape : torch.Size([16, 48804])
+Truncated SVD limit: 6
+choosed solver: sparse
+Back to torch success
+Iterative SVD time (s) spent : 0.04253741493448615
+Original Matrix shape : torch.Size([24, 48804])
+Truncated SVD limit: 6
+choosed solver: sparse
+Back to torch success
+Iterative SVD time (s) spent : 0.05294216005131602
+Original Matrix shape : torch.Size([16, 48804])
+Truncated SVD limit: 6
+choosed solver: sparse
+Back to torch success
+Iterative SVD time (s) spent : 0.0424530440941453
+Original Matrix shape : torch.Size([24, 48804])
+Truncated SVD limit: 6
+choosed solver: sparse
+Back to torch success
+Iterative SVD time (s) spent : 0.04024204891175032
+Original Matrix shape : torch.Size([16, 48804])
+Truncated SVD limit: 6
+choosed solver: sparse
+Back to torch success
+Iterative SVD time (s) spent : 0.05902164289727807
+Original Matrix shape : torch.Size([24, 48804])
+Truncated SVD limit: 6
+choosed solver: sparse
+Back to torch success
+Iterative SVD time (s) spent : 0.05923677794635296
+Original Matrix shape : torch.Size([16, 48804])
+Truncated SVD limit: 6
+choosed solver: sparse
+Back to torch success
+Iterative SVD time (s) spent : 0.08529740292578936
+Original Matrix shape : torch.Size([24, 48804])
+Truncated SVD limit: 6
+choosed solver: sparse
+Back to torch success
+Iterative SVD time (s) spent : 0.04161769384518266
+Original Matrix shape : torch.Size([16, 48804])
+Truncated SVD limit: 6
+choosed solver: sparse
+Back to torch success
+Iterative SVD time (s) spent : 0.04897242318838835
+Original Matrix shape : torch.Size([24, 48804])
+Truncated SVD limit: 6
+choosed solver: sparse
+Back to torch success
+Iterative SVD time (s) spent : 0.051151998806744814
+Original Matrix shape : torch.Size([16, 48804])
+Truncated SVD limit: 6
+choosed solver: sparse
+Back to torch success
+Iterative SVD time (s) spent : 0.058279447723180056
+Original Matrix shape : torch.Size([24, 48804])
+Truncated SVD limit: 6
+choosed solver: sparse
+Back to torch success
+Iterative SVD time (s) spent : 0.04986665630713105
+Original Matrix shape : torch.Size([16, 48804])
+Truncated SVD limit: 6
+choosed solver: sparse
+Back to torch success
+Iterative SVD time (s) spent : 0.07492110505700111
+Original Matrix shape : torch.Size([24, 48804])
+Truncated SVD limit: 6
+choosed solver: sparse
+Back to torch success
+Iterative SVD time (s) spent : 0.06244397070258856
+Original Matrix shape : torch.Size([16, 48804])
+Truncated SVD limit: 6
+choosed solver: sparse
+Back to torch success
+Iterative SVD time (s) spent : 0.04896543500944972
+Original Matrix shape : torch.Size([24, 48804])
+Truncated SVD limit: 6
+choosed solver: sparse
+Back to torch success
+Iterative SVD time (s) spent : 0.02873988403007388
+Original Matrix shape : torch.Size([16, 48804])
+Truncated SVD limit: 6
+choosed solver: sparse
+Back to torch success
+Iterative SVD time (s) spent : 0.06447785068303347
+Original Matrix shape : torch.Size([24, 48804])
+Truncated SVD limit: 6
+choosed solver: sparse
+Back to torch success
+Iterative SVD time (s) spent : 0.036163236014544964
+Original Matrix shape : torch.Size([16, 48804])
+Truncated SVD limit: 6
+choosed solver: sparse
+Back to torch success
+Iterative SVD time (s) spent : 0.0566299008205533
+Original Matrix shape : torch.Size([24, 48804])
+Truncated SVD limit: 6
+choosed solver: sparse
+Back to torch success
+Iterative SVD time (s) spent : 0.039315939880907536
+Original Matrix shape : torch.Size([16, 48804])
+Truncated SVD limit: 6
+choosed solver: sparse
+Back to torch success
+Iterative SVD time (s) spent : 0.06489763455465436
+Original Matrix shape : torch.Size([24, 48804])
+Truncated SVD limit: 6
+choosed solver: sparse
+Back to torch success
+Iterative SVD time (s) spent : 0.052130640018731356
+Original Matrix shape : torch.Size([16, 48804])
+Truncated SVD limit: 6
+choosed solver: sparse
+Back to torch success
+Iterative SVD time (s) spent : 0.045043091755360365
+Original Matrix shape : torch.Size([24, 48804])
+Truncated SVD limit: 6
+choosed solver: sparse
+Back to torch success
+Iterative SVD time (s) spent : 0.05060338322073221
+Original Matrix shape : torch.Size([16, 48804])
+Truncated SVD limit: 6
+choosed solver: sparse
+Back to torch success
+Iterative SVD time (s) spent : 0.0369534520432353
+Original Matrix shape : torch.Size([24, 48804])
+Truncated SVD limit: 6
+choosed solver: sparse
+Back to torch success
+Iterative SVD time (s) spent : 0.03836228000000119
+Original Matrix shape : torch.Size([16, 48804])
+Truncated SVD limit: 6
+choosed solver: sparse
+Back to torch success
+Iterative SVD time (s) spent : 0.04396818391978741
+Original Matrix shape : torch.Size([24, 48804])
+Truncated SVD limit: 6
+choosed solver: sparse
+Back to torch success
+Iterative SVD time (s) spent : 0.03653977578505874
+Original Matrix shape : torch.Size([16, 48804])
+Truncated SVD limit: 6
+choosed solver: sparse
+Back to torch success
+Iterative SVD time (s) spent : 0.07524179108440876
+Original Matrix shape : torch.Size([24, 48804])
+Truncated SVD limit: 6
+choosed solver: sparse
+Back to torch success
+Iterative SVD time (s) spent : 0.04970574984326959
+Original Matrix shape : torch.Size([16, 48804])
+Truncated SVD limit: 6
+choosed solver: sparse
+Back to torch success
+Iterative SVD time (s) spent : 0.06051366403698921
+Original Matrix shape : torch.Size([24, 48804])
+Truncated SVD limit: 6
+choosed solver: sparse
+Back to torch success
+Iterative SVD time (s) spent : 0.04141341708600521
+Original Matrix shape : torch.Size([16, 48804])
+Truncated SVD limit: 6
+choosed solver: sparse
+Back to torch success
+Iterative SVD time (s) spent : 0.03800964308902621
+Original Matrix shape : torch.Size([24, 48804])
+Truncated SVD limit: 6
+choosed solver: sparse
+Back to torch success
+Iterative SVD time (s) spent : 0.03924678824841976
+Original Matrix shape : torch.Size([16, 48804])
+Truncated SVD limit: 6
+choosed solver: sparse
+Back to torch success
+Iterative SVD time (s) spent : 0.04113645199686289
+Original Matrix shape : torch.Size([24, 48804])
+Truncated SVD limit: 6
+choosed solver: sparse
+Back to torch success
+Iterative SVD time (s) spent : 0.04476680280640721
+Original Matrix shape : torch.Size([16, 48804])
+Truncated SVD limit: 6
+choosed solver: sparse
+Back to torch success
+Iterative SVD time (s) spent : 0.07335866196081042
+Original Matrix shape : torch.Size([24, 48804])
+Truncated SVD limit: 6
+choosed solver: sparse
+Back to torch success
+Iterative SVD time (s) spent : 0.025753222405910492
+Original Matrix shape : torch.Size([16, 48804])
+Truncated SVD limit: 6
+choosed solver: sparse
+Back to torch success
+Iterative SVD time (s) spent : 0.03636371484026313
+Original Matrix shape : torch.Size([24, 48804])
+Truncated SVD limit: 6
+choosed solver: sparse
+Back to torch success
+Iterative SVD time (s) spent : 0.022437525913119316
+Original Matrix shape : torch.Size([16, 48804])
+Truncated SVD limit: 6
+choosed solver: sparse
+Back to torch success
+Iterative SVD time (s) spent : 0.04973261617124081
+Original Matrix shape : torch.Size([24, 48804])
+Truncated SVD limit: 6
+choosed solver: sparse
+Back to torch success
+Iterative SVD time (s) spent : 0.049217833671718836
+Original Matrix shape : torch.Size([16, 48804])
+Truncated SVD limit: 6
+choosed solver: sparse
+Back to torch success
+Iterative SVD time (s) spent : 0.03427412174642086
+Original Matrix shape : torch.Size([24, 48804])
+Truncated SVD limit: 6
+choosed solver: sparse
+Back to torch success
+Iterative SVD time (s) spent : 0.04948455700650811
+Original Matrix shape : torch.Size([16, 48804])
+Truncated SVD limit: 6
+choosed solver: sparse
+Back to torch success
+Iterative SVD time (s) spent : 0.05367343407124281
+Original Matrix shape : torch.Size([24, 48804])
+Truncated SVD limit: 6
+choosed solver: sparse
+Back to torch success
+Iterative SVD time (s) spent : 0.035336724948138
+Original Matrix shape : torch.Size([16, 48804])
+Truncated SVD limit: 6
+choosed solver: sparse
+Back to torch success
+Iterative SVD time (s) spent : 0.08249667705968022
+Original Matrix shape : torch.Size([24, 48804])
+Truncated SVD limit: 6
+choosed solver: sparse
+Back to torch success
+Iterative SVD time (s) spent : 0.05920645035803318
+Original Matrix shape : torch.Size([16, 48804])
+Truncated SVD limit: 6
+choosed solver: sparse
+Back to torch success
+Iterative SVD time (s) spent : 0.063132309820503
+Original Matrix shape : torch.Size([24, 48804])
+Truncated SVD limit: 6
+Average Time for 100 iterations with sparse method is 0.051568135404959324
+matrix torch.Size([21512, 12, 2]) with time: 0.039855006551370024
+matrix torch.Size([48804, 12, 2]) with time: 0.051568135404959324
+Anchor generation...
+ET descriptor initialization...
+choosed solver: sparse
+Back to torch success
+Iterative SVD time (s) spent : 0.03607109701260924
+Original Matrix shape : torch.Size([16, 21512])
+Truncated SVD limit: 6
+choosed solver: sparse
+Back to torch success
+Iterative SVD time (s) spent : 0.036034610122442245
+Original Matrix shape : torch.Size([24, 21512])
+Truncated SVD limit: 6
+choosed solver: sparse
+Back to torch success
+Iterative SVD time (s) spent : 0.050008296966552734
+Original Matrix shape : torch.Size([16, 48804])
+Truncated SVD limit: 6
+choosed solver: sparse
+Back to torch success
+Iterative SVD time (s) spent : 0.04913682397454977
+Original Matrix shape : torch.Size([24, 48804])
+Truncated SVD limit: 6
+Anchor generation...
+Training started...

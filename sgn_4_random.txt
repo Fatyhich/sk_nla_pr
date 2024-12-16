@@ -1,0 +1,386 @@
+===== Arguments =====
+cfg: config/sgcn_eth_4_random_14-6.json | tag: EigenTrajectory-SGCN-4 | gpu_id: 0 | test: False | 
+svd: random | test_svd: None
+===== Configs =====
+dataset_dir: ./datasets/ | checkpoint_dir: ./checkpoints_random_svd/ | dataset: eth | traj_dim: 2 | 
+obs_len: 14 | obs_step: 10 | pred_len: 6 | pred_step: 10 | skip: 1 | k: 4 | static_dist: 0.353 | 
+num_samples: 1 | obs_svd: True | pred_svd: True | baseline: sgcn | batch_size: 128 | num_epochs: 70 | 
+lr: 0.001 | weight_decay: 0.0001 | clip_grad: 1000 | lr_schd: True | lr_schd_step: 64 | 
+lr_schd_gamma: 0.5
+Trainer initiating...
+Checkpoint dir: ./checkpoints_random_svd//EigenTrajectory-SGCN-4/eth/
+Chosed SVD method: random
+ET descriptor initialization...
+choosed solver: random
+Back to torch success
+Iterative SVD time (s) spent : 0.03669577511027455
+Original Matrix shape : torch.Size([28, 21054])
+Truncated SVD limit: 4
+choosed solver: random
+Back to torch success
+Iterative SVD time (s) spent : 0.04749315604567528
+Original Matrix shape : torch.Size([12, 21054])
+Truncated SVD limit: 4
+choosed solver: random
+Back to torch success
+Iterative SVD time (s) spent : 0.04143782891333103
+Original Matrix shape : torch.Size([28, 49262])
+Truncated SVD limit: 4
+choosed solver: random
+Back to torch success
+Iterative SVD time (s) spent : 0.04370099538937211
+Original Matrix shape : torch.Size([12, 49262])
+Truncated SVD limit: 4
+Anchor generation...
+Training started...
+ 
+Dataset: eth, Epoch: 0
+Train_loss: 0.01842419, Val_los: 0.62676035
+Min_val_epoch: 0, Min_val_loss: 0.62676035
+ 
+ 
+Dataset: eth, Epoch: 1
+Train_loss: 0.01763901, Val_los: 0.60725248
+Min_val_epoch: 1, Min_val_loss: 0.60725248
+ 
+ 
+Dataset: eth, Epoch: 2
+Train_loss: 0.01706919, Val_los: 0.58565298
+Min_val_epoch: 2, Min_val_loss: 0.58565298
+ 
+ 
+Dataset: eth, Epoch: 3
+Train_loss: 0.01671674, Val_los: 0.55787014
+Min_val_epoch: 3, Min_val_loss: 0.55787014
+ 
+ 
+Dataset: eth, Epoch: 4
+Train_loss: 0.01627006, Val_los: 0.53108364
+Min_val_epoch: 4, Min_val_loss: 0.53108364
+ 
+ 
+Dataset: eth, Epoch: 5
+Train_loss: 0.01585240, Val_los: 0.52657389
+Min_val_epoch: 5, Min_val_loss: 0.52657389
+ 
+ 
+Dataset: eth, Epoch: 6
+Train_loss: 0.01546787, Val_los: 0.50267767
+Min_val_epoch: 6, Min_val_loss: 0.50267767
+ 
+ 
+Dataset: eth, Epoch: 7
+Train_loss: 0.01496937, Val_los: 0.49068803
+Min_val_epoch: 7, Min_val_loss: 0.49068803
+ 
+ 
+Dataset: eth, Epoch: 8
+Train_loss: 0.01464577, Val_los: 0.48530136
+Min_val_epoch: 8, Min_val_loss: 0.48530136
+ 
+ 
+Dataset: eth, Epoch: 9
+Train_loss: 0.01455091, Val_los: 0.48185638
+Min_val_epoch: 9, Min_val_loss: 0.48185638
+ 
+ 
+Dataset: eth, Epoch: 10
+Train_loss: 0.01425709, Val_los: 0.47198605
+Min_val_epoch: 10, Min_val_loss: 0.47198605
+ 
+ 
+Dataset: eth, Epoch: 11
+Train_loss: 0.01396664, Val_los: 0.46663444
+Min_val_epoch: 11, Min_val_loss: 0.46663444
+ 
+ 
+Dataset: eth, Epoch: 12
+Train_loss: 0.01391431, Val_los: 0.46150815
+Min_val_epoch: 12, Min_val_loss: 0.46150815
+ 
+ 
+Dataset: eth, Epoch: 13
+Train_loss: 0.01374404, Val_los: 0.46034998
+Min_val_epoch: 13, Min_val_loss: 0.46034998
+ 
+ 
+Dataset: eth, Epoch: 14
+Train_loss: 0.01356871, Val_los: 0.46342082
+Min_val_epoch: 13, Min_val_loss: 0.46034998
+ 
+ 
+Dataset: eth, Epoch: 15
+Train_loss: 0.01351960, Val_los: 0.46247712
+Min_val_epoch: 13, Min_val_loss: 0.46034998
+ 
+ 
+Dataset: eth, Epoch: 16
+Train_loss: 0.01362323, Val_los: 0.45515297
+Min_val_epoch: 16, Min_val_loss: 0.45515297
+ 
+ 
+Dataset: eth, Epoch: 17
+Train_loss: 0.01381747, Val_los: 0.46586986
+Min_val_epoch: 16, Min_val_loss: 0.45515297
+ 
+ 
+Dataset: eth, Epoch: 18
+Train_loss: 0.01366541, Val_los: 0.46809192
+Min_val_epoch: 16, Min_val_loss: 0.45515297
+ 
+ 
+Dataset: eth, Epoch: 19
+Train_loss: 0.01348865, Val_los: 0.46620444
+Min_val_epoch: 16, Min_val_loss: 0.45515297
+ 
+ 
+Dataset: eth, Epoch: 20
+Train_loss: 0.01329390, Val_los: 0.45979326
+Min_val_epoch: 16, Min_val_loss: 0.45515297
+ 
+ 
+Dataset: eth, Epoch: 21
+Train_loss: 0.01295054, Val_los: 0.44763006
+Min_val_epoch: 21, Min_val_loss: 0.44763006
+ 
+ 
+Dataset: eth, Epoch: 22
+Train_loss: 0.01285747, Val_los: 0.45512141
+Min_val_epoch: 21, Min_val_loss: 0.44763006
+ 
+ 
+Dataset: eth, Epoch: 23
+Train_loss: 0.01284365, Val_los: 0.45347100
+Min_val_epoch: 21, Min_val_loss: 0.44763006
+ 
+ 
+Dataset: eth, Epoch: 24
+Train_loss: 0.01286187, Val_los: 0.46016426
+Min_val_epoch: 21, Min_val_loss: 0.44763006
+ 
+ 
+Dataset: eth, Epoch: 25
+Train_loss: 0.01280068, Val_los: 0.45828735
+Min_val_epoch: 21, Min_val_loss: 0.44763006
+ 
+ 
+Dataset: eth, Epoch: 26
+Train_loss: 0.01269587, Val_los: 0.45118190
+Min_val_epoch: 21, Min_val_loss: 0.44763006
+ 
+ 
+Dataset: eth, Epoch: 27
+Train_loss: 0.01262276, Val_los: 0.44916218
+Min_val_epoch: 21, Min_val_loss: 0.44763006
+ 
+ 
+Dataset: eth, Epoch: 28
+Train_loss: 0.01264173, Val_los: 0.44570247
+Min_val_epoch: 28, Min_val_loss: 0.44570247
+ 
+ 
+Dataset: eth, Epoch: 29
+Train_loss: 0.01265401, Val_los: 0.44931357
+Min_val_epoch: 28, Min_val_loss: 0.44570247
+ 
+ 
+Dataset: eth, Epoch: 30
+Train_loss: 0.01261415, Val_los: 0.45010096
+Min_val_epoch: 28, Min_val_loss: 0.44570247
+ 
+ 
+Dataset: eth, Epoch: 31
+Train_loss: 0.01252387, Val_los: 0.44556903
+Min_val_epoch: 31, Min_val_loss: 0.44556903
+ 
+ 
+Dataset: eth, Epoch: 32
+Train_loss: 0.01247001, Val_los: 0.44421227
+Min_val_epoch: 32, Min_val_loss: 0.44421227
+ 
+ 
+Dataset: eth, Epoch: 33
+Train_loss: 0.01245091, Val_los: 0.44381564
+Min_val_epoch: 33, Min_val_loss: 0.44381564
+ 
+ 
+Dataset: eth, Epoch: 34
+Train_loss: 0.01242926, Val_los: 0.44229469
+Min_val_epoch: 34, Min_val_loss: 0.44229469
+ 
+ 
+Dataset: eth, Epoch: 35
+Train_loss: 0.01239830, Val_los: 0.44005621
+Min_val_epoch: 35, Min_val_loss: 0.44005621
+ 
+ 
+Dataset: eth, Epoch: 36
+Train_loss: 0.01235647, Val_los: 0.44059014
+Min_val_epoch: 35, Min_val_loss: 0.44005621
+ 
+ 
+Dataset: eth, Epoch: 37
+Train_loss: 0.01234640, Val_los: 0.43982497
+Min_val_epoch: 37, Min_val_loss: 0.43982497
+ 
+ 
+Dataset: eth, Epoch: 38
+Train_loss: 0.01232739, Val_los: 0.44115408
+Min_val_epoch: 37, Min_val_loss: 0.43982497
+ 
+ 
+Dataset: eth, Epoch: 39
+Train_loss: 0.01229626, Val_los: 0.44318418
+Min_val_epoch: 37, Min_val_loss: 0.43982497
+ 
+ 
+Dataset: eth, Epoch: 40
+Train_loss: 0.01231029, Val_los: 0.44337842
+Min_val_epoch: 37, Min_val_loss: 0.43982497
+ 
+ 
+Dataset: eth, Epoch: 41
+Train_loss: 0.01239646, Val_los: 0.44569946
+Min_val_epoch: 37, Min_val_loss: 0.43982497
+ 
+ 
+Dataset: eth, Epoch: 42
+Train_loss: 0.01255824, Val_los: 0.45719683
+Min_val_epoch: 37, Min_val_loss: 0.43982497
+ 
+ 
+Dataset: eth, Epoch: 43
+Train_loss: 0.01249855, Val_los: 0.45531783
+Min_val_epoch: 37, Min_val_loss: 0.43982497
+ 
+ 
+Dataset: eth, Epoch: 44
+Train_loss: 0.01238165, Val_los: 0.43798018
+Min_val_epoch: 44, Min_val_loss: 0.43798018
+ 
+ 
+Dataset: eth, Epoch: 45
+Train_loss: 0.01223844, Val_los: 0.43886015
+Min_val_epoch: 44, Min_val_loss: 0.43798018
+ 
+ 
+Dataset: eth, Epoch: 46
+Train_loss: 0.01225463, Val_los: 0.43835261
+Min_val_epoch: 44, Min_val_loss: 0.43798018
+ 
+ 
+Dataset: eth, Epoch: 47
+Train_loss: 0.01219957, Val_los: 0.43698582
+Min_val_epoch: 47, Min_val_loss: 0.43698582
+ 
+ 
+Dataset: eth, Epoch: 48
+Train_loss: 0.01219825, Val_los: 0.43555104
+Min_val_epoch: 48, Min_val_loss: 0.43555104
+ 
+ 
+Dataset: eth, Epoch: 49
+Train_loss: 0.01218296, Val_los: 0.43723025
+Min_val_epoch: 48, Min_val_loss: 0.43555104
+ 
+ 
+Dataset: eth, Epoch: 50
+Train_loss: 0.01223722, Val_los: 0.43753886
+Min_val_epoch: 48, Min_val_loss: 0.43555104
+ 
+ 
+Dataset: eth, Epoch: 51
+Train_loss: 0.01216993, Val_los: 0.43694764
+Min_val_epoch: 48, Min_val_loss: 0.43555104
+ 
+ 
+Dataset: eth, Epoch: 52
+Train_loss: 0.01225124, Val_los: 0.43976333
+Min_val_epoch: 48, Min_val_loss: 0.43555104
+ 
+ 
+Dataset: eth, Epoch: 53
+Train_loss: 0.01216400, Val_los: 0.43856363
+Min_val_epoch: 48, Min_val_loss: 0.43555104
+ 
+ 
+Dataset: eth, Epoch: 54
+Train_loss: 0.01217271, Val_los: 0.43790231
+Min_val_epoch: 48, Min_val_loss: 0.43555104
+ 
+ 
+Dataset: eth, Epoch: 55
+Train_loss: 0.01222551, Val_los: 0.44737253
+Min_val_epoch: 48, Min_val_loss: 0.43555104
+ 
+ 
+Dataset: eth, Epoch: 56
+Train_loss: 0.01240619, Val_los: 0.44657087
+Min_val_epoch: 48, Min_val_loss: 0.43555104
+ 
+ 
+Dataset: eth, Epoch: 57
+Train_loss: 0.01228036, Val_los: 0.44801643
+Min_val_epoch: 48, Min_val_loss: 0.43555104
+ 
+ 
+Dataset: eth, Epoch: 58
+Train_loss: 0.01219125, Val_los: 0.43765021
+Min_val_epoch: 48, Min_val_loss: 0.43555104
+ 
+ 
+Dataset: eth, Epoch: 59
+Train_loss: 0.01215340, Val_los: 0.43622180
+Min_val_epoch: 48, Min_val_loss: 0.43555104
+ 
+ 
+Dataset: eth, Epoch: 60
+Train_loss: 0.01212643, Val_los: 0.43500885
+Min_val_epoch: 60, Min_val_loss: 0.43500885
+ 
+ 
+Dataset: eth, Epoch: 61
+Train_loss: 0.01214393, Val_los: 0.43825566
+Min_val_epoch: 60, Min_val_loss: 0.43500885
+ 
+ 
+Dataset: eth, Epoch: 62
+Train_loss: 0.01210251, Val_los: 0.43956814
+Min_val_epoch: 60, Min_val_loss: 0.43500885
+ 
+ 
+Dataset: eth, Epoch: 63
+Train_loss: 0.01207506, Val_los: 0.44226194
+Min_val_epoch: 60, Min_val_loss: 0.43500885
+ 
+ 
+Dataset: eth, Epoch: 64
+Train_loss: 0.01217624, Val_los: 0.43675617
+Min_val_epoch: 60, Min_val_loss: 0.43500885
+ 
+ 
+Dataset: eth, Epoch: 65
+Train_loss: 0.01212686, Val_los: 0.43443272
+Min_val_epoch: 65, Min_val_loss: 0.43443272
+ 
+ 
+Dataset: eth, Epoch: 66
+Train_loss: 0.01206812, Val_los: 0.43408149
+Min_val_epoch: 66, Min_val_loss: 0.43408149
+ 
+ 
+Dataset: eth, Epoch: 67
+Train_loss: 0.01206108, Val_los: 0.43316089
+Min_val_epoch: 67, Min_val_loss: 0.43316089
+ 
+ 
+Dataset: eth, Epoch: 68
+Train_loss: 0.01202221, Val_los: 0.43246356
+Min_val_epoch: 68, Min_val_loss: 0.43246356
+ 
+ 
+Dataset: eth, Epoch: 69
+Train_loss: 0.01201080, Val_los: 0.43224379
+Min_val_epoch: 69, Min_val_loss: 0.43224379
+ 
+Done.

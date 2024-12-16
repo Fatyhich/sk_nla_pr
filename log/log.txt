@@ -1,0 +1,52 @@
+Start training task queues
+Evaluate hotel job 1 pid 2859426
+===== Arguments =====
+cfg: ./config/eigentrajectory_my-sgcn-hotel.json | tag: EigenTrajectory | gpu_id: 0 | test: False
+===== Configs =====
+dataset_dir: ./datasets/ | checkpoint_dir: ./checkpoints_my/ | dataset: hotel | traj_dim: 2 | 
+obs_len: 8 | obs_step: 10 | pred_len: 12 | pred_step: 10 | skip: 1 | k: 6 | static_dist: 0.353 | 
+num_samples: 20 | obs_svd: True | pred_svd: True | baseline: sgcn | batch_size: 128 | 
+num_epochs: 256 | lr: 0.001 | weight_decay: 0.0001 | clip_grad: 10 | lr_schd: True | 
+lr_schd_step: 64 | lr_schd_gamma: 0.5
+Trainer initiating...
+Checkpoint dir: ./checkpoints_my//EigenTrajectory/hotel/
+ET descriptor initialization...
+Anchor generation...
+Training started...
+ 
+Dataset: hotel, Epoch: 0
+Train_loss: 0.01545146, Val_los: 0.37552312
+Min_val_epoch: 0, Min_val_loss: 0.37552312
+ 
+ 
+Dataset: hotel, Epoch: 1
+Train_loss: 0.01519665, Val_los: 0.37527936
+Min_val_epoch: 1, Min_val_loss: 0.37527936
+ 
+ 
+Dataset: hotel, Epoch: 2
+Train_loss: 0.01510958, Val_los: 0.37055024
+Min_val_epoch: 2, Min_val_loss: 0.37055024
+ 
+ 
+Dataset: hotel, Epoch: 3
+Train_loss: 0.01497767, Val_los: 0.36998411
+Min_val_epoch: 3, Min_val_loss: 0.36998411
+ 
+ 
+Dataset: hotel, Epoch: 4
+Train_loss: 0.01489971, Val_los: 0.37105346
+Min_val_epoch: 3, Min_val_loss: 0.36998411
+ 
+ 
+Dataset: hotel, Epoch: 5
+Train_loss: 0.01485814, Val_los: 0.37562340
+Min_val_epoch: 3, Min_val_loss: 0.36998411
+ 
+ 
+Dataset: hotel, Epoch: 6
+Train_loss: 0.01483841, Val_los: 0.37062917
+Min_val_epoch: 3, Min_val_loss: 0.36998411
+ 
+Kill training processes
+Done.

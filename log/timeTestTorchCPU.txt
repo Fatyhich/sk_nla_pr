@@ -1,0 +1,2047 @@
+===== Arguments =====
+cfg: config/eigentrajectory_my-sgcn-eth.json | tag: EigenTrajectory-SGCN-Custom | gpu_id: 0 | 
+test: False | svd: torch_cpu | test_svd: 100
+===== Configs =====
+dataset_dir: ./datasets/ | checkpoint_dir: ./checkpoints_custom/ | dataset: eth | traj_dim: 2 | 
+obs_len: 8 | obs_step: 10 | pred_len: 12 | pred_step: 10 | skip: 1 | k: 6 | static_dist: 0.353 | 
+num_samples: 20 | obs_svd: True | pred_svd: True | baseline: sgcn | batch_size: 128 | 
+num_epochs: 256 | lr: 0.001 | weight_decay: 0.0001 | clip_grad: 1000 | lr_schd: True | 
+lr_schd_step: 64 | lr_schd_gamma: 0.5
+Trainer initiating...
+Checkpoint dir: ./checkpoints_custom//EigenTrajectory-SGCN-Custom/eth/
+Chosed SVD method: torch_cpu
+ET descriptor initialization for TIME TESTING...
+choosed solver: torch_cpu
+Full SVD time (s) spent : 3.9005625848658383
+Original Matrix shape : torch.Size([16, 21512])
+SVD (aka USVt) shape : torch.Size([16, 16]), 	, torch.Size([16]) 	 torch.Size([21512, 21512])
+Truncation parameter k= 6
+choosed solver: torch_cpu
+Full SVD time (s) spent : 6.1908848150633276
+Original Matrix shape : torch.Size([24, 21512])
+SVD (aka USVt) shape : torch.Size([24, 24]), 	, torch.Size([24]) 	 torch.Size([21512, 21512])
+Truncation parameter k= 6
+choosed solver: torch_cpu
+Full SVD time (s) spent : 3.5205594548024237
+Original Matrix shape : torch.Size([16, 21512])
+SVD (aka USVt) shape : torch.Size([16, 16]), 	, torch.Size([16]) 	 torch.Size([21512, 21512])
+Truncation parameter k= 6
+choosed solver: torch_cpu
+Full SVD time (s) spent : 5.708452487830073
+Original Matrix shape : torch.Size([24, 21512])
+SVD (aka USVt) shape : torch.Size([24, 24]), 	, torch.Size([24]) 	 torch.Size([21512, 21512])
+Truncation parameter k= 6
+choosed solver: torch_cpu
+Full SVD time (s) spent : 3.756586696021259
+Original Matrix shape : torch.Size([16, 21512])
+SVD (aka USVt) shape : torch.Size([16, 16]), 	, torch.Size([16]) 	 torch.Size([21512, 21512])
+Truncation parameter k= 6
+choosed solver: torch_cpu
+Full SVD time (s) spent : 5.668927249033004
+Original Matrix shape : torch.Size([24, 21512])
+SVD (aka USVt) shape : torch.Size([24, 24]), 	, torch.Size([24]) 	 torch.Size([21512, 21512])
+Truncation parameter k= 6
+choosed solver: torch_cpu
+Full SVD time (s) spent : 3.7910858527757227
+Original Matrix shape : torch.Size([16, 21512])
+SVD (aka USVt) shape : torch.Size([16, 16]), 	, torch.Size([16]) 	 torch.Size([21512, 21512])
+Truncation parameter k= 6
+choosed solver: torch_cpu
+Full SVD time (s) spent : 5.51295602414757
+Original Matrix shape : torch.Size([24, 21512])
+SVD (aka USVt) shape : torch.Size([24, 24]), 	, torch.Size([24]) 	 torch.Size([21512, 21512])
+Truncation parameter k= 6
+choosed solver: torch_cpu
+Full SVD time (s) spent : 3.4881970458664
+Original Matrix shape : torch.Size([16, 21512])
+SVD (aka USVt) shape : torch.Size([16, 16]), 	, torch.Size([16]) 	 torch.Size([21512, 21512])
+Truncation parameter k= 6
+choosed solver: torch_cpu
+Full SVD time (s) spent : 5.665481531992555
+Original Matrix shape : torch.Size([24, 21512])
+SVD (aka USVt) shape : torch.Size([24, 24]), 	, torch.Size([24]) 	 torch.Size([21512, 21512])
+Truncation parameter k= 6
+choosed solver: torch_cpu
+Full SVD time (s) spent : 3.5055818231776357
+Original Matrix shape : torch.Size([16, 21512])
+SVD (aka USVt) shape : torch.Size([16, 16]), 	, torch.Size([16]) 	 torch.Size([21512, 21512])
+Truncation parameter k= 6
+choosed solver: torch_cpu
+Full SVD time (s) spent : 5.500865683890879
+Original Matrix shape : torch.Size([24, 21512])
+SVD (aka USVt) shape : torch.Size([24, 24]), 	, torch.Size([24]) 	 torch.Size([21512, 21512])
+Truncation parameter k= 6
+choosed solver: torch_cpu
+Full SVD time (s) spent : 3.5178816663101315
+Original Matrix shape : torch.Size([16, 21512])
+SVD (aka USVt) shape : torch.Size([16, 16]), 	, torch.Size([16]) 	 torch.Size([21512, 21512])
+Truncation parameter k= 6
+choosed solver: torch_cpu
+Full SVD time (s) spent : 5.623934208415449
+Original Matrix shape : torch.Size([24, 21512])
+SVD (aka USVt) shape : torch.Size([24, 24]), 	, torch.Size([24]) 	 torch.Size([21512, 21512])
+Truncation parameter k= 6
+choosed solver: torch_cpu
+Full SVD time (s) spent : 3.628412247169763
+Original Matrix shape : torch.Size([16, 21512])
+SVD (aka USVt) shape : torch.Size([16, 16]), 	, torch.Size([16]) 	 torch.Size([21512, 21512])
+Truncation parameter k= 6
+choosed solver: torch_cpu
+Full SVD time (s) spent : 5.528990396298468
+Original Matrix shape : torch.Size([24, 21512])
+SVD (aka USVt) shape : torch.Size([24, 24]), 	, torch.Size([24]) 	 torch.Size([21512, 21512])
+Truncation parameter k= 6
+choosed solver: torch_cpu
+Full SVD time (s) spent : 3.518466195091605
+Original Matrix shape : torch.Size([16, 21512])
+SVD (aka USVt) shape : torch.Size([16, 16]), 	, torch.Size([16]) 	 torch.Size([21512, 21512])
+Truncation parameter k= 6
+choosed solver: torch_cpu
+Full SVD time (s) spent : 5.53046195441857
+Original Matrix shape : torch.Size([24, 21512])
+SVD (aka USVt) shape : torch.Size([24, 24]), 	, torch.Size([24]) 	 torch.Size([21512, 21512])
+Truncation parameter k= 6
+choosed solver: torch_cpu
+Full SVD time (s) spent : 3.5136697376146913
+Original Matrix shape : torch.Size([16, 21512])
+SVD (aka USVt) shape : torch.Size([16, 16]), 	, torch.Size([16]) 	 torch.Size([21512, 21512])
+Truncation parameter k= 6
+choosed solver: torch_cpu
+Full SVD time (s) spent : 5.565066099632531
+Original Matrix shape : torch.Size([24, 21512])
+SVD (aka USVt) shape : torch.Size([24, 24]), 	, torch.Size([24]) 	 torch.Size([21512, 21512])
+Truncation parameter k= 6
+choosed solver: torch_cpu
+Full SVD time (s) spent : 3.5118482229299843
+Original Matrix shape : torch.Size([16, 21512])
+SVD (aka USVt) shape : torch.Size([16, 16]), 	, torch.Size([16]) 	 torch.Size([21512, 21512])
+Truncation parameter k= 6
+choosed solver: torch_cpu
+Full SVD time (s) spent : 5.614984287880361
+Original Matrix shape : torch.Size([24, 21512])
+SVD (aka USVt) shape : torch.Size([24, 24]), 	, torch.Size([24]) 	 torch.Size([21512, 21512])
+Truncation parameter k= 6
+choosed solver: torch_cpu
+Full SVD time (s) spent : 3.5217702612280846
+Original Matrix shape : torch.Size([16, 21512])
+SVD (aka USVt) shape : torch.Size([16, 16]), 	, torch.Size([16]) 	 torch.Size([21512, 21512])
+Truncation parameter k= 6
+choosed solver: torch_cpu
+Full SVD time (s) spent : 5.503864872269332
+Original Matrix shape : torch.Size([24, 21512])
+SVD (aka USVt) shape : torch.Size([24, 24]), 	, torch.Size([24]) 	 torch.Size([21512, 21512])
+Truncation parameter k= 6
+choosed solver: torch_cpu
+Full SVD time (s) spent : 3.661276494152844
+Original Matrix shape : torch.Size([16, 21512])
+SVD (aka USVt) shape : torch.Size([16, 16]), 	, torch.Size([16]) 	 torch.Size([21512, 21512])
+Truncation parameter k= 6
+choosed solver: torch_cpu
+Full SVD time (s) spent : 5.509729566052556
+Original Matrix shape : torch.Size([24, 21512])
+SVD (aka USVt) shape : torch.Size([24, 24]), 	, torch.Size([24]) 	 torch.Size([21512, 21512])
+Truncation parameter k= 6
+choosed solver: torch_cpu
+Full SVD time (s) spent : 3.520274832844734
+Original Matrix shape : torch.Size([16, 21512])
+SVD (aka USVt) shape : torch.Size([16, 16]), 	, torch.Size([16]) 	 torch.Size([21512, 21512])
+Truncation parameter k= 6
+choosed solver: torch_cpu
+Full SVD time (s) spent : 5.555850358214229
+Original Matrix shape : torch.Size([24, 21512])
+SVD (aka USVt) shape : torch.Size([24, 24]), 	, torch.Size([24]) 	 torch.Size([21512, 21512])
+Truncation parameter k= 6
+choosed solver: torch_cpu
+Full SVD time (s) spent : 3.699207127094269
+Original Matrix shape : torch.Size([16, 21512])
+SVD (aka USVt) shape : torch.Size([16, 16]), 	, torch.Size([16]) 	 torch.Size([21512, 21512])
+Truncation parameter k= 6
+choosed solver: torch_cpu
+Full SVD time (s) spent : 5.7171235689893365
+Original Matrix shape : torch.Size([24, 21512])
+SVD (aka USVt) shape : torch.Size([24, 24]), 	, torch.Size([24]) 	 torch.Size([21512, 21512])
+Truncation parameter k= 6
+choosed solver: torch_cpu
+Full SVD time (s) spent : 3.5135789928026497
+Original Matrix shape : torch.Size([16, 21512])
+SVD (aka USVt) shape : torch.Size([16, 16]), 	, torch.Size([16]) 	 torch.Size([21512, 21512])
+Truncation parameter k= 6
+choosed solver: torch_cpu
+Full SVD time (s) spent : 5.702603551093489
+Original Matrix shape : torch.Size([24, 21512])
+SVD (aka USVt) shape : torch.Size([24, 24]), 	, torch.Size([24]) 	 torch.Size([21512, 21512])
+Truncation parameter k= 6
+choosed solver: torch_cpu
+Full SVD time (s) spent : 3.7030770261771977
+Original Matrix shape : torch.Size([16, 21512])
+SVD (aka USVt) shape : torch.Size([16, 16]), 	, torch.Size([16]) 	 torch.Size([21512, 21512])
+Truncation parameter k= 6
+choosed solver: torch_cpu
+Full SVD time (s) spent : 5.517676691059023
+Original Matrix shape : torch.Size([24, 21512])
+SVD (aka USVt) shape : torch.Size([24, 24]), 	, torch.Size([24]) 	 torch.Size([21512, 21512])
+Truncation parameter k= 6
+choosed solver: torch_cpu
+Full SVD time (s) spent : 3.529200233053416
+Original Matrix shape : torch.Size([16, 21512])
+SVD (aka USVt) shape : torch.Size([16, 16]), 	, torch.Size([16]) 	 torch.Size([21512, 21512])
+Truncation parameter k= 6
+choosed solver: torch_cpu
+Full SVD time (s) spent : 5.5921097989194095
+Original Matrix shape : torch.Size([24, 21512])
+SVD (aka USVt) shape : torch.Size([24, 24]), 	, torch.Size([24]) 	 torch.Size([21512, 21512])
+Truncation parameter k= 6
+choosed solver: torch_cpu
+Full SVD time (s) spent : 3.5076143885962665
+Original Matrix shape : torch.Size([16, 21512])
+SVD (aka USVt) shape : torch.Size([16, 16]), 	, torch.Size([16]) 	 torch.Size([21512, 21512])
+Truncation parameter k= 6
+choosed solver: torch_cpu
+Full SVD time (s) spent : 5.554264558013529
+Original Matrix shape : torch.Size([24, 21512])
+SVD (aka USVt) shape : torch.Size([24, 24]), 	, torch.Size([24]) 	 torch.Size([21512, 21512])
+Truncation parameter k= 6
+choosed solver: torch_cpu
+Full SVD time (s) spent : 3.515776982996613
+Original Matrix shape : torch.Size([16, 21512])
+SVD (aka USVt) shape : torch.Size([16, 16]), 	, torch.Size([16]) 	 torch.Size([21512, 21512])
+Truncation parameter k= 6
+choosed solver: torch_cpu
+Full SVD time (s) spent : 5.529183616861701
+Original Matrix shape : torch.Size([24, 21512])
+SVD (aka USVt) shape : torch.Size([24, 24]), 	, torch.Size([24]) 	 torch.Size([21512, 21512])
+Truncation parameter k= 6
+choosed solver: torch_cpu
+Full SVD time (s) spent : 3.507116725668311
+Original Matrix shape : torch.Size([16, 21512])
+SVD (aka USVt) shape : torch.Size([16, 16]), 	, torch.Size([16]) 	 torch.Size([21512, 21512])
+Truncation parameter k= 6
+choosed solver: torch_cpu
+Full SVD time (s) spent : 5.582933276891708
+Original Matrix shape : torch.Size([24, 21512])
+SVD (aka USVt) shape : torch.Size([24, 24]), 	, torch.Size([24]) 	 torch.Size([21512, 21512])
+Truncation parameter k= 6
+choosed solver: torch_cpu
+Full SVD time (s) spent : 3.5372588420286775
+Original Matrix shape : torch.Size([16, 21512])
+SVD (aka USVt) shape : torch.Size([16, 16]), 	, torch.Size([16]) 	 torch.Size([21512, 21512])
+Truncation parameter k= 6
+choosed solver: torch_cpu
+Full SVD time (s) spent : 5.493159248959273
+Original Matrix shape : torch.Size([24, 21512])
+SVD (aka USVt) shape : torch.Size([24, 24]), 	, torch.Size([24]) 	 torch.Size([21512, 21512])
+Truncation parameter k= 6
+choosed solver: torch_cpu
+Full SVD time (s) spent : 3.550406055059284
+Original Matrix shape : torch.Size([16, 21512])
+SVD (aka USVt) shape : torch.Size([16, 16]), 	, torch.Size([16]) 	 torch.Size([21512, 21512])
+Truncation parameter k= 6
+choosed solver: torch_cpu
+Full SVD time (s) spent : 5.52569440798834
+Original Matrix shape : torch.Size([24, 21512])
+SVD (aka USVt) shape : torch.Size([24, 24]), 	, torch.Size([24]) 	 torch.Size([21512, 21512])
+Truncation parameter k= 6
+choosed solver: torch_cpu
+Full SVD time (s) spent : 3.5412367810495198
+Original Matrix shape : torch.Size([16, 21512])
+SVD (aka USVt) shape : torch.Size([16, 16]), 	, torch.Size([16]) 	 torch.Size([21512, 21512])
+Truncation parameter k= 6
+choosed solver: torch_cpu
+Full SVD time (s) spent : 5.519018942955881
+Original Matrix shape : torch.Size([24, 21512])
+SVD (aka USVt) shape : torch.Size([24, 24]), 	, torch.Size([24]) 	 torch.Size([21512, 21512])
+Truncation parameter k= 6
+choosed solver: torch_cpu
+Full SVD time (s) spent : 3.499183997977525
+Original Matrix shape : torch.Size([16, 21512])
+SVD (aka USVt) shape : torch.Size([16, 16]), 	, torch.Size([16]) 	 torch.Size([21512, 21512])
+Truncation parameter k= 6
+choosed solver: torch_cpu
+Full SVD time (s) spent : 5.512417973950505
+Original Matrix shape : torch.Size([24, 21512])
+SVD (aka USVt) shape : torch.Size([24, 24]), 	, torch.Size([24]) 	 torch.Size([21512, 21512])
+Truncation parameter k= 6
+choosed solver: torch_cpu
+Full SVD time (s) spent : 3.500914396252483
+Original Matrix shape : torch.Size([16, 21512])
+SVD (aka USVt) shape : torch.Size([16, 16]), 	, torch.Size([16]) 	 torch.Size([21512, 21512])
+Truncation parameter k= 6
+choosed solver: torch_cpu
+Full SVD time (s) spent : 5.520198368933052
+Original Matrix shape : torch.Size([24, 21512])
+SVD (aka USVt) shape : torch.Size([24, 24]), 	, torch.Size([24]) 	 torch.Size([21512, 21512])
+Truncation parameter k= 6
+choosed solver: torch_cpu
+Full SVD time (s) spent : 3.493668117094785
+Original Matrix shape : torch.Size([16, 21512])
+SVD (aka USVt) shape : torch.Size([16, 16]), 	, torch.Size([16]) 	 torch.Size([21512, 21512])
+Truncation parameter k= 6
+choosed solver: torch_cpu
+Full SVD time (s) spent : 5.50294950325042
+Original Matrix shape : torch.Size([24, 21512])
+SVD (aka USVt) shape : torch.Size([24, 24]), 	, torch.Size([24]) 	 torch.Size([21512, 21512])
+Truncation parameter k= 6
+choosed solver: torch_cpu
+Full SVD time (s) spent : 3.5247142328880727
+Original Matrix shape : torch.Size([16, 21512])
+SVD (aka USVt) shape : torch.Size([16, 16]), 	, torch.Size([16]) 	 torch.Size([21512, 21512])
+Truncation parameter k= 6
+choosed solver: torch_cpu
+Full SVD time (s) spent : 5.549463960342109
+Original Matrix shape : torch.Size([24, 21512])
+SVD (aka USVt) shape : torch.Size([24, 24]), 	, torch.Size([24]) 	 torch.Size([21512, 21512])
+Truncation parameter k= 6
+choosed solver: torch_cpu
+Full SVD time (s) spent : 3.509639693889767
+Original Matrix shape : torch.Size([16, 21512])
+SVD (aka USVt) shape : torch.Size([16, 16]), 	, torch.Size([16]) 	 torch.Size([21512, 21512])
+Truncation parameter k= 6
+choosed solver: torch_cpu
+Full SVD time (s) spent : 5.500942557118833
+Original Matrix shape : torch.Size([24, 21512])
+SVD (aka USVt) shape : torch.Size([24, 24]), 	, torch.Size([24]) 	 torch.Size([21512, 21512])
+Truncation parameter k= 6
+choosed solver: torch_cpu
+Full SVD time (s) spent : 3.528156353160739
+Original Matrix shape : torch.Size([16, 21512])
+SVD (aka USVt) shape : torch.Size([16, 16]), 	, torch.Size([16]) 	 torch.Size([21512, 21512])
+Truncation parameter k= 6
+choosed solver: torch_cpu
+Full SVD time (s) spent : 5.552423250861466
+Original Matrix shape : torch.Size([24, 21512])
+SVD (aka USVt) shape : torch.Size([24, 24]), 	, torch.Size([24]) 	 torch.Size([21512, 21512])
+Truncation parameter k= 6
+choosed solver: torch_cpu
+Full SVD time (s) spent : 3.5364414202049375
+Original Matrix shape : torch.Size([16, 21512])
+SVD (aka USVt) shape : torch.Size([16, 16]), 	, torch.Size([16]) 	 torch.Size([21512, 21512])
+Truncation parameter k= 6
+choosed solver: torch_cpu
+Full SVD time (s) spent : 5.5213395757600665
+Original Matrix shape : torch.Size([24, 21512])
+SVD (aka USVt) shape : torch.Size([24, 24]), 	, torch.Size([24]) 	 torch.Size([21512, 21512])
+Truncation parameter k= 6
+choosed solver: torch_cpu
+Full SVD time (s) spent : 3.632866363041103
+Original Matrix shape : torch.Size([16, 21512])
+SVD (aka USVt) shape : torch.Size([16, 16]), 	, torch.Size([16]) 	 torch.Size([21512, 21512])
+Truncation parameter k= 6
+choosed solver: torch_cpu
+Full SVD time (s) spent : 5.5136586260050535
+Original Matrix shape : torch.Size([24, 21512])
+SVD (aka USVt) shape : torch.Size([24, 24]), 	, torch.Size([24]) 	 torch.Size([21512, 21512])
+Truncation parameter k= 6
+choosed solver: torch_cpu
+Full SVD time (s) spent : 3.504671834409237
+Original Matrix shape : torch.Size([16, 21512])
+SVD (aka USVt) shape : torch.Size([16, 16]), 	, torch.Size([16]) 	 torch.Size([21512, 21512])
+Truncation parameter k= 6
+choosed solver: torch_cpu
+Full SVD time (s) spent : 5.504646490793675
+Original Matrix shape : torch.Size([24, 21512])
+SVD (aka USVt) shape : torch.Size([24, 24]), 	, torch.Size([24]) 	 torch.Size([21512, 21512])
+Truncation parameter k= 6
+choosed solver: torch_cpu
+Full SVD time (s) spent : 3.4823416052386165
+Original Matrix shape : torch.Size([16, 21512])
+SVD (aka USVt) shape : torch.Size([16, 16]), 	, torch.Size([16]) 	 torch.Size([21512, 21512])
+Truncation parameter k= 6
+choosed solver: torch_cpu
+Full SVD time (s) spent : 5.545501345768571
+Original Matrix shape : torch.Size([24, 21512])
+SVD (aka USVt) shape : torch.Size([24, 24]), 	, torch.Size([24]) 	 torch.Size([21512, 21512])
+Truncation parameter k= 6
+choosed solver: torch_cpu
+Full SVD time (s) spent : 3.522071768064052
+Original Matrix shape : torch.Size([16, 21512])
+SVD (aka USVt) shape : torch.Size([16, 16]), 	, torch.Size([16]) 	 torch.Size([21512, 21512])
+Truncation parameter k= 6
+choosed solver: torch_cpu
+Full SVD time (s) spent : 5.512019819114357
+Original Matrix shape : torch.Size([24, 21512])
+SVD (aka USVt) shape : torch.Size([24, 24]), 	, torch.Size([24]) 	 torch.Size([21512, 21512])
+Truncation parameter k= 6
+choosed solver: torch_cpu
+Full SVD time (s) spent : 3.5208879499696195
+Original Matrix shape : torch.Size([16, 21512])
+SVD (aka USVt) shape : torch.Size([16, 16]), 	, torch.Size([16]) 	 torch.Size([21512, 21512])
+Truncation parameter k= 6
+choosed solver: torch_cpu
+Full SVD time (s) spent : 5.506043595261872
+Original Matrix shape : torch.Size([24, 21512])
+SVD (aka USVt) shape : torch.Size([24, 24]), 	, torch.Size([24]) 	 torch.Size([21512, 21512])
+Truncation parameter k= 6
+choosed solver: torch_cpu
+Full SVD time (s) spent : 3.5482993591576815
+Original Matrix shape : torch.Size([16, 21512])
+SVD (aka USVt) shape : torch.Size([16, 16]), 	, torch.Size([16]) 	 torch.Size([21512, 21512])
+Truncation parameter k= 6
+choosed solver: torch_cpu
+Full SVD time (s) spent : 5.565474252216518
+Original Matrix shape : torch.Size([24, 21512])
+SVD (aka USVt) shape : torch.Size([24, 24]), 	, torch.Size([24]) 	 torch.Size([21512, 21512])
+Truncation parameter k= 6
+choosed solver: torch_cpu
+Full SVD time (s) spent : 3.516079558059573
+Original Matrix shape : torch.Size([16, 21512])
+SVD (aka USVt) shape : torch.Size([16, 16]), 	, torch.Size([16]) 	 torch.Size([21512, 21512])
+Truncation parameter k= 6
+choosed solver: torch_cpu
+Full SVD time (s) spent : 5.624175664037466
+Original Matrix shape : torch.Size([24, 21512])
+SVD (aka USVt) shape : torch.Size([24, 24]), 	, torch.Size([24]) 	 torch.Size([21512, 21512])
+Truncation parameter k= 6
+choosed solver: torch_cpu
+Full SVD time (s) spent : 3.5344393490813673
+Original Matrix shape : torch.Size([16, 21512])
+SVD (aka USVt) shape : torch.Size([16, 16]), 	, torch.Size([16]) 	 torch.Size([21512, 21512])
+Truncation parameter k= 6
+choosed solver: torch_cpu
+Full SVD time (s) spent : 5.542566959746182
+Original Matrix shape : torch.Size([24, 21512])
+SVD (aka USVt) shape : torch.Size([24, 24]), 	, torch.Size([24]) 	 torch.Size([21512, 21512])
+Truncation parameter k= 6
+choosed solver: torch_cpu
+Full SVD time (s) spent : 3.530644520185888
+Original Matrix shape : torch.Size([16, 21512])
+SVD (aka USVt) shape : torch.Size([16, 16]), 	, torch.Size([16]) 	 torch.Size([21512, 21512])
+Truncation parameter k= 6
+choosed solver: torch_cpu
+Full SVD time (s) spent : 5.5442618182860315
+Original Matrix shape : torch.Size([24, 21512])
+SVD (aka USVt) shape : torch.Size([24, 24]), 	, torch.Size([24]) 	 torch.Size([21512, 21512])
+Truncation parameter k= 6
+choosed solver: torch_cpu
+Full SVD time (s) spent : 3.5528371017426252
+Original Matrix shape : torch.Size([16, 21512])
+SVD (aka USVt) shape : torch.Size([16, 16]), 	, torch.Size([16]) 	 torch.Size([21512, 21512])
+Truncation parameter k= 6
+choosed solver: torch_cpu
+Full SVD time (s) spent : 5.5401014387607574
+Original Matrix shape : torch.Size([24, 21512])
+SVD (aka USVt) shape : torch.Size([24, 24]), 	, torch.Size([24]) 	 torch.Size([21512, 21512])
+Truncation parameter k= 6
+choosed solver: torch_cpu
+Full SVD time (s) spent : 3.6327633168548346
+Original Matrix shape : torch.Size([16, 21512])
+SVD (aka USVt) shape : torch.Size([16, 16]), 	, torch.Size([16]) 	 torch.Size([21512, 21512])
+Truncation parameter k= 6
+choosed solver: torch_cpu
+Full SVD time (s) spent : 5.538221620954573
+Original Matrix shape : torch.Size([24, 21512])
+SVD (aka USVt) shape : torch.Size([24, 24]), 	, torch.Size([24]) 	 torch.Size([21512, 21512])
+Truncation parameter k= 6
+choosed solver: torch_cpu
+Full SVD time (s) spent : 3.4987575570121408
+Original Matrix shape : torch.Size([16, 21512])
+SVD (aka USVt) shape : torch.Size([16, 16]), 	, torch.Size([16]) 	 torch.Size([21512, 21512])
+Truncation parameter k= 6
+choosed solver: torch_cpu
+Full SVD time (s) spent : 5.526558729819953
+Original Matrix shape : torch.Size([24, 21512])
+SVD (aka USVt) shape : torch.Size([24, 24]), 	, torch.Size([24]) 	 torch.Size([21512, 21512])
+Truncation parameter k= 6
+choosed solver: torch_cpu
+Full SVD time (s) spent : 3.5250406321138144
+Original Matrix shape : torch.Size([16, 21512])
+SVD (aka USVt) shape : torch.Size([16, 16]), 	, torch.Size([16]) 	 torch.Size([21512, 21512])
+Truncation parameter k= 6
+choosed solver: torch_cpu
+Full SVD time (s) spent : 5.535332371015102
+Original Matrix shape : torch.Size([24, 21512])
+SVD (aka USVt) shape : torch.Size([24, 24]), 	, torch.Size([24]) 	 torch.Size([21512, 21512])
+Truncation parameter k= 6
+choosed solver: torch_cpu
+Full SVD time (s) spent : 3.5214499798603356
+Original Matrix shape : torch.Size([16, 21512])
+SVD (aka USVt) shape : torch.Size([16, 16]), 	, torch.Size([16]) 	 torch.Size([21512, 21512])
+Truncation parameter k= 6
+choosed solver: torch_cpu
+Full SVD time (s) spent : 5.527432783972472
+Original Matrix shape : torch.Size([24, 21512])
+SVD (aka USVt) shape : torch.Size([24, 24]), 	, torch.Size([24]) 	 torch.Size([21512, 21512])
+Truncation parameter k= 6
+choosed solver: torch_cpu
+Full SVD time (s) spent : 3.5313962819054723
+Original Matrix shape : torch.Size([16, 21512])
+SVD (aka USVt) shape : torch.Size([16, 16]), 	, torch.Size([16]) 	 torch.Size([21512, 21512])
+Truncation parameter k= 6
+choosed solver: torch_cpu
+Full SVD time (s) spent : 5.566530384123325
+Original Matrix shape : torch.Size([24, 21512])
+SVD (aka USVt) shape : torch.Size([24, 24]), 	, torch.Size([24]) 	 torch.Size([21512, 21512])
+Truncation parameter k= 6
+choosed solver: torch_cpu
+Full SVD time (s) spent : 3.524022350087762
+Original Matrix shape : torch.Size([16, 21512])
+SVD (aka USVt) shape : torch.Size([16, 16]), 	, torch.Size([16]) 	 torch.Size([21512, 21512])
+Truncation parameter k= 6
+choosed solver: torch_cpu
+Full SVD time (s) spent : 5.556851991917938
+Original Matrix shape : torch.Size([24, 21512])
+SVD (aka USVt) shape : torch.Size([24, 24]), 	, torch.Size([24]) 	 torch.Size([21512, 21512])
+Truncation parameter k= 6
+choosed solver: torch_cpu
+Full SVD time (s) spent : 3.512173779774457
+Original Matrix shape : torch.Size([16, 21512])
+SVD (aka USVt) shape : torch.Size([16, 16]), 	, torch.Size([16]) 	 torch.Size([21512, 21512])
+Truncation parameter k= 6
+choosed solver: torch_cpu
+Full SVD time (s) spent : 5.545890905894339
+Original Matrix shape : torch.Size([24, 21512])
+SVD (aka USVt) shape : torch.Size([24, 24]), 	, torch.Size([24]) 	 torch.Size([21512, 21512])
+Truncation parameter k= 6
+choosed solver: torch_cpu
+Full SVD time (s) spent : 3.512335784267634
+Original Matrix shape : torch.Size([16, 21512])
+SVD (aka USVt) shape : torch.Size([16, 16]), 	, torch.Size([16]) 	 torch.Size([21512, 21512])
+Truncation parameter k= 6
+choosed solver: torch_cpu
+Full SVD time (s) spent : 5.510170063003898
+Original Matrix shape : torch.Size([24, 21512])
+SVD (aka USVt) shape : torch.Size([24, 24]), 	, torch.Size([24]) 	 torch.Size([21512, 21512])
+Truncation parameter k= 6
+choosed solver: torch_cpu
+Full SVD time (s) spent : 3.5210275729186833
+Original Matrix shape : torch.Size([16, 21512])
+SVD (aka USVt) shape : torch.Size([16, 16]), 	, torch.Size([16]) 	 torch.Size([21512, 21512])
+Truncation parameter k= 6
+choosed solver: torch_cpu
+Full SVD time (s) spent : 5.540461893659085
+Original Matrix shape : torch.Size([24, 21512])
+SVD (aka USVt) shape : torch.Size([24, 24]), 	, torch.Size([24]) 	 torch.Size([21512, 21512])
+Truncation parameter k= 6
+choosed solver: torch_cpu
+Full SVD time (s) spent : 3.518346729222685
+Original Matrix shape : torch.Size([16, 21512])
+SVD (aka USVt) shape : torch.Size([16, 16]), 	, torch.Size([16]) 	 torch.Size([21512, 21512])
+Truncation parameter k= 6
+choosed solver: torch_cpu
+Full SVD time (s) spent : 5.523705291561782
+Original Matrix shape : torch.Size([24, 21512])
+SVD (aka USVt) shape : torch.Size([24, 24]), 	, torch.Size([24]) 	 torch.Size([21512, 21512])
+Truncation parameter k= 6
+choosed solver: torch_cpu
+Full SVD time (s) spent : 3.5141608458943665
+Original Matrix shape : torch.Size([16, 21512])
+SVD (aka USVt) shape : torch.Size([16, 16]), 	, torch.Size([16]) 	 torch.Size([21512, 21512])
+Truncation parameter k= 6
+choosed solver: torch_cpu
+Full SVD time (s) spent : 5.597924092784524
+Original Matrix shape : torch.Size([24, 21512])
+SVD (aka USVt) shape : torch.Size([24, 24]), 	, torch.Size([24]) 	 torch.Size([21512, 21512])
+Truncation parameter k= 6
+choosed solver: torch_cpu
+Full SVD time (s) spent : 3.5325065539218485
+Original Matrix shape : torch.Size([16, 21512])
+SVD (aka USVt) shape : torch.Size([16, 16]), 	, torch.Size([16]) 	 torch.Size([21512, 21512])
+Truncation parameter k= 6
+choosed solver: torch_cpu
+Full SVD time (s) spent : 5.605969842988998
+Original Matrix shape : torch.Size([24, 21512])
+SVD (aka USVt) shape : torch.Size([24, 24]), 	, torch.Size([24]) 	 torch.Size([21512, 21512])
+Truncation parameter k= 6
+choosed solver: torch_cpu
+Full SVD time (s) spent : 3.5241585900075734
+Original Matrix shape : torch.Size([16, 21512])
+SVD (aka USVt) shape : torch.Size([16, 16]), 	, torch.Size([16]) 	 torch.Size([21512, 21512])
+Truncation parameter k= 6
+choosed solver: torch_cpu
+Full SVD time (s) spent : 5.550513090100139
+Original Matrix shape : torch.Size([24, 21512])
+SVD (aka USVt) shape : torch.Size([24, 24]), 	, torch.Size([24]) 	 torch.Size([21512, 21512])
+Truncation parameter k= 6
+choosed solver: torch_cpu
+Full SVD time (s) spent : 3.6280428278259933
+Original Matrix shape : torch.Size([16, 21512])
+SVD (aka USVt) shape : torch.Size([16, 16]), 	, torch.Size([16]) 	 torch.Size([21512, 21512])
+Truncation parameter k= 6
+choosed solver: torch_cpu
+Full SVD time (s) spent : 5.5306219276972115
+Original Matrix shape : torch.Size([24, 21512])
+SVD (aka USVt) shape : torch.Size([24, 24]), 	, torch.Size([24]) 	 torch.Size([21512, 21512])
+Truncation parameter k= 6
+choosed solver: torch_cpu
+Full SVD time (s) spent : 3.575009599328041
+Original Matrix shape : torch.Size([16, 21512])
+SVD (aka USVt) shape : torch.Size([16, 16]), 	, torch.Size([16]) 	 torch.Size([21512, 21512])
+Truncation parameter k= 6
+choosed solver: torch_cpu
+Full SVD time (s) spent : 5.560436530970037
+Original Matrix shape : torch.Size([24, 21512])
+SVD (aka USVt) shape : torch.Size([24, 24]), 	, torch.Size([24]) 	 torch.Size([21512, 21512])
+Truncation parameter k= 6
+choosed solver: torch_cpu
+Full SVD time (s) spent : 3.5111111691221595
+Original Matrix shape : torch.Size([16, 21512])
+SVD (aka USVt) shape : torch.Size([16, 16]), 	, torch.Size([16]) 	 torch.Size([21512, 21512])
+Truncation parameter k= 6
+choosed solver: torch_cpu
+Full SVD time (s) spent : 5.548371308017522
+Original Matrix shape : torch.Size([24, 21512])
+SVD (aka USVt) shape : torch.Size([24, 24]), 	, torch.Size([24]) 	 torch.Size([21512, 21512])
+Truncation parameter k= 6
+choosed solver: torch_cpu
+Full SVD time (s) spent : 3.5195917589589953
+Original Matrix shape : torch.Size([16, 21512])
+SVD (aka USVt) shape : torch.Size([16, 16]), 	, torch.Size([16]) 	 torch.Size([21512, 21512])
+Truncation parameter k= 6
+choosed solver: torch_cpu
+Full SVD time (s) spent : 5.587404993828386
+Original Matrix shape : torch.Size([24, 21512])
+SVD (aka USVt) shape : torch.Size([24, 24]), 	, torch.Size([24]) 	 torch.Size([21512, 21512])
+Truncation parameter k= 6
+choosed solver: torch_cpu
+Full SVD time (s) spent : 5.4844859493896365
+Original Matrix shape : torch.Size([16, 21512])
+SVD (aka USVt) shape : torch.Size([16, 16]), 	, torch.Size([16]) 	 torch.Size([21512, 21512])
+Truncation parameter k= 6
+choosed solver: torch_cpu
+Full SVD time (s) spent : 5.715340408030897
+Original Matrix shape : torch.Size([24, 21512])
+SVD (aka USVt) shape : torch.Size([24, 24]), 	, torch.Size([24]) 	 torch.Size([21512, 21512])
+Truncation parameter k= 6
+choosed solver: torch_cpu
+Full SVD time (s) spent : 3.5567832067608833
+Original Matrix shape : torch.Size([16, 21512])
+SVD (aka USVt) shape : torch.Size([16, 16]), 	, torch.Size([16]) 	 torch.Size([21512, 21512])
+Truncation parameter k= 6
+choosed solver: torch_cpu
+Full SVD time (s) spent : 5.68077092198655
+Original Matrix shape : torch.Size([24, 21512])
+SVD (aka USVt) shape : torch.Size([24, 24]), 	, torch.Size([24]) 	 torch.Size([21512, 21512])
+Truncation parameter k= 6
+choosed solver: torch_cpu
+Full SVD time (s) spent : 3.5422089360654354
+Original Matrix shape : torch.Size([16, 21512])
+SVD (aka USVt) shape : torch.Size([16, 16]), 	, torch.Size([16]) 	 torch.Size([21512, 21512])
+Truncation parameter k= 6
+choosed solver: torch_cpu
+Full SVD time (s) spent : 5.566390836145729
+Original Matrix shape : torch.Size([24, 21512])
+SVD (aka USVt) shape : torch.Size([24, 24]), 	, torch.Size([24]) 	 torch.Size([21512, 21512])
+Truncation parameter k= 6
+choosed solver: torch_cpu
+Full SVD time (s) spent : 3.5373175432905555
+Original Matrix shape : torch.Size([16, 21512])
+SVD (aka USVt) shape : torch.Size([16, 16]), 	, torch.Size([16]) 	 torch.Size([21512, 21512])
+Truncation parameter k= 6
+choosed solver: torch_cpu
+Full SVD time (s) spent : 5.716121991630644
+Original Matrix shape : torch.Size([24, 21512])
+SVD (aka USVt) shape : torch.Size([24, 24]), 	, torch.Size([24]) 	 torch.Size([21512, 21512])
+Truncation parameter k= 6
+choosed solver: torch_cpu
+Full SVD time (s) spent : 3.5651328428648412
+Original Matrix shape : torch.Size([16, 21512])
+SVD (aka USVt) shape : torch.Size([16, 16]), 	, torch.Size([16]) 	 torch.Size([21512, 21512])
+Truncation parameter k= 6
+choosed solver: torch_cpu
+Full SVD time (s) spent : 5.529262793716043
+Original Matrix shape : torch.Size([24, 21512])
+SVD (aka USVt) shape : torch.Size([24, 24]), 	, torch.Size([24]) 	 torch.Size([21512, 21512])
+Truncation parameter k= 6
+choosed solver: torch_cpu
+Full SVD time (s) spent : 3.5358295561745763
+Original Matrix shape : torch.Size([16, 21512])
+SVD (aka USVt) shape : torch.Size([16, 16]), 	, torch.Size([16]) 	 torch.Size([21512, 21512])
+Truncation parameter k= 6
+choosed solver: torch_cpu
+Full SVD time (s) spent : 5.632174463942647
+Original Matrix shape : torch.Size([24, 21512])
+SVD (aka USVt) shape : torch.Size([24, 24]), 	, torch.Size([24]) 	 torch.Size([21512, 21512])
+Truncation parameter k= 6
+choosed solver: torch_cpu
+Full SVD time (s) spent : 3.549815794918686
+Original Matrix shape : torch.Size([16, 21512])
+SVD (aka USVt) shape : torch.Size([16, 16]), 	, torch.Size([16]) 	 torch.Size([21512, 21512])
+Truncation parameter k= 6
+choosed solver: torch_cpu
+Full SVD time (s) spent : 5.612415976356715
+Original Matrix shape : torch.Size([24, 21512])
+SVD (aka USVt) shape : torch.Size([24, 24]), 	, torch.Size([24]) 	 torch.Size([21512, 21512])
+Truncation parameter k= 6
+choosed solver: torch_cpu
+Full SVD time (s) spent : 3.5358842541463673
+Original Matrix shape : torch.Size([16, 21512])
+SVD (aka USVt) shape : torch.Size([16, 16]), 	, torch.Size([16]) 	 torch.Size([21512, 21512])
+Truncation parameter k= 6
+choosed solver: torch_cpu
+Full SVD time (s) spent : 5.575218194629997
+Original Matrix shape : torch.Size([24, 21512])
+SVD (aka USVt) shape : torch.Size([24, 24]), 	, torch.Size([24]) 	 torch.Size([21512, 21512])
+Truncation parameter k= 6
+choosed solver: torch_cpu
+Full SVD time (s) spent : 3.5443001170642674
+Original Matrix shape : torch.Size([16, 21512])
+SVD (aka USVt) shape : torch.Size([16, 16]), 	, torch.Size([16]) 	 torch.Size([21512, 21512])
+Truncation parameter k= 6
+choosed solver: torch_cpu
+Full SVD time (s) spent : 5.697687118314207
+Original Matrix shape : torch.Size([24, 21512])
+SVD (aka USVt) shape : torch.Size([24, 24]), 	, torch.Size([24]) 	 torch.Size([21512, 21512])
+Truncation parameter k= 6
+choosed solver: torch_cpu
+Full SVD time (s) spent : 3.5162965110503137
+Original Matrix shape : torch.Size([16, 21512])
+SVD (aka USVt) shape : torch.Size([16, 16]), 	, torch.Size([16]) 	 torch.Size([21512, 21512])
+Truncation parameter k= 6
+choosed solver: torch_cpu
+Full SVD time (s) spent : 5.593990444205701
+Original Matrix shape : torch.Size([24, 21512])
+SVD (aka USVt) shape : torch.Size([24, 24]), 	, torch.Size([24]) 	 torch.Size([21512, 21512])
+Truncation parameter k= 6
+choosed solver: torch_cpu
+Full SVD time (s) spent : 3.532954581081867
+Original Matrix shape : torch.Size([16, 21512])
+SVD (aka USVt) shape : torch.Size([16, 16]), 	, torch.Size([16]) 	 torch.Size([21512, 21512])
+Truncation parameter k= 6
+choosed solver: torch_cpu
+Full SVD time (s) spent : 5.564462241251022
+Original Matrix shape : torch.Size([24, 21512])
+SVD (aka USVt) shape : torch.Size([24, 24]), 	, torch.Size([24]) 	 torch.Size([21512, 21512])
+Truncation parameter k= 6
+choosed solver: torch_cpu
+Full SVD time (s) spent : 3.646441122982651
+Original Matrix shape : torch.Size([16, 21512])
+SVD (aka USVt) shape : torch.Size([16, 16]), 	, torch.Size([16]) 	 torch.Size([21512, 21512])
+Truncation parameter k= 6
+choosed solver: torch_cpu
+Full SVD time (s) spent : 5.5273474478162825
+Original Matrix shape : torch.Size([24, 21512])
+SVD (aka USVt) shape : torch.Size([24, 24]), 	, torch.Size([24]) 	 torch.Size([21512, 21512])
+Truncation parameter k= 6
+choosed solver: torch_cpu
+Full SVD time (s) spent : 3.5083853998221457
+Original Matrix shape : torch.Size([16, 21512])
+SVD (aka USVt) shape : torch.Size([16, 16]), 	, torch.Size([16]) 	 torch.Size([21512, 21512])
+Truncation parameter k= 6
+choosed solver: torch_cpu
+Full SVD time (s) spent : 5.520936912856996
+Original Matrix shape : torch.Size([24, 21512])
+SVD (aka USVt) shape : torch.Size([24, 24]), 	, torch.Size([24]) 	 torch.Size([21512, 21512])
+Truncation parameter k= 6
+choosed solver: torch_cpu
+Full SVD time (s) spent : 3.541717055719346
+Original Matrix shape : torch.Size([16, 21512])
+SVD (aka USVt) shape : torch.Size([16, 16]), 	, torch.Size([16]) 	 torch.Size([21512, 21512])
+Truncation parameter k= 6
+choosed solver: torch_cpu
+Full SVD time (s) spent : 5.540381337981671
+Original Matrix shape : torch.Size([24, 21512])
+SVD (aka USVt) shape : torch.Size([24, 24]), 	, torch.Size([24]) 	 torch.Size([21512, 21512])
+Truncation parameter k= 6
+choosed solver: torch_cpu
+Full SVD time (s) spent : 3.5493482872843742
+Original Matrix shape : torch.Size([16, 21512])
+SVD (aka USVt) shape : torch.Size([16, 16]), 	, torch.Size([16]) 	 torch.Size([21512, 21512])
+Truncation parameter k= 6
+choosed solver: torch_cpu
+Full SVD time (s) spent : 5.533225786872208
+Original Matrix shape : torch.Size([24, 21512])
+SVD (aka USVt) shape : torch.Size([24, 24]), 	, torch.Size([24]) 	 torch.Size([21512, 21512])
+Truncation parameter k= 6
+choosed solver: torch_cpu
+Full SVD time (s) spent : 3.5162036810070276
+Original Matrix shape : torch.Size([16, 21512])
+SVD (aka USVt) shape : torch.Size([16, 16]), 	, torch.Size([16]) 	 torch.Size([21512, 21512])
+Truncation parameter k= 6
+choosed solver: torch_cpu
+Full SVD time (s) spent : 5.521359314210713
+Original Matrix shape : torch.Size([24, 21512])
+SVD (aka USVt) shape : torch.Size([24, 24]), 	, torch.Size([24]) 	 torch.Size([21512, 21512])
+Truncation parameter k= 6
+choosed solver: torch_cpu
+Full SVD time (s) spent : 3.542750770226121
+Original Matrix shape : torch.Size([16, 21512])
+SVD (aka USVt) shape : torch.Size([16, 16]), 	, torch.Size([16]) 	 torch.Size([21512, 21512])
+Truncation parameter k= 6
+choosed solver: torch_cpu
+Full SVD time (s) spent : 5.5543689536862075
+Original Matrix shape : torch.Size([24, 21512])
+SVD (aka USVt) shape : torch.Size([24, 24]), 	, torch.Size([24]) 	 torch.Size([21512, 21512])
+Truncation parameter k= 6
+choosed solver: torch_cpu
+Full SVD time (s) spent : 3.549697872251272
+Original Matrix shape : torch.Size([16, 21512])
+SVD (aka USVt) shape : torch.Size([16, 16]), 	, torch.Size([16]) 	 torch.Size([21512, 21512])
+Truncation parameter k= 6
+choosed solver: torch_cpu
+Full SVD time (s) spent : 5.551742614246905
+Original Matrix shape : torch.Size([24, 21512])
+SVD (aka USVt) shape : torch.Size([24, 24]), 	, torch.Size([24]) 	 torch.Size([21512, 21512])
+Truncation parameter k= 6
+choosed solver: torch_cpu
+Full SVD time (s) spent : 3.6017791596241295
+Original Matrix shape : torch.Size([16, 21512])
+SVD (aka USVt) shape : torch.Size([16, 16]), 	, torch.Size([16]) 	 torch.Size([21512, 21512])
+Truncation parameter k= 6
+choosed solver: torch_cpu
+Full SVD time (s) spent : 5.530113353859633
+Original Matrix shape : torch.Size([24, 21512])
+SVD (aka USVt) shape : torch.Size([24, 24]), 	, torch.Size([24]) 	 torch.Size([21512, 21512])
+Truncation parameter k= 6
+choosed solver: torch_cpu
+Full SVD time (s) spent : 3.5537927797995508
+Original Matrix shape : torch.Size([16, 21512])
+SVD (aka USVt) shape : torch.Size([16, 16]), 	, torch.Size([16]) 	 torch.Size([21512, 21512])
+Truncation parameter k= 6
+choosed solver: torch_cpu
+Full SVD time (s) spent : 5.531677642837167
+Original Matrix shape : torch.Size([24, 21512])
+SVD (aka USVt) shape : torch.Size([24, 24]), 	, torch.Size([24]) 	 torch.Size([21512, 21512])
+Truncation parameter k= 6
+choosed solver: torch_cpu
+Full SVD time (s) spent : 3.9667941029183567
+Original Matrix shape : torch.Size([16, 21512])
+SVD (aka USVt) shape : torch.Size([16, 16]), 	, torch.Size([16]) 	 torch.Size([21512, 21512])
+Truncation parameter k= 6
+choosed solver: torch_cpu
+Full SVD time (s) spent : 5.853481368161738
+Original Matrix shape : torch.Size([24, 21512])
+SVD (aka USVt) shape : torch.Size([24, 24]), 	, torch.Size([24]) 	 torch.Size([21512, 21512])
+Truncation parameter k= 6
+choosed solver: torch_cpu
+Full SVD time (s) spent : 3.533977954182774
+Original Matrix shape : torch.Size([16, 21512])
+SVD (aka USVt) shape : torch.Size([16, 16]), 	, torch.Size([16]) 	 torch.Size([21512, 21512])
+Truncation parameter k= 6
+choosed solver: torch_cpu
+Full SVD time (s) spent : 5.733515997882932
+Original Matrix shape : torch.Size([24, 21512])
+SVD (aka USVt) shape : torch.Size([24, 24]), 	, torch.Size([24]) 	 torch.Size([21512, 21512])
+Truncation parameter k= 6
+choosed solver: torch_cpu
+Full SVD time (s) spent : 3.532345261890441
+Original Matrix shape : torch.Size([16, 21512])
+SVD (aka USVt) shape : torch.Size([16, 16]), 	, torch.Size([16]) 	 torch.Size([21512, 21512])
+Truncation parameter k= 6
+choosed solver: torch_cpu
+Full SVD time (s) spent : 5.721033793874085
+Original Matrix shape : torch.Size([24, 21512])
+SVD (aka USVt) shape : torch.Size([24, 24]), 	, torch.Size([24]) 	 torch.Size([21512, 21512])
+Truncation parameter k= 6
+choosed solver: torch_cpu
+Full SVD time (s) spent : 3.570429915096611
+Original Matrix shape : torch.Size([16, 21512])
+SVD (aka USVt) shape : torch.Size([16, 16]), 	, torch.Size([16]) 	 torch.Size([21512, 21512])
+Truncation parameter k= 6
+choosed solver: torch_cpu
+Full SVD time (s) spent : 5.537376820109785
+Original Matrix shape : torch.Size([24, 21512])
+SVD (aka USVt) shape : torch.Size([24, 24]), 	, torch.Size([24]) 	 torch.Size([21512, 21512])
+Truncation parameter k= 6
+choosed solver: torch_cpu
+Full SVD time (s) spent : 3.539027246180922
+Original Matrix shape : torch.Size([16, 21512])
+SVD (aka USVt) shape : torch.Size([16, 16]), 	, torch.Size([16]) 	 torch.Size([21512, 21512])
+Truncation parameter k= 6
+choosed solver: torch_cpu
+Full SVD time (s) spent : 5.664567281957716
+Original Matrix shape : torch.Size([24, 21512])
+SVD (aka USVt) shape : torch.Size([24, 24]), 	, torch.Size([24]) 	 torch.Size([21512, 21512])
+Truncation parameter k= 6
+choosed solver: torch_cpu
+Full SVD time (s) spent : 3.54149273596704
+Original Matrix shape : torch.Size([16, 21512])
+SVD (aka USVt) shape : torch.Size([16, 16]), 	, torch.Size([16]) 	 torch.Size([21512, 21512])
+Truncation parameter k= 6
+choosed solver: torch_cpu
+Full SVD time (s) spent : 5.537636884953827
+Original Matrix shape : torch.Size([24, 21512])
+SVD (aka USVt) shape : torch.Size([24, 24]), 	, torch.Size([24]) 	 torch.Size([21512, 21512])
+Truncation parameter k= 6
+choosed solver: torch_cpu
+Full SVD time (s) spent : 3.5730363558977842
+Original Matrix shape : torch.Size([16, 21512])
+SVD (aka USVt) shape : torch.Size([16, 16]), 	, torch.Size([16]) 	 torch.Size([21512, 21512])
+Truncation parameter k= 6
+choosed solver: torch_cpu
+Full SVD time (s) spent : 5.526116908062249
+Original Matrix shape : torch.Size([24, 21512])
+SVD (aka USVt) shape : torch.Size([24, 24]), 	, torch.Size([24]) 	 torch.Size([21512, 21512])
+Truncation parameter k= 6
+choosed solver: torch_cpu
+Full SVD time (s) spent : 3.523820395115763
+Original Matrix shape : torch.Size([16, 21512])
+SVD (aka USVt) shape : torch.Size([16, 16]), 	, torch.Size([16]) 	 torch.Size([21512, 21512])
+Truncation parameter k= 6
+choosed solver: torch_cpu
+Full SVD time (s) spent : 5.488275553565472
+Original Matrix shape : torch.Size([24, 21512])
+SVD (aka USVt) shape : torch.Size([24, 24]), 	, torch.Size([24]) 	 torch.Size([21512, 21512])
+Truncation parameter k= 6
+choosed solver: torch_cpu
+Full SVD time (s) spent : 3.525779652874917
+Original Matrix shape : torch.Size([16, 21512])
+SVD (aka USVt) shape : torch.Size([16, 16]), 	, torch.Size([16]) 	 torch.Size([21512, 21512])
+Truncation parameter k= 6
+choosed solver: torch_cpu
+Full SVD time (s) spent : 5.66973443608731
+Original Matrix shape : torch.Size([24, 21512])
+SVD (aka USVt) shape : torch.Size([24, 24]), 	, torch.Size([24]) 	 torch.Size([21512, 21512])
+Truncation parameter k= 6
+choosed solver: torch_cpu
+Full SVD time (s) spent : 3.534296360332519
+Original Matrix shape : torch.Size([16, 21512])
+SVD (aka USVt) shape : torch.Size([16, 16]), 	, torch.Size([16]) 	 torch.Size([21512, 21512])
+Truncation parameter k= 6
+choosed solver: torch_cpu
+Full SVD time (s) spent : 5.536994010210037
+Original Matrix shape : torch.Size([24, 21512])
+SVD (aka USVt) shape : torch.Size([24, 24]), 	, torch.Size([24]) 	 torch.Size([21512, 21512])
+Truncation parameter k= 6
+choosed solver: torch_cpu
+Full SVD time (s) spent : 3.964115507900715
+Original Matrix shape : torch.Size([16, 21512])
+SVD (aka USVt) shape : torch.Size([16, 16]), 	, torch.Size([16]) 	 torch.Size([21512, 21512])
+Truncation parameter k= 6
+choosed solver: torch_cpu
+Full SVD time (s) spent : 5.716906972229481
+Original Matrix shape : torch.Size([24, 21512])
+SVD (aka USVt) shape : torch.Size([24, 24]), 	, torch.Size([24]) 	 torch.Size([21512, 21512])
+Truncation parameter k= 6
+choosed solver: torch_cpu
+Full SVD time (s) spent : 3.5231387559324503
+Original Matrix shape : torch.Size([16, 21512])
+SVD (aka USVt) shape : torch.Size([16, 16]), 	, torch.Size([16]) 	 torch.Size([21512, 21512])
+Truncation parameter k= 6
+choosed solver: torch_cpu
+Full SVD time (s) spent : 5.811706867069006
+Original Matrix shape : torch.Size([24, 21512])
+SVD (aka USVt) shape : torch.Size([24, 24]), 	, torch.Size([24]) 	 torch.Size([21512, 21512])
+Truncation parameter k= 6
+choosed solver: torch_cpu
+Full SVD time (s) spent : 3.523802876006812
+Original Matrix shape : torch.Size([16, 21512])
+SVD (aka USVt) shape : torch.Size([16, 16]), 	, torch.Size([16]) 	 torch.Size([21512, 21512])
+Truncation parameter k= 6
+choosed solver: torch_cpu
+Full SVD time (s) spent : 5.862212006002665
+Original Matrix shape : torch.Size([24, 21512])
+SVD (aka USVt) shape : torch.Size([24, 24]), 	, torch.Size([24]) 	 torch.Size([21512, 21512])
+Truncation parameter k= 6
+choosed solver: torch_cpu
+Full SVD time (s) spent : 3.9031499340198934
+Original Matrix shape : torch.Size([16, 21512])
+SVD (aka USVt) shape : torch.Size([16, 16]), 	, torch.Size([16]) 	 torch.Size([21512, 21512])
+Truncation parameter k= 6
+choosed solver: torch_cpu
+Full SVD time (s) spent : 5.568341608159244
+Original Matrix shape : torch.Size([24, 21512])
+SVD (aka USVt) shape : torch.Size([24, 24]), 	, torch.Size([24]) 	 torch.Size([21512, 21512])
+Truncation parameter k= 6
+choosed solver: torch_cpu
+Full SVD time (s) spent : 3.676950622815639
+Original Matrix shape : torch.Size([16, 21512])
+SVD (aka USVt) shape : torch.Size([16, 16]), 	, torch.Size([16]) 	 torch.Size([21512, 21512])
+Truncation parameter k= 6
+choosed solver: torch_cpu
+Full SVD time (s) spent : 5.538460623007268
+Original Matrix shape : torch.Size([24, 21512])
+SVD (aka USVt) shape : torch.Size([24, 24]), 	, torch.Size([24]) 	 torch.Size([21512, 21512])
+Truncation parameter k= 6
+choosed solver: torch_cpu
+Full SVD time (s) spent : 3.5232292162254453
+Original Matrix shape : torch.Size([16, 21512])
+SVD (aka USVt) shape : torch.Size([16, 16]), 	, torch.Size([16]) 	 torch.Size([21512, 21512])
+Truncation parameter k= 6
+choosed solver: torch_cpu
+Full SVD time (s) spent : 5.667995420284569
+Original Matrix shape : torch.Size([24, 21512])
+SVD (aka USVt) shape : torch.Size([24, 24]), 	, torch.Size([24]) 	 torch.Size([21512, 21512])
+Truncation parameter k= 6
+choosed solver: torch_cpu
+Full SVD time (s) spent : 3.611815628129989
+Original Matrix shape : torch.Size([16, 21512])
+SVD (aka USVt) shape : torch.Size([16, 16]), 	, torch.Size([16]) 	 torch.Size([21512, 21512])
+Truncation parameter k= 6
+choosed solver: torch_cpu
+Full SVD time (s) spent : 5.472766186110675
+Original Matrix shape : torch.Size([24, 21512])
+SVD (aka USVt) shape : torch.Size([24, 24]), 	, torch.Size([24]) 	 torch.Size([21512, 21512])
+Truncation parameter k= 6
+choosed solver: torch_cpu
+Full SVD time (s) spent : 3.5100497691892087
+Original Matrix shape : torch.Size([16, 21512])
+SVD (aka USVt) shape : torch.Size([16, 16]), 	, torch.Size([16]) 	 torch.Size([21512, 21512])
+Truncation parameter k= 6
+choosed solver: torch_cpu
+Full SVD time (s) spent : 5.598276232369244
+Original Matrix shape : torch.Size([24, 21512])
+SVD (aka USVt) shape : torch.Size([24, 24]), 	, torch.Size([24]) 	 torch.Size([21512, 21512])
+Truncation parameter k= 6
+choosed solver: torch_cpu
+Full SVD time (s) spent : 3.517952924128622
+Original Matrix shape : torch.Size([16, 21512])
+SVD (aka USVt) shape : torch.Size([16, 16]), 	, torch.Size([16]) 	 torch.Size([21512, 21512])
+Truncation parameter k= 6
+choosed solver: torch_cpu
+Full SVD time (s) spent : 5.566857838071883
+Original Matrix shape : torch.Size([24, 21512])
+SVD (aka USVt) shape : torch.Size([24, 24]), 	, torch.Size([24]) 	 torch.Size([21512, 21512])
+Truncation parameter k= 6
+choosed solver: torch_cpu
+Full SVD time (s) spent : 3.495038505643606
+Original Matrix shape : torch.Size([16, 21512])
+SVD (aka USVt) shape : torch.Size([16, 16]), 	, torch.Size([16]) 	 torch.Size([21512, 21512])
+Truncation parameter k= 6
+choosed solver: torch_cpu
+Full SVD time (s) spent : 5.546033693943173
+Original Matrix shape : torch.Size([24, 21512])
+SVD (aka USVt) shape : torch.Size([24, 24]), 	, torch.Size([24]) 	 torch.Size([21512, 21512])
+Truncation parameter k= 6
+choosed solver: torch_cpu
+Full SVD time (s) spent : 3.5121392449364066
+Original Matrix shape : torch.Size([16, 21512])
+SVD (aka USVt) shape : torch.Size([16, 16]), 	, torch.Size([16]) 	 torch.Size([21512, 21512])
+Truncation parameter k= 6
+choosed solver: torch_cpu
+Full SVD time (s) spent : 5.605429144110531
+Original Matrix shape : torch.Size([24, 21512])
+SVD (aka USVt) shape : torch.Size([24, 24]), 	, torch.Size([24]) 	 torch.Size([21512, 21512])
+Truncation parameter k= 6
+choosed solver: torch_cpu
+Full SVD time (s) spent : 3.5399168422445655
+Original Matrix shape : torch.Size([16, 21512])
+SVD (aka USVt) shape : torch.Size([16, 16]), 	, torch.Size([16]) 	 torch.Size([21512, 21512])
+Truncation parameter k= 6
+choosed solver: torch_cpu
+Full SVD time (s) spent : 5.578616893850267
+Original Matrix shape : torch.Size([24, 21512])
+SVD (aka USVt) shape : torch.Size([24, 24]), 	, torch.Size([24]) 	 torch.Size([21512, 21512])
+Truncation parameter k= 6
+Average Time for 100 iterations with torch_cpu method is 4.581879749810323
+choosed solver: torch_cpu
+Full SVD time (s) spent : 17.250055279117078
+Original Matrix shape : torch.Size([16, 48804])
+SVD (aka USVt) shape : torch.Size([16, 16]), 	, torch.Size([16]) 	 torch.Size([48804, 48804])
+Truncation parameter k= 6
+choosed solver: torch_cpu
+Full SVD time (s) spent : 27.901093104854226
+Original Matrix shape : torch.Size([24, 48804])
+SVD (aka USVt) shape : torch.Size([24, 24]), 	, torch.Size([24]) 	 torch.Size([48804, 48804])
+Truncation parameter k= 6
+choosed solver: torch_cpu
+Full SVD time (s) spent : 18.982328365091234
+Original Matrix shape : torch.Size([16, 48804])
+SVD (aka USVt) shape : torch.Size([16, 16]), 	, torch.Size([16]) 	 torch.Size([48804, 48804])
+Truncation parameter k= 6
+choosed solver: torch_cpu
+Full SVD time (s) spent : 28.40673790546134
+Original Matrix shape : torch.Size([24, 48804])
+SVD (aka USVt) shape : torch.Size([24, 24]), 	, torch.Size([24]) 	 torch.Size([48804, 48804])
+Truncation parameter k= 6
+choosed solver: torch_cpu
+Full SVD time (s) spent : 17.538419922813773
+Original Matrix shape : torch.Size([16, 48804])
+SVD (aka USVt) shape : torch.Size([16, 16]), 	, torch.Size([16]) 	 torch.Size([48804, 48804])
+Truncation parameter k= 6
+choosed solver: torch_cpu
+Full SVD time (s) spent : 27.216327658854425
+Original Matrix shape : torch.Size([24, 48804])
+SVD (aka USVt) shape : torch.Size([24, 24]), 	, torch.Size([24]) 	 torch.Size([48804, 48804])
+Truncation parameter k= 6
+choosed solver: torch_cpu
+Full SVD time (s) spent : 17.123959294054657
+Original Matrix shape : torch.Size([16, 48804])
+SVD (aka USVt) shape : torch.Size([16, 16]), 	, torch.Size([16]) 	 torch.Size([48804, 48804])
+Truncation parameter k= 6
+choosed solver: torch_cpu
+Full SVD time (s) spent : 27.085618573240936
+Original Matrix shape : torch.Size([24, 48804])
+SVD (aka USVt) shape : torch.Size([24, 24]), 	, torch.Size([24]) 	 torch.Size([48804, 48804])
+Truncation parameter k= 6
+choosed solver: torch_cpu
+Full SVD time (s) spent : 17.10719681205228
+Original Matrix shape : torch.Size([16, 48804])
+SVD (aka USVt) shape : torch.Size([16, 16]), 	, torch.Size([16]) 	 torch.Size([48804, 48804])
+Truncation parameter k= 6
+choosed solver: torch_cpu
+Full SVD time (s) spent : 28.13679560041055
+Original Matrix shape : torch.Size([24, 48804])
+SVD (aka USVt) shape : torch.Size([24, 24]), 	, torch.Size([24]) 	 torch.Size([48804, 48804])
+Truncation parameter k= 6
+choosed solver: torch_cpu
+Full SVD time (s) spent : 17.250441736076027
+Original Matrix shape : torch.Size([16, 48804])
+SVD (aka USVt) shape : torch.Size([16, 16]), 	, torch.Size([16]) 	 torch.Size([48804, 48804])
+Truncation parameter k= 6
+choosed solver: torch_cpu
+Full SVD time (s) spent : 28.193673954810947
+Original Matrix shape : torch.Size([24, 48804])
+SVD (aka USVt) shape : torch.Size([24, 24]), 	, torch.Size([24]) 	 torch.Size([48804, 48804])
+Truncation parameter k= 6
+choosed solver: torch_cpu
+Full SVD time (s) spent : 17.382152513135225
+Original Matrix shape : torch.Size([16, 48804])
+SVD (aka USVt) shape : torch.Size([16, 16]), 	, torch.Size([16]) 	 torch.Size([48804, 48804])
+Truncation parameter k= 6
+choosed solver: torch_cpu
+Full SVD time (s) spent : 27.797272036783397
+Original Matrix shape : torch.Size([24, 48804])
+SVD (aka USVt) shape : torch.Size([24, 24]), 	, torch.Size([24]) 	 torch.Size([48804, 48804])
+Truncation parameter k= 6
+choosed solver: torch_cpu
+Full SVD time (s) spent : 18.190795497968793
+Original Matrix shape : torch.Size([16, 48804])
+SVD (aka USVt) shape : torch.Size([16, 16]), 	, torch.Size([16]) 	 torch.Size([48804, 48804])
+Truncation parameter k= 6
+choosed solver: torch_cpu
+Full SVD time (s) spent : 27.71449877601117
+Original Matrix shape : torch.Size([24, 48804])
+SVD (aka USVt) shape : torch.Size([24, 24]), 	, torch.Size([24]) 	 torch.Size([48804, 48804])
+Truncation parameter k= 6
+choosed solver: torch_cpu
+Full SVD time (s) spent : 17.09125321963802
+Original Matrix shape : torch.Size([16, 48804])
+SVD (aka USVt) shape : torch.Size([16, 16]), 	, torch.Size([16]) 	 torch.Size([48804, 48804])
+Truncation parameter k= 6
+choosed solver: torch_cpu
+Full SVD time (s) spent : 27.473471102304757
+Original Matrix shape : torch.Size([24, 48804])
+SVD (aka USVt) shape : torch.Size([24, 24]), 	, torch.Size([24]) 	 torch.Size([48804, 48804])
+Truncation parameter k= 6
+choosed solver: torch_cpu
+Full SVD time (s) spent : 17.804230875801295
+Original Matrix shape : torch.Size([16, 48804])
+SVD (aka USVt) shape : torch.Size([16, 16]), 	, torch.Size([16]) 	 torch.Size([48804, 48804])
+Truncation parameter k= 6
+choosed solver: torch_cpu
+Full SVD time (s) spent : 28.022809523157775
+Original Matrix shape : torch.Size([24, 48804])
+SVD (aka USVt) shape : torch.Size([24, 24]), 	, torch.Size([24]) 	 torch.Size([48804, 48804])
+Truncation parameter k= 6
+choosed solver: torch_cpu
+Full SVD time (s) spent : 22.143772991839796
+Original Matrix shape : torch.Size([16, 48804])
+SVD (aka USVt) shape : torch.Size([16, 16]), 	, torch.Size([16]) 	 torch.Size([48804, 48804])
+Truncation parameter k= 6
+choosed solver: torch_cpu
+Full SVD time (s) spent : 29.042674154043198
+Original Matrix shape : torch.Size([24, 48804])
+SVD (aka USVt) shape : torch.Size([24, 24]), 	, torch.Size([24]) 	 torch.Size([48804, 48804])
+Truncation parameter k= 6
+choosed solver: torch_cpu
+Full SVD time (s) spent : 18.238802961073816
+Original Matrix shape : torch.Size([16, 48804])
+SVD (aka USVt) shape : torch.Size([16, 16]), 	, torch.Size([16]) 	 torch.Size([48804, 48804])
+Truncation parameter k= 6
+choosed solver: torch_cpu
+Full SVD time (s) spent : 28.164789305999875
+Original Matrix shape : torch.Size([24, 48804])
+SVD (aka USVt) shape : torch.Size([24, 24]), 	, torch.Size([24]) 	 torch.Size([48804, 48804])
+Truncation parameter k= 6
+choosed solver: torch_cpu
+Full SVD time (s) spent : 18.498875686898828
+Original Matrix shape : torch.Size([16, 48804])
+SVD (aka USVt) shape : torch.Size([16, 16]), 	, torch.Size([16]) 	 torch.Size([48804, 48804])
+Truncation parameter k= 6
+choosed solver: torch_cpu
+Full SVD time (s) spent : 28.38116323109716
+Original Matrix shape : torch.Size([24, 48804])
+SVD (aka USVt) shape : torch.Size([24, 24]), 	, torch.Size([24]) 	 torch.Size([48804, 48804])
+Truncation parameter k= 6
+choosed solver: torch_cpu
+Full SVD time (s) spent : 18.760432618670166
+Original Matrix shape : torch.Size([16, 48804])
+SVD (aka USVt) shape : torch.Size([16, 16]), 	, torch.Size([16]) 	 torch.Size([48804, 48804])
+Truncation parameter k= 6
+choosed solver: torch_cpu
+Full SVD time (s) spent : 30.496712521184236
+Original Matrix shape : torch.Size([24, 48804])
+SVD (aka USVt) shape : torch.Size([24, 24]), 	, torch.Size([24]) 	 torch.Size([48804, 48804])
+Truncation parameter k= 6
+choosed solver: torch_cpu
+Full SVD time (s) spent : 17.293896222952753
+Original Matrix shape : torch.Size([16, 48804])
+SVD (aka USVt) shape : torch.Size([16, 16]), 	, torch.Size([16]) 	 torch.Size([48804, 48804])
+Truncation parameter k= 6
+choosed solver: torch_cpu
+Full SVD time (s) spent : 27.352383757941425
+Original Matrix shape : torch.Size([24, 48804])
+SVD (aka USVt) shape : torch.Size([24, 24]), 	, torch.Size([24]) 	 torch.Size([48804, 48804])
+Truncation parameter k= 6
+choosed solver: torch_cpu
+Full SVD time (s) spent : 17.208710754290223
+Original Matrix shape : torch.Size([16, 48804])
+SVD (aka USVt) shape : torch.Size([16, 16]), 	, torch.Size([16]) 	 torch.Size([48804, 48804])
+Truncation parameter k= 6
+choosed solver: torch_cpu
+Full SVD time (s) spent : 27.256697768811136
+Original Matrix shape : torch.Size([24, 48804])
+SVD (aka USVt) shape : torch.Size([24, 24]), 	, torch.Size([24]) 	 torch.Size([48804, 48804])
+Truncation parameter k= 6
+choosed solver: torch_cpu
+Full SVD time (s) spent : 17.195990859996527
+Original Matrix shape : torch.Size([16, 48804])
+SVD (aka USVt) shape : torch.Size([16, 16]), 	, torch.Size([16]) 	 torch.Size([48804, 48804])
+Truncation parameter k= 6
+choosed solver: torch_cpu
+Full SVD time (s) spent : 27.64151574904099
+Original Matrix shape : torch.Size([24, 48804])
+SVD (aka USVt) shape : torch.Size([24, 24]), 	, torch.Size([24]) 	 torch.Size([48804, 48804])
+Truncation parameter k= 6
+choosed solver: torch_cpu
+Full SVD time (s) spent : 17.11491354322061
+Original Matrix shape : torch.Size([16, 48804])
+SVD (aka USVt) shape : torch.Size([16, 16]), 	, torch.Size([16]) 	 torch.Size([48804, 48804])
+Truncation parameter k= 6
+choosed solver: torch_cpu
+Full SVD time (s) spent : 28.44838850433007
+Original Matrix shape : torch.Size([24, 48804])
+SVD (aka USVt) shape : torch.Size([24, 24]), 	, torch.Size([24]) 	 torch.Size([48804, 48804])
+Truncation parameter k= 6
+choosed solver: torch_cpu
+Full SVD time (s) spent : 17.906641258392483
+Original Matrix shape : torch.Size([16, 48804])
+SVD (aka USVt) shape : torch.Size([16, 16]), 	, torch.Size([16]) 	 torch.Size([48804, 48804])
+Truncation parameter k= 6
+choosed solver: torch_cpu
+Full SVD time (s) spent : 30.953206224367023
+Original Matrix shape : torch.Size([24, 48804])
+SVD (aka USVt) shape : torch.Size([24, 24]), 	, torch.Size([24]) 	 torch.Size([48804, 48804])
+Truncation parameter k= 6
+choosed solver: torch_cpu
+Full SVD time (s) spent : 17.453529701102525
+Original Matrix shape : torch.Size([16, 48804])
+SVD (aka USVt) shape : torch.Size([16, 16]), 	, torch.Size([16]) 	 torch.Size([48804, 48804])
+Truncation parameter k= 6
+choosed solver: torch_cpu
+Full SVD time (s) spent : 27.93738172389567
+Original Matrix shape : torch.Size([24, 48804])
+SVD (aka USVt) shape : torch.Size([24, 24]), 	, torch.Size([24]) 	 torch.Size([48804, 48804])
+Truncation parameter k= 6
+choosed solver: torch_cpu
+Full SVD time (s) spent : 17.868436296936125
+Original Matrix shape : torch.Size([16, 48804])
+SVD (aka USVt) shape : torch.Size([16, 16]), 	, torch.Size([16]) 	 torch.Size([48804, 48804])
+Truncation parameter k= 6
+choosed solver: torch_cpu
+Full SVD time (s) spent : 27.929837338160723
+Original Matrix shape : torch.Size([24, 48804])
+SVD (aka USVt) shape : torch.Size([24, 24]), 	, torch.Size([24]) 	 torch.Size([48804, 48804])
+Truncation parameter k= 6
+choosed solver: torch_cpu
+Full SVD time (s) spent : 16.970792912878096
+Original Matrix shape : torch.Size([16, 48804])
+SVD (aka USVt) shape : torch.Size([16, 16]), 	, torch.Size([16]) 	 torch.Size([48804, 48804])
+Truncation parameter k= 6
+choosed solver: torch_cpu
+Full SVD time (s) spent : 26.908981416840106
+Original Matrix shape : torch.Size([24, 48804])
+SVD (aka USVt) shape : torch.Size([24, 24]), 	, torch.Size([24]) 	 torch.Size([48804, 48804])
+Truncation parameter k= 6
+choosed solver: torch_cpu
+Full SVD time (s) spent : 16.963407926261425
+Original Matrix shape : torch.Size([16, 48804])
+SVD (aka USVt) shape : torch.Size([16, 16]), 	, torch.Size([16]) 	 torch.Size([48804, 48804])
+Truncation parameter k= 6
+choosed solver: torch_cpu
+Full SVD time (s) spent : 28.15523081086576
+Original Matrix shape : torch.Size([24, 48804])
+SVD (aka USVt) shape : torch.Size([24, 24]), 	, torch.Size([24]) 	 torch.Size([48804, 48804])
+Truncation parameter k= 6
+choosed solver: torch_cpu
+Full SVD time (s) spent : 17.851838618982583
+Original Matrix shape : torch.Size([16, 48804])
+SVD (aka USVt) shape : torch.Size([16, 16]), 	, torch.Size([16]) 	 torch.Size([48804, 48804])
+Truncation parameter k= 6
+choosed solver: torch_cpu
+Full SVD time (s) spent : 27.963324086740613
+Original Matrix shape : torch.Size([24, 48804])
+SVD (aka USVt) shape : torch.Size([24, 24]), 	, torch.Size([24]) 	 torch.Size([48804, 48804])
+Truncation parameter k= 6
+choosed solver: torch_cpu
+Full SVD time (s) spent : 17.04094797372818
+Original Matrix shape : torch.Size([16, 48804])
+SVD (aka USVt) shape : torch.Size([16, 16]), 	, torch.Size([16]) 	 torch.Size([48804, 48804])
+Truncation parameter k= 6
+choosed solver: torch_cpu
+Full SVD time (s) spent : 27.697266465984285
+Original Matrix shape : torch.Size([24, 48804])
+SVD (aka USVt) shape : torch.Size([24, 24]), 	, torch.Size([24]) 	 torch.Size([48804, 48804])
+Truncation parameter k= 6
+choosed solver: torch_cpu
+Full SVD time (s) spent : 17.505639784038067
+Original Matrix shape : torch.Size([16, 48804])
+SVD (aka USVt) shape : torch.Size([16, 16]), 	, torch.Size([16]) 	 torch.Size([48804, 48804])
+Truncation parameter k= 6
+choosed solver: torch_cpu
+Full SVD time (s) spent : 27.37135117035359
+Original Matrix shape : torch.Size([24, 48804])
+SVD (aka USVt) shape : torch.Size([24, 24]), 	, torch.Size([24]) 	 torch.Size([48804, 48804])
+Truncation parameter k= 6
+choosed solver: torch_cpu
+Full SVD time (s) spent : 17.255291796755046
+Original Matrix shape : torch.Size([16, 48804])
+SVD (aka USVt) shape : torch.Size([16, 16]), 	, torch.Size([16]) 	 torch.Size([48804, 48804])
+Truncation parameter k= 6
+choosed solver: torch_cpu
+Full SVD time (s) spent : 27.42637286800891
+Original Matrix shape : torch.Size([24, 48804])
+SVD (aka USVt) shape : torch.Size([24, 24]), 	, torch.Size([24]) 	 torch.Size([48804, 48804])
+Truncation parameter k= 6
+choosed solver: torch_cpu
+Full SVD time (s) spent : 16.92651326674968
+Original Matrix shape : torch.Size([16, 48804])
+SVD (aka USVt) shape : torch.Size([16, 16]), 	, torch.Size([16]) 	 torch.Size([48804, 48804])
+Truncation parameter k= 6
+choosed solver: torch_cpu
+Full SVD time (s) spent : 29.19623039988801
+Original Matrix shape : torch.Size([24, 48804])
+SVD (aka USVt) shape : torch.Size([24, 24]), 	, torch.Size([24]) 	 torch.Size([48804, 48804])
+Truncation parameter k= 6
+choosed solver: torch_cpu
+Full SVD time (s) spent : 18.221270478796214
+Original Matrix shape : torch.Size([16, 48804])
+SVD (aka USVt) shape : torch.Size([16, 16]), 	, torch.Size([16]) 	 torch.Size([48804, 48804])
+Truncation parameter k= 6
+choosed solver: torch_cpu
+Full SVD time (s) spent : 27.690305487718433
+Original Matrix shape : torch.Size([24, 48804])
+SVD (aka USVt) shape : torch.Size([24, 24]), 	, torch.Size([24]) 	 torch.Size([48804, 48804])
+Truncation parameter k= 6
+choosed solver: torch_cpu
+Full SVD time (s) spent : 17.41103259800002
+Original Matrix shape : torch.Size([16, 48804])
+SVD (aka USVt) shape : torch.Size([16, 16]), 	, torch.Size([16]) 	 torch.Size([48804, 48804])
+Truncation parameter k= 6
+choosed solver: torch_cpu
+Full SVD time (s) spent : 27.90974212810397
+Original Matrix shape : torch.Size([24, 48804])
+SVD (aka USVt) shape : torch.Size([24, 24]), 	, torch.Size([24]) 	 torch.Size([48804, 48804])
+Truncation parameter k= 6
+choosed solver: torch_cpu
+Full SVD time (s) spent : 17.028602914884686
+Original Matrix shape : torch.Size([16, 48804])
+SVD (aka USVt) shape : torch.Size([16, 16]), 	, torch.Size([16]) 	 torch.Size([48804, 48804])
+Truncation parameter k= 6
+choosed solver: torch_cpu
+Full SVD time (s) spent : 27.558419896755368
+Original Matrix shape : torch.Size([24, 48804])
+SVD (aka USVt) shape : torch.Size([24, 24]), 	, torch.Size([24]) 	 torch.Size([48804, 48804])
+Truncation parameter k= 6
+choosed solver: torch_cpu
+Full SVD time (s) spent : 17.862866410054266
+Original Matrix shape : torch.Size([16, 48804])
+SVD (aka USVt) shape : torch.Size([16, 16]), 	, torch.Size([16]) 	 torch.Size([48804, 48804])
+Truncation parameter k= 6
+choosed solver: torch_cpu
+Full SVD time (s) spent : 28.257881117984653
+Original Matrix shape : torch.Size([24, 48804])
+SVD (aka USVt) shape : torch.Size([24, 24]), 	, torch.Size([24]) 	 torch.Size([48804, 48804])
+Truncation parameter k= 6
+choosed solver: torch_cpu
+Full SVD time (s) spent : 17.003099685069174
+Original Matrix shape : torch.Size([16, 48804])
+SVD (aka USVt) shape : torch.Size([16, 16]), 	, torch.Size([16]) 	 torch.Size([48804, 48804])
+Truncation parameter k= 6
+choosed solver: torch_cpu
+Full SVD time (s) spent : 26.913355065044016
+Original Matrix shape : torch.Size([24, 48804])
+SVD (aka USVt) shape : torch.Size([24, 24]), 	, torch.Size([24]) 	 torch.Size([48804, 48804])
+Truncation parameter k= 6
+choosed solver: torch_cpu
+Full SVD time (s) spent : 16.999142076820135
+Original Matrix shape : torch.Size([16, 48804])
+SVD (aka USVt) shape : torch.Size([16, 16]), 	, torch.Size([16]) 	 torch.Size([48804, 48804])
+Truncation parameter k= 6
+choosed solver: torch_cpu
+Full SVD time (s) spent : 26.908641905058175
+Original Matrix shape : torch.Size([24, 48804])
+SVD (aka USVt) shape : torch.Size([24, 24]), 	, torch.Size([24]) 	 torch.Size([48804, 48804])
+Truncation parameter k= 6
+choosed solver: torch_cpu
+Full SVD time (s) spent : 17.019997699186206
+Original Matrix shape : torch.Size([16, 48804])
+SVD (aka USVt) shape : torch.Size([16, 16]), 	, torch.Size([16]) 	 torch.Size([48804, 48804])
+Truncation parameter k= 6
+choosed solver: torch_cpu
+Full SVD time (s) spent : 27.813098076730967
+Original Matrix shape : torch.Size([24, 48804])
+SVD (aka USVt) shape : torch.Size([24, 24]), 	, torch.Size([24]) 	 torch.Size([48804, 48804])
+Truncation parameter k= 6
+choosed solver: torch_cpu
+Full SVD time (s) spent : 17.004779546987265
+Original Matrix shape : torch.Size([16, 48804])
+SVD (aka USVt) shape : torch.Size([16, 16]), 	, torch.Size([16]) 	 torch.Size([48804, 48804])
+Truncation parameter k= 6
+choosed solver: torch_cpu
+Full SVD time (s) spent : 28.095037292689085
+Original Matrix shape : torch.Size([24, 48804])
+SVD (aka USVt) shape : torch.Size([24, 24]), 	, torch.Size([24]) 	 torch.Size([48804, 48804])
+Truncation parameter k= 6
+choosed solver: torch_cpu
+Full SVD time (s) spent : 20.017722336109728
+Original Matrix shape : torch.Size([16, 48804])
+SVD (aka USVt) shape : torch.Size([16, 16]), 	, torch.Size([16]) 	 torch.Size([48804, 48804])
+Truncation parameter k= 6
+choosed solver: torch_cpu
+Full SVD time (s) spent : 29.07071090536192
+Original Matrix shape : torch.Size([24, 48804])
+SVD (aka USVt) shape : torch.Size([24, 24]), 	, torch.Size([24]) 	 torch.Size([48804, 48804])
+Truncation parameter k= 6
+choosed solver: torch_cpu
+Full SVD time (s) spent : 18.819646816700697
+Original Matrix shape : torch.Size([16, 48804])
+SVD (aka USVt) shape : torch.Size([16, 16]), 	, torch.Size([16]) 	 torch.Size([48804, 48804])
+Truncation parameter k= 6
+choosed solver: torch_cpu
+Full SVD time (s) spent : 27.441586509812623
+Original Matrix shape : torch.Size([24, 48804])
+SVD (aka USVt) shape : torch.Size([24, 24]), 	, torch.Size([24]) 	 torch.Size([48804, 48804])
+Truncation parameter k= 6
+choosed solver: torch_cpu
+Full SVD time (s) spent : 18.65280666621402
+Original Matrix shape : torch.Size([16, 48804])
+SVD (aka USVt) shape : torch.Size([16, 16]), 	, torch.Size([16]) 	 torch.Size([48804, 48804])
+Truncation parameter k= 6
+choosed solver: torch_cpu
+Full SVD time (s) spent : 32.734518771991134
+Original Matrix shape : torch.Size([24, 48804])
+SVD (aka USVt) shape : torch.Size([24, 24]), 	, torch.Size([24]) 	 torch.Size([48804, 48804])
+Truncation parameter k= 6
+choosed solver: torch_cpu
+Full SVD time (s) spent : 17.24596139509231
+Original Matrix shape : torch.Size([16, 48804])
+SVD (aka USVt) shape : torch.Size([16, 16]), 	, torch.Size([16]) 	 torch.Size([48804, 48804])
+Truncation parameter k= 6
+choosed solver: torch_cpu
+Full SVD time (s) spent : 27.235957267228514
+Original Matrix shape : torch.Size([24, 48804])
+SVD (aka USVt) shape : torch.Size([24, 24]), 	, torch.Size([24]) 	 torch.Size([48804, 48804])
+Truncation parameter k= 6
+choosed solver: torch_cpu
+Full SVD time (s) spent : 17.787654620129615
+Original Matrix shape : torch.Size([16, 48804])
+SVD (aka USVt) shape : torch.Size([16, 16]), 	, torch.Size([16]) 	 torch.Size([48804, 48804])
+Truncation parameter k= 6
+choosed solver: torch_cpu
+Full SVD time (s) spent : 26.769562433008105
+Original Matrix shape : torch.Size([24, 48804])
+SVD (aka USVt) shape : torch.Size([24, 24]), 	, torch.Size([24]) 	 torch.Size([48804, 48804])
+Truncation parameter k= 6
+choosed solver: torch_cpu
+Full SVD time (s) spent : 17.01268404396251
+Original Matrix shape : torch.Size([16, 48804])
+SVD (aka USVt) shape : torch.Size([16, 16]), 	, torch.Size([16]) 	 torch.Size([48804, 48804])
+Truncation parameter k= 6
+choosed solver: torch_cpu
+Full SVD time (s) spent : 27.934235010761768
+Original Matrix shape : torch.Size([24, 48804])
+SVD (aka USVt) shape : torch.Size([24, 24]), 	, torch.Size([24]) 	 torch.Size([48804, 48804])
+Truncation parameter k= 6
+choosed solver: torch_cpu
+Full SVD time (s) spent : 17.76904660090804
+Original Matrix shape : torch.Size([16, 48804])
+SVD (aka USVt) shape : torch.Size([16, 16]), 	, torch.Size([16]) 	 torch.Size([48804, 48804])
+Truncation parameter k= 6
+choosed solver: torch_cpu
+Full SVD time (s) spent : 27.22206019097939
+Original Matrix shape : torch.Size([24, 48804])
+SVD (aka USVt) shape : torch.Size([24, 24]), 	, torch.Size([24]) 	 torch.Size([48804, 48804])
+Truncation parameter k= 6
+choosed solver: torch_cpu
+Full SVD time (s) spent : 18.82388725783676
+Original Matrix shape : torch.Size([16, 48804])
+SVD (aka USVt) shape : torch.Size([16, 16]), 	, torch.Size([16]) 	 torch.Size([48804, 48804])
+Truncation parameter k= 6
+choosed solver: torch_cpu
+Full SVD time (s) spent : 27.746587299276143
+Original Matrix shape : torch.Size([24, 48804])
+SVD (aka USVt) shape : torch.Size([24, 24]), 	, torch.Size([24]) 	 torch.Size([48804, 48804])
+Truncation parameter k= 6
+choosed solver: torch_cpu
+Full SVD time (s) spent : 17.409773567225784
+Original Matrix shape : torch.Size([16, 48804])
+SVD (aka USVt) shape : torch.Size([16, 16]), 	, torch.Size([16]) 	 torch.Size([48804, 48804])
+Truncation parameter k= 6
+choosed solver: torch_cpu
+Full SVD time (s) spent : 31.722781924065202
+Original Matrix shape : torch.Size([24, 48804])
+SVD (aka USVt) shape : torch.Size([24, 24]), 	, torch.Size([24]) 	 torch.Size([48804, 48804])
+Truncation parameter k= 6
+choosed solver: torch_cpu
+Full SVD time (s) spent : 17.093652561772615
+Original Matrix shape : torch.Size([16, 48804])
+SVD (aka USVt) shape : torch.Size([16, 16]), 	, torch.Size([16]) 	 torch.Size([48804, 48804])
+Truncation parameter k= 6
+choosed solver: torch_cpu
+Full SVD time (s) spent : 27.003251628018916
+Original Matrix shape : torch.Size([24, 48804])
+SVD (aka USVt) shape : torch.Size([24, 24]), 	, torch.Size([24]) 	 torch.Size([48804, 48804])
+Truncation parameter k= 6
+choosed solver: torch_cpu
+Full SVD time (s) spent : 17.083891435991973
+Original Matrix shape : torch.Size([16, 48804])
+SVD (aka USVt) shape : torch.Size([16, 16]), 	, torch.Size([16]) 	 torch.Size([48804, 48804])
+Truncation parameter k= 6
+choosed solver: torch_cpu
+Full SVD time (s) spent : 26.687051090877503
+Original Matrix shape : torch.Size([24, 48804])
+SVD (aka USVt) shape : torch.Size([24, 24]), 	, torch.Size([24]) 	 torch.Size([48804, 48804])
+Truncation parameter k= 6
+choosed solver: torch_cpu
+Full SVD time (s) spent : 17.07192183798179
+Original Matrix shape : torch.Size([16, 48804])
+SVD (aka USVt) shape : torch.Size([16, 16]), 	, torch.Size([16]) 	 torch.Size([48804, 48804])
+Truncation parameter k= 6
+choosed solver: torch_cpu
+Full SVD time (s) spent : 26.735036538913846
+Original Matrix shape : torch.Size([24, 48804])
+SVD (aka USVt) shape : torch.Size([24, 24]), 	, torch.Size([24]) 	 torch.Size([48804, 48804])
+Truncation parameter k= 6
+choosed solver: torch_cpu
+Full SVD time (s) spent : 17.075383953750134
+Original Matrix shape : torch.Size([16, 48804])
+SVD (aka USVt) shape : torch.Size([16, 16]), 	, torch.Size([16]) 	 torch.Size([48804, 48804])
+Truncation parameter k= 6
+choosed solver: torch_cpu
+Full SVD time (s) spent : 28.56720752036199
+Original Matrix shape : torch.Size([24, 48804])
+SVD (aka USVt) shape : torch.Size([24, 24]), 	, torch.Size([24]) 	 torch.Size([48804, 48804])
+Truncation parameter k= 6
+choosed solver: torch_cpu
+Full SVD time (s) spent : 17.879273493308574
+Original Matrix shape : torch.Size([16, 48804])
+SVD (aka USVt) shape : torch.Size([16, 16]), 	, torch.Size([16]) 	 torch.Size([48804, 48804])
+Truncation parameter k= 6
+choosed solver: torch_cpu
+Full SVD time (s) spent : 28.431853239890188
+Original Matrix shape : torch.Size([24, 48804])
+SVD (aka USVt) shape : torch.Size([24, 24]), 	, torch.Size([24]) 	 torch.Size([48804, 48804])
+Truncation parameter k= 6
+choosed solver: torch_cpu
+Full SVD time (s) spent : 17.15852880384773
+Original Matrix shape : torch.Size([16, 48804])
+SVD (aka USVt) shape : torch.Size([16, 16]), 	, torch.Size([16]) 	 torch.Size([48804, 48804])
+Truncation parameter k= 6
+choosed solver: torch_cpu
+Full SVD time (s) spent : 28.04123239312321
+Original Matrix shape : torch.Size([24, 48804])
+SVD (aka USVt) shape : torch.Size([24, 24]), 	, torch.Size([24]) 	 torch.Size([48804, 48804])
+Truncation parameter k= 6
+choosed solver: torch_cpu
+Full SVD time (s) spent : 17.886354702990502
+Original Matrix shape : torch.Size([16, 48804])
+SVD (aka USVt) shape : torch.Size([16, 16]), 	, torch.Size([16]) 	 torch.Size([48804, 48804])
+Truncation parameter k= 6
+choosed solver: torch_cpu
+Full SVD time (s) spent : 28.264966554939747
+Original Matrix shape : torch.Size([24, 48804])
+SVD (aka USVt) shape : torch.Size([24, 24]), 	, torch.Size([24]) 	 torch.Size([48804, 48804])
+Truncation parameter k= 6
+choosed solver: torch_cpu
+Full SVD time (s) spent : 18.77302780887112
+Original Matrix shape : torch.Size([16, 48804])
+SVD (aka USVt) shape : torch.Size([16, 16]), 	, torch.Size([16]) 	 torch.Size([48804, 48804])
+Truncation parameter k= 6
+choosed solver: torch_cpu
+Full SVD time (s) spent : 27.23880889825523
+Original Matrix shape : torch.Size([24, 48804])
+SVD (aka USVt) shape : torch.Size([24, 24]), 	, torch.Size([24]) 	 torch.Size([48804, 48804])
+Truncation parameter k= 6
+choosed solver: torch_cpu
+Full SVD time (s) spent : 18.86452194210142
+Original Matrix shape : torch.Size([16, 48804])
+SVD (aka USVt) shape : torch.Size([16, 16]), 	, torch.Size([16]) 	 torch.Size([48804, 48804])
+Truncation parameter k= 6
+choosed solver: torch_cpu
+Full SVD time (s) spent : 27.978068466298282
+Original Matrix shape : torch.Size([24, 48804])
+SVD (aka USVt) shape : torch.Size([24, 24]), 	, torch.Size([24]) 	 torch.Size([48804, 48804])
+Truncation parameter k= 6
+choosed solver: torch_cpu
+Full SVD time (s) spent : 17.403547684196383
+Original Matrix shape : torch.Size([16, 48804])
+SVD (aka USVt) shape : torch.Size([16, 16]), 	, torch.Size([16]) 	 torch.Size([48804, 48804])
+Truncation parameter k= 6
+choosed solver: torch_cpu
+Full SVD time (s) spent : 27.660279317758977
+Original Matrix shape : torch.Size([24, 48804])
+SVD (aka USVt) shape : torch.Size([24, 24]), 	, torch.Size([24]) 	 torch.Size([48804, 48804])
+Truncation parameter k= 6
+choosed solver: torch_cpu
+Full SVD time (s) spent : 18.273477158974856
+Original Matrix shape : torch.Size([16, 48804])
+SVD (aka USVt) shape : torch.Size([16, 16]), 	, torch.Size([16]) 	 torch.Size([48804, 48804])
+Truncation parameter k= 6
+choosed solver: torch_cpu
+Full SVD time (s) spent : 28.152300217654556
+Original Matrix shape : torch.Size([24, 48804])
+SVD (aka USVt) shape : torch.Size([24, 24]), 	, torch.Size([24]) 	 torch.Size([48804, 48804])
+Truncation parameter k= 6
+choosed solver: torch_cpu
+Full SVD time (s) spent : 17.454389840830117
+Original Matrix shape : torch.Size([16, 48804])
+SVD (aka USVt) shape : torch.Size([16, 16]), 	, torch.Size([16]) 	 torch.Size([48804, 48804])
+Truncation parameter k= 6
+choosed solver: torch_cpu
+Full SVD time (s) spent : 27.734061246272177
+Original Matrix shape : torch.Size([24, 48804])
+SVD (aka USVt) shape : torch.Size([24, 24]), 	, torch.Size([24]) 	 torch.Size([48804, 48804])
+Truncation parameter k= 6
+choosed solver: torch_cpu
+Full SVD time (s) spent : 17.072368900757283
+Original Matrix shape : torch.Size([16, 48804])
+SVD (aka USVt) shape : torch.Size([16, 16]), 	, torch.Size([16]) 	 torch.Size([48804, 48804])
+Truncation parameter k= 6
+choosed solver: torch_cpu
+Full SVD time (s) spent : 26.700311868917197
+Original Matrix shape : torch.Size([24, 48804])
+SVD (aka USVt) shape : torch.Size([24, 24]), 	, torch.Size([24]) 	 torch.Size([48804, 48804])
+Truncation parameter k= 6
+choosed solver: torch_cpu
+Full SVD time (s) spent : 17.05117674637586
+Original Matrix shape : torch.Size([16, 48804])
+SVD (aka USVt) shape : torch.Size([16, 16]), 	, torch.Size([16]) 	 torch.Size([48804, 48804])
+Truncation parameter k= 6
+choosed solver: torch_cpu
+Full SVD time (s) spent : 27.522553308866918
+Original Matrix shape : torch.Size([24, 48804])
+SVD (aka USVt) shape : torch.Size([24, 24]), 	, torch.Size([24]) 	 torch.Size([48804, 48804])
+Truncation parameter k= 6
+choosed solver: torch_cpu
+Full SVD time (s) spent : 18.098381095100194
+Original Matrix shape : torch.Size([16, 48804])
+SVD (aka USVt) shape : torch.Size([16, 16]), 	, torch.Size([16]) 	 torch.Size([48804, 48804])
+Truncation parameter k= 6
+choosed solver: torch_cpu
+Full SVD time (s) spent : 28.47725917166099
+Original Matrix shape : torch.Size([24, 48804])
+SVD (aka USVt) shape : torch.Size([24, 24]), 	, torch.Size([24]) 	 torch.Size([48804, 48804])
+Truncation parameter k= 6
+choosed solver: torch_cpu
+Full SVD time (s) spent : 17.5949129993096
+Original Matrix shape : torch.Size([16, 48804])
+SVD (aka USVt) shape : torch.Size([16, 16]), 	, torch.Size([16]) 	 torch.Size([48804, 48804])
+Truncation parameter k= 6
+choosed solver: torch_cpu
+Full SVD time (s) spent : 27.500214802566916
+Original Matrix shape : torch.Size([24, 48804])
+SVD (aka USVt) shape : torch.Size([24, 24]), 	, torch.Size([24]) 	 torch.Size([48804, 48804])
+Truncation parameter k= 6
+choosed solver: torch_cpu
+Full SVD time (s) spent : 17.54364070482552
+Original Matrix shape : torch.Size([16, 48804])
+SVD (aka USVt) shape : torch.Size([16, 16]), 	, torch.Size([16]) 	 torch.Size([48804, 48804])
+Truncation parameter k= 6
+choosed solver: torch_cpu
+Full SVD time (s) spent : 27.204697886947542
+Original Matrix shape : torch.Size([24, 48804])
+SVD (aka USVt) shape : torch.Size([24, 24]), 	, torch.Size([24]) 	 torch.Size([48804, 48804])
+Truncation parameter k= 6
+choosed solver: torch_cpu
+Full SVD time (s) spent : 17.09590001218021
+Original Matrix shape : torch.Size([16, 48804])
+SVD (aka USVt) shape : torch.Size([16, 16]), 	, torch.Size([16]) 	 torch.Size([48804, 48804])
+Truncation parameter k= 6
+choosed solver: torch_cpu
+Full SVD time (s) spent : 26.794739531353116
+Original Matrix shape : torch.Size([24, 48804])
+SVD (aka USVt) shape : torch.Size([24, 24]), 	, torch.Size([24]) 	 torch.Size([48804, 48804])
+Truncation parameter k= 6
+choosed solver: torch_cpu
+Full SVD time (s) spent : 17.092068182770163
+Original Matrix shape : torch.Size([16, 48804])
+SVD (aka USVt) shape : torch.Size([16, 16]), 	, torch.Size([16]) 	 torch.Size([48804, 48804])
+Truncation parameter k= 6
+choosed solver: torch_cpu
+Full SVD time (s) spent : 27.99051454802975
+Original Matrix shape : torch.Size([24, 48804])
+SVD (aka USVt) shape : torch.Size([24, 24]), 	, torch.Size([24]) 	 torch.Size([48804, 48804])
+Truncation parameter k= 6
+choosed solver: torch_cpu
+Full SVD time (s) spent : 18.167483487166464
+Original Matrix shape : torch.Size([16, 48804])
+SVD (aka USVt) shape : torch.Size([16, 16]), 	, torch.Size([16]) 	 torch.Size([48804, 48804])
+Truncation parameter k= 6
+choosed solver: torch_cpu
+Full SVD time (s) spent : 27.45104205328971
+Original Matrix shape : torch.Size([24, 48804])
+SVD (aka USVt) shape : torch.Size([24, 24]), 	, torch.Size([24]) 	 torch.Size([48804, 48804])
+Truncation parameter k= 6
+choosed solver: torch_cpu
+Full SVD time (s) spent : 17.216275317128748
+Original Matrix shape : torch.Size([16, 48804])
+SVD (aka USVt) shape : torch.Size([16, 16]), 	, torch.Size([16]) 	 torch.Size([48804, 48804])
+Truncation parameter k= 6
+choosed solver: torch_cpu
+Full SVD time (s) spent : 26.99185274122283
+Original Matrix shape : torch.Size([24, 48804])
+SVD (aka USVt) shape : torch.Size([24, 24]), 	, torch.Size([24]) 	 torch.Size([48804, 48804])
+Truncation parameter k= 6
+choosed solver: torch_cpu
+Full SVD time (s) spent : 17.079054706264287
+Original Matrix shape : torch.Size([16, 48804])
+SVD (aka USVt) shape : torch.Size([16, 16]), 	, torch.Size([16]) 	 torch.Size([48804, 48804])
+Truncation parameter k= 6
+choosed solver: torch_cpu
+Full SVD time (s) spent : 26.764537492301315
+Original Matrix shape : torch.Size([24, 48804])
+SVD (aka USVt) shape : torch.Size([24, 24]), 	, torch.Size([24]) 	 torch.Size([48804, 48804])
+Truncation parameter k= 6
+choosed solver: torch_cpu
+Full SVD time (s) spent : 17.04596680076793
+Original Matrix shape : torch.Size([16, 48804])
+SVD (aka USVt) shape : torch.Size([16, 16]), 	, torch.Size([16]) 	 torch.Size([48804, 48804])
+Truncation parameter k= 6
+choosed solver: torch_cpu
+Full SVD time (s) spent : 27.450116698630154
+Original Matrix shape : torch.Size([24, 48804])
+SVD (aka USVt) shape : torch.Size([24, 24]), 	, torch.Size([24]) 	 torch.Size([48804, 48804])
+Truncation parameter k= 6
+choosed solver: torch_cpu
+Full SVD time (s) spent : 17.69231532374397
+Original Matrix shape : torch.Size([16, 48804])
+SVD (aka USVt) shape : torch.Size([16, 16]), 	, torch.Size([16]) 	 torch.Size([48804, 48804])
+Truncation parameter k= 6
+choosed solver: torch_cpu
+Full SVD time (s) spent : 27.730104375164956
+Original Matrix shape : torch.Size([24, 48804])
+SVD (aka USVt) shape : torch.Size([24, 24]), 	, torch.Size([24]) 	 torch.Size([48804, 48804])
+Truncation parameter k= 6
+choosed solver: torch_cpu
+Full SVD time (s) spent : 17.09366388618946
+Original Matrix shape : torch.Size([16, 48804])
+SVD (aka USVt) shape : torch.Size([16, 16]), 	, torch.Size([16]) 	 torch.Size([48804, 48804])
+Truncation parameter k= 6
+choosed solver: torch_cpu
+Full SVD time (s) spent : 27.544870629906654
+Original Matrix shape : torch.Size([24, 48804])
+SVD (aka USVt) shape : torch.Size([24, 24]), 	, torch.Size([24]) 	 torch.Size([48804, 48804])
+Truncation parameter k= 6
+choosed solver: torch_cpu
+Full SVD time (s) spent : 18.919426469132304
+Original Matrix shape : torch.Size([16, 48804])
+SVD (aka USVt) shape : torch.Size([16, 16]), 	, torch.Size([16]) 	 torch.Size([48804, 48804])
+Truncation parameter k= 6
+choosed solver: torch_cpu
+Full SVD time (s) spent : 27.80178952915594
+Original Matrix shape : torch.Size([24, 48804])
+SVD (aka USVt) shape : torch.Size([24, 24]), 	, torch.Size([24]) 	 torch.Size([48804, 48804])
+Truncation parameter k= 6
+choosed solver: torch_cpu
+Full SVD time (s) spent : 17.163142162840813
+Original Matrix shape : torch.Size([16, 48804])
+SVD (aka USVt) shape : torch.Size([16, 16]), 	, torch.Size([16]) 	 torch.Size([48804, 48804])
+Truncation parameter k= 6
+choosed solver: torch_cpu
+Full SVD time (s) spent : 26.901940985117108
+Original Matrix shape : torch.Size([24, 48804])
+SVD (aka USVt) shape : torch.Size([24, 24]), 	, torch.Size([24]) 	 torch.Size([48804, 48804])
+Truncation parameter k= 6
+choosed solver: torch_cpu
+Full SVD time (s) spent : 17.09928817395121
+Original Matrix shape : torch.Size([16, 48804])
+SVD (aka USVt) shape : torch.Size([16, 16]), 	, torch.Size([16]) 	 torch.Size([48804, 48804])
+Truncation parameter k= 6
+choosed solver: torch_cpu
+Full SVD time (s) spent : 27.319257178343832
+Original Matrix shape : torch.Size([24, 48804])
+SVD (aka USVt) shape : torch.Size([24, 24]), 	, torch.Size([24]) 	 torch.Size([48804, 48804])
+Truncation parameter k= 6
+choosed solver: torch_cpu
+Full SVD time (s) spent : 17.484140507876873
+Original Matrix shape : torch.Size([16, 48804])
+SVD (aka USVt) shape : torch.Size([16, 16]), 	, torch.Size([16]) 	 torch.Size([48804, 48804])
+Truncation parameter k= 6
+choosed solver: torch_cpu
+Full SVD time (s) spent : 27.912616605870426
+Original Matrix shape : torch.Size([24, 48804])
+SVD (aka USVt) shape : torch.Size([24, 24]), 	, torch.Size([24]) 	 torch.Size([48804, 48804])
+Truncation parameter k= 6
+choosed solver: torch_cpu
+Full SVD time (s) spent : 18.13632136816159
+Original Matrix shape : torch.Size([16, 48804])
+SVD (aka USVt) shape : torch.Size([16, 16]), 	, torch.Size([16]) 	 torch.Size([48804, 48804])
+Truncation parameter k= 6
+choosed solver: torch_cpu
+Full SVD time (s) spent : 27.259407523088157
+Original Matrix shape : torch.Size([24, 48804])
+SVD (aka USVt) shape : torch.Size([24, 24]), 	, torch.Size([24]) 	 torch.Size([48804, 48804])
+Truncation parameter k= 6
+choosed solver: torch_cpu
+Full SVD time (s) spent : 17.053594547789544
+Original Matrix shape : torch.Size([16, 48804])
+SVD (aka USVt) shape : torch.Size([16, 16]), 	, torch.Size([16]) 	 torch.Size([48804, 48804])
+Truncation parameter k= 6
+choosed solver: torch_cpu
+Full SVD time (s) spent : 26.775126080960035
+Original Matrix shape : torch.Size([24, 48804])
+SVD (aka USVt) shape : torch.Size([24, 24]), 	, torch.Size([24]) 	 torch.Size([48804, 48804])
+Truncation parameter k= 6
+choosed solver: torch_cpu
+Full SVD time (s) spent : 17.061822781339288
+Original Matrix shape : torch.Size([16, 48804])
+SVD (aka USVt) shape : torch.Size([16, 16]), 	, torch.Size([16]) 	 torch.Size([48804, 48804])
+Truncation parameter k= 6
+choosed solver: torch_cpu
+Full SVD time (s) spent : 26.72719493880868
+Original Matrix shape : torch.Size([24, 48804])
+SVD (aka USVt) shape : torch.Size([24, 24]), 	, torch.Size([24]) 	 torch.Size([48804, 48804])
+Truncation parameter k= 6
+choosed solver: torch_cpu
+Full SVD time (s) spent : 17.01123037515208
+Original Matrix shape : torch.Size([16, 48804])
+SVD (aka USVt) shape : torch.Size([16, 16]), 	, torch.Size([16]) 	 torch.Size([48804, 48804])
+Truncation parameter k= 6
+choosed solver: torch_cpu
+Full SVD time (s) spent : 28.38899621134624
+Original Matrix shape : torch.Size([24, 48804])
+SVD (aka USVt) shape : torch.Size([24, 24]), 	, torch.Size([24]) 	 torch.Size([48804, 48804])
+Truncation parameter k= 6
+choosed solver: torch_cpu
+Full SVD time (s) spent : 17.106578532140702
+Original Matrix shape : torch.Size([16, 48804])
+SVD (aka USVt) shape : torch.Size([16, 16]), 	, torch.Size([16]) 	 torch.Size([48804, 48804])
+Truncation parameter k= 6
+choosed solver: torch_cpu
+Full SVD time (s) spent : 27.259486261289567
+Original Matrix shape : torch.Size([24, 48804])
+SVD (aka USVt) shape : torch.Size([24, 24]), 	, torch.Size([24]) 	 torch.Size([48804, 48804])
+Truncation parameter k= 6
+choosed solver: torch_cpu
+Full SVD time (s) spent : 17.435666084755212
+Original Matrix shape : torch.Size([16, 48804])
+SVD (aka USVt) shape : torch.Size([16, 16]), 	, torch.Size([16]) 	 torch.Size([48804, 48804])
+Truncation parameter k= 6
+choosed solver: torch_cpu
+Full SVD time (s) spent : 27.203728802036494
+Original Matrix shape : torch.Size([24, 48804])
+SVD (aka USVt) shape : torch.Size([24, 24]), 	, torch.Size([24]) 	 torch.Size([48804, 48804])
+Truncation parameter k= 6
+choosed solver: torch_cpu
+Full SVD time (s) spent : 17.145833135116845
+Original Matrix shape : torch.Size([16, 48804])
+SVD (aka USVt) shape : torch.Size([16, 16]), 	, torch.Size([16]) 	 torch.Size([48804, 48804])
+Truncation parameter k= 6
+choosed solver: torch_cpu
+Full SVD time (s) spent : 26.715273000765592
+Original Matrix shape : torch.Size([24, 48804])
+SVD (aka USVt) shape : torch.Size([24, 24]), 	, torch.Size([24]) 	 torch.Size([48804, 48804])
+Truncation parameter k= 6
+choosed solver: torch_cpu
+Full SVD time (s) spent : 17.08905380498618
+Original Matrix shape : torch.Size([16, 48804])
+SVD (aka USVt) shape : torch.Size([16, 16]), 	, torch.Size([16]) 	 torch.Size([48804, 48804])
+Truncation parameter k= 6
+choosed solver: torch_cpu
+Full SVD time (s) spent : 27.92533029988408
+Original Matrix shape : torch.Size([24, 48804])
+SVD (aka USVt) shape : torch.Size([24, 24]), 	, torch.Size([24]) 	 torch.Size([48804, 48804])
+Truncation parameter k= 6
+choosed solver: torch_cpu
+Full SVD time (s) spent : 17.58175436127931
+Original Matrix shape : torch.Size([16, 48804])
+SVD (aka USVt) shape : torch.Size([16, 16]), 	, torch.Size([16]) 	 torch.Size([48804, 48804])
+Truncation parameter k= 6
+choosed solver: torch_cpu
+Full SVD time (s) spent : 26.88869213592261
+Original Matrix shape : torch.Size([24, 48804])
+SVD (aka USVt) shape : torch.Size([24, 24]), 	, torch.Size([24]) 	 torch.Size([48804, 48804])
+Truncation parameter k= 6
+choosed solver: torch_cpu
+Full SVD time (s) spent : 17.075424152892083
+Original Matrix shape : torch.Size([16, 48804])
+SVD (aka USVt) shape : torch.Size([16, 16]), 	, torch.Size([16]) 	 torch.Size([48804, 48804])
+Truncation parameter k= 6
+choosed solver: torch_cpu
+Full SVD time (s) spent : 26.701202570926398
+Original Matrix shape : torch.Size([24, 48804])
+SVD (aka USVt) shape : torch.Size([24, 24]), 	, torch.Size([24]) 	 torch.Size([48804, 48804])
+Truncation parameter k= 6
+choosed solver: torch_cpu
+Full SVD time (s) spent : 17.093828589189798
+Original Matrix shape : torch.Size([16, 48804])
+SVD (aka USVt) shape : torch.Size([16, 16]), 	, torch.Size([16]) 	 torch.Size([48804, 48804])
+Truncation parameter k= 6
+choosed solver: torch_cpu
+Full SVD time (s) spent : 27.84137136209756
+Original Matrix shape : torch.Size([24, 48804])
+SVD (aka USVt) shape : torch.Size([24, 24]), 	, torch.Size([24]) 	 torch.Size([48804, 48804])
+Truncation parameter k= 6
+choosed solver: torch_cpu
+Full SVD time (s) spent : 17.102148578036577
+Original Matrix shape : torch.Size([16, 48804])
+SVD (aka USVt) shape : torch.Size([16, 16]), 	, torch.Size([16]) 	 torch.Size([48804, 48804])
+Truncation parameter k= 6
+choosed solver: torch_cpu
+Full SVD time (s) spent : 28.19072872819379
+Original Matrix shape : torch.Size([24, 48804])
+SVD (aka USVt) shape : torch.Size([24, 24]), 	, torch.Size([24]) 	 torch.Size([48804, 48804])
+Truncation parameter k= 6
+choosed solver: torch_cpu
+Full SVD time (s) spent : 17.587459793314338
+Original Matrix shape : torch.Size([16, 48804])
+SVD (aka USVt) shape : torch.Size([16, 16]), 	, torch.Size([16]) 	 torch.Size([48804, 48804])
+Truncation parameter k= 6
+choosed solver: torch_cpu
+Full SVD time (s) spent : 29.302374220918864
+Original Matrix shape : torch.Size([24, 48804])
+SVD (aka USVt) shape : torch.Size([24, 24]), 	, torch.Size([24]) 	 torch.Size([48804, 48804])
+Truncation parameter k= 6
+choosed solver: torch_cpu
+Full SVD time (s) spent : 19.2103828988038
+Original Matrix shape : torch.Size([16, 48804])
+SVD (aka USVt) shape : torch.Size([16, 16]), 	, torch.Size([16]) 	 torch.Size([48804, 48804])
+Truncation parameter k= 6
+choosed solver: torch_cpu
+Full SVD time (s) spent : 27.411699421703815
+Original Matrix shape : torch.Size([24, 48804])
+SVD (aka USVt) shape : torch.Size([24, 24]), 	, torch.Size([24]) 	 torch.Size([48804, 48804])
+Truncation parameter k= 6
+choosed solver: torch_cpu
+Full SVD time (s) spent : 18.523766802623868
+Original Matrix shape : torch.Size([16, 48804])
+SVD (aka USVt) shape : torch.Size([16, 16]), 	, torch.Size([16]) 	 torch.Size([48804, 48804])
+Truncation parameter k= 6
+choosed solver: torch_cpu
+Full SVD time (s) spent : 30.738335920963436
+Original Matrix shape : torch.Size([24, 48804])
+SVD (aka USVt) shape : torch.Size([24, 24]), 	, torch.Size([24]) 	 torch.Size([48804, 48804])
+Truncation parameter k= 6
+choosed solver: torch_cpu
+Full SVD time (s) spent : 19.335074034053832
+Original Matrix shape : torch.Size([16, 48804])
+SVD (aka USVt) shape : torch.Size([16, 16]), 	, torch.Size([16]) 	 torch.Size([48804, 48804])
+Truncation parameter k= 6
+choosed solver: torch_cpu
+Full SVD time (s) spent : 28.206509476993233
+Original Matrix shape : torch.Size([24, 48804])
+SVD (aka USVt) shape : torch.Size([24, 24]), 	, torch.Size([24]) 	 torch.Size([48804, 48804])
+Truncation parameter k= 6
+choosed solver: torch_cpu
+Full SVD time (s) spent : 16.98685272084549
+Original Matrix shape : torch.Size([16, 48804])
+SVD (aka USVt) shape : torch.Size([16, 16]), 	, torch.Size([16]) 	 torch.Size([48804, 48804])
+Truncation parameter k= 6
+choosed solver: torch_cpu
+Full SVD time (s) spent : 26.8188345329836
+Original Matrix shape : torch.Size([24, 48804])
+SVD (aka USVt) shape : torch.Size([24, 24]), 	, torch.Size([24]) 	 torch.Size([48804, 48804])
+Truncation parameter k= 6
+choosed solver: torch_cpu
+Full SVD time (s) spent : 16.978288372047246
+Original Matrix shape : torch.Size([16, 48804])
+SVD (aka USVt) shape : torch.Size([16, 16]), 	, torch.Size([16]) 	 torch.Size([48804, 48804])
+Truncation parameter k= 6
+choosed solver: torch_cpu
+Full SVD time (s) spent : 28.14089939184487
+Original Matrix shape : torch.Size([24, 48804])
+SVD (aka USVt) shape : torch.Size([24, 24]), 	, torch.Size([24]) 	 torch.Size([48804, 48804])
+Truncation parameter k= 6
+choosed solver: torch_cpu
+Full SVD time (s) spent : 17.00200830772519
+Original Matrix shape : torch.Size([16, 48804])
+SVD (aka USVt) shape : torch.Size([16, 16]), 	, torch.Size([16]) 	 torch.Size([48804, 48804])
+Truncation parameter k= 6
+choosed solver: torch_cpu
+Full SVD time (s) spent : 28.399287100881338
+Original Matrix shape : torch.Size([24, 48804])
+SVD (aka USVt) shape : torch.Size([24, 24]), 	, torch.Size([24]) 	 torch.Size([48804, 48804])
+Truncation parameter k= 6
+choosed solver: torch_cpu
+Full SVD time (s) spent : 17.361743160057813
+Original Matrix shape : torch.Size([16, 48804])
+SVD (aka USVt) shape : torch.Size([16, 16]), 	, torch.Size([16]) 	 torch.Size([48804, 48804])
+Truncation parameter k= 6
+choosed solver: torch_cpu
+Full SVD time (s) spent : 28.73594992980361
+Original Matrix shape : torch.Size([24, 48804])
+SVD (aka USVt) shape : torch.Size([24, 24]), 	, torch.Size([24]) 	 torch.Size([48804, 48804])
+Truncation parameter k= 6
+choosed solver: torch_cpu
+Full SVD time (s) spent : 17.024716313928366
+Original Matrix shape : torch.Size([16, 48804])
+SVD (aka USVt) shape : torch.Size([16, 16]), 	, torch.Size([16]) 	 torch.Size([48804, 48804])
+Truncation parameter k= 6
+choosed solver: torch_cpu
+Full SVD time (s) spent : 26.869882609229535
+Original Matrix shape : torch.Size([24, 48804])
+SVD (aka USVt) shape : torch.Size([24, 24]), 	, torch.Size([24]) 	 torch.Size([48804, 48804])
+Truncation parameter k= 6
+choosed solver: torch_cpu
+Full SVD time (s) spent : 17.016138973645866
+Original Matrix shape : torch.Size([16, 48804])
+SVD (aka USVt) shape : torch.Size([16, 16]), 	, torch.Size([16]) 	 torch.Size([48804, 48804])
+Truncation parameter k= 6
+choosed solver: torch_cpu
+Full SVD time (s) spent : 26.964024152141064
+Original Matrix shape : torch.Size([24, 48804])
+SVD (aka USVt) shape : torch.Size([24, 24]), 	, torch.Size([24]) 	 torch.Size([48804, 48804])
+Truncation parameter k= 6
+choosed solver: torch_cpu
+Full SVD time (s) spent : 16.96096914028749
+Original Matrix shape : torch.Size([16, 48804])
+SVD (aka USVt) shape : torch.Size([16, 16]), 	, torch.Size([16]) 	 torch.Size([48804, 48804])
+Truncation parameter k= 6
+choosed solver: torch_cpu
+Full SVD time (s) spent : 28.90094805089757
+Original Matrix shape : torch.Size([24, 48804])
+SVD (aka USVt) shape : torch.Size([24, 24]), 	, torch.Size([24]) 	 torch.Size([48804, 48804])
+Truncation parameter k= 6
+choosed solver: torch_cpu
+Full SVD time (s) spent : 17.56104166805744
+Original Matrix shape : torch.Size([16, 48804])
+SVD (aka USVt) shape : torch.Size([16, 16]), 	, torch.Size([16]) 	 torch.Size([48804, 48804])
+Truncation parameter k= 6
+choosed solver: torch_cpu
+Full SVD time (s) spent : 27.920337098650634
+Original Matrix shape : torch.Size([24, 48804])
+SVD (aka USVt) shape : torch.Size([24, 24]), 	, torch.Size([24]) 	 torch.Size([48804, 48804])
+Truncation parameter k= 6
+choosed solver: torch_cpu
+Full SVD time (s) spent : 18.50311781698838
+Original Matrix shape : torch.Size([16, 48804])
+SVD (aka USVt) shape : torch.Size([16, 16]), 	, torch.Size([16]) 	 torch.Size([48804, 48804])
+Truncation parameter k= 6
+choosed solver: torch_cpu
+Full SVD time (s) spent : 27.61904868297279
+Original Matrix shape : torch.Size([24, 48804])
+SVD (aka USVt) shape : torch.Size([24, 24]), 	, torch.Size([24]) 	 torch.Size([48804, 48804])
+Truncation parameter k= 6
+choosed solver: torch_cpu
+Full SVD time (s) spent : 16.995572534389794
+Original Matrix shape : torch.Size([16, 48804])
+SVD (aka USVt) shape : torch.Size([16, 16]), 	, torch.Size([16]) 	 torch.Size([48804, 48804])
+Truncation parameter k= 6
+choosed solver: torch_cpu
+Full SVD time (s) spent : 26.931547428946942
+Original Matrix shape : torch.Size([24, 48804])
+SVD (aka USVt) shape : torch.Size([24, 24]), 	, torch.Size([24]) 	 torch.Size([48804, 48804])
+Truncation parameter k= 6
+Average Time for 100 iterations with torch_cpu method is 22.725809242115357
+
+matrix torch.Size([21512, 12, 2]) with time: 4.581879749810323
+matrix torch.Size([48804, 12, 2]) with time: 22.725809242115357
+
+Anchor generation...
+ET descriptor initialization...
+choosed solver: torch_cpu
+Full SVD time (s) spent : 3.749396143015474
+Original Matrix shape : torch.Size([16, 21512])
+SVD (aka USVt) shape : torch.Size([16, 16]), 	, torch.Size([16]) 	 torch.Size([21512, 21512])
+Truncation parameter k= 6
+choosed solver: torch_cpu
+Full SVD time (s) spent : 5.599129524081945
+Original Matrix shape : torch.Size([24, 21512])
+SVD (aka USVt) shape : torch.Size([24, 24]), 	, torch.Size([24]) 	 torch.Size([21512, 21512])
+Truncation parameter k= 6
+choosed solver: torch_cpu
+Full SVD time (s) spent : 17.287541292142123
+Original Matrix shape : torch.Size([16, 48804])
+SVD (aka USVt) shape : torch.Size([16, 16]), 	, torch.Size([16]) 	 torch.Size([48804, 48804])
+Truncation parameter k= 6
+choosed solver: torch_cpu
+Full SVD time (s) spent : 27.897216785233468
+Original Matrix shape : torch.Size([24, 48804])
+SVD (aka USVt) shape : torch.Size([24, 24]), 	, torch.Size([24]) 	 torch.Size([48804, 48804])
+Truncation parameter k= 6
+Anchor generation...
+Training started...
+ 
+
+
+ 

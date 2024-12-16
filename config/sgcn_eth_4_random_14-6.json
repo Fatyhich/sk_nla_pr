@@ -1,0 +1,28 @@
+{
+	"dataset_dir": "./datasets/",
+	"checkpoint_dir": "./checkpoints_random_svd/",
+
+	"dataset": "eth",
+	"traj_dim": 2,
+	"obs_len": 14,
+	"obs_step": 10,
+	"pred_len": 6,
+	"pred_step": 10,
+	"skip": 1,
+
+	"k": 4,
+	"static_dist": 0.353,
+	"num_samples": 1,
+	"obs_svd": true,
+	"pred_svd": true,
+	"baseline": "sgcn",
+
+	"batch_size": 128,
+	"num_epochs": 70,
+	"lr": 0.001,
+	"weight_decay": 0.0001,
+	"clip_grad": 1000,
+	"lr_schd": true,
+	"lr_schd_step": 64,
+	"lr_schd_gamma": 0.5
+}
